@@ -1,0 +1,63 @@
+/* flexbox container */
+.dashboard {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+/* columns (mobile) */
+.dashboard > * {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* background colors */
+.dashboard > .header {
+  background: #f97171;
+}
+
+.dashboard > .mainContent {
+  background: #fff;
+}
+
+.dashboard > .leftSidebar {
+  background: #f5d55f;
+}
+
+.dashboard > .rightSidebar {
+  background: #c5ed77;
+}
+
+.dashboard > .footer {
+  background: #72c2f1;
+}
+
+/* tablet breakpoint */
+@media (width >= 768px) {
+  .dashboard > .leftSidebar,
+  .dashboard > .rightSidebar {
+    width: 50%;
+  }
+}
+
+/* desktop breakpoint */
+@media (width >= 1024px) {
+  .dashboard > .header {
+    order: -2; /* header first */
+  }
+
+  .dashboard > .leftSidebar {
+    /* left sidebar second (first in second row) */
+    order: -1;
+  }
+
+  .dashboard > .mainContent {
+    width: 50%;
+  }
+
+  .dashboard > .leftSidebar,
+  .dashboard > .rightSidebar {
+    width: 25%;
+  }
+}

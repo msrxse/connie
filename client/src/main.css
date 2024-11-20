@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1rem;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-family: 'Helvetica Neue', Tahoma, Geneva, Verdana, sans-serif;
+
+  button,
+  input[type='submit'],
+  input[type='reset'] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+}
+
+* {
+  box-sizing: inherit;
+}
