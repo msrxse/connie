@@ -1,4 +1,4 @@
-import { Article, ItemsByType, MaterialType } from '@/types/dashboard'
+import { Article, ItemsByType, KeyMetric, MaterialType } from '@/types/dashboard'
 import { SelectOptions } from '@/types/dashboard'
 
 import api from './api'
@@ -20,5 +20,10 @@ export const getItemsByType = async (selectedOption: string) => {
 
 export const getSuppliers = async () => {
   const response = await api.get<SelectOptions[]>('/suppliers')
+  return response?.data
+}
+
+export const getKeyMetricById = async (id: number) => {
+  const response = await api.get<KeyMetric>(`/key_metric?delivery_id=${id}`)
   return response?.data
 }

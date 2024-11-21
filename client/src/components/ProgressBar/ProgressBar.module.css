@@ -1,0 +1,17 @@
+.progressbar {
+  background: #e6fdf9;
+  border-radius: 24px;
+  margin-bottom: 0.75em;
+}
+
+.progressInner {
+  padding: 2px 16px 2px 0;
+  background: #02bc9c;
+  border-radius: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #e6fdf9;
+}
