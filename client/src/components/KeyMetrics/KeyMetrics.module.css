@@ -5,6 +5,11 @@
   overflow: hidden;
 }
 
+.keyMetricsForm > h3 > span {
+  font-style: italic;
+  padding: 0 5px;
+}
+
 .keyMetricsForm > section {
   padding: 0.5em 0;
   padding-bottom: 1em;

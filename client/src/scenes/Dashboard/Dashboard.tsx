@@ -29,6 +29,7 @@ export const Articles = () => {
     setSelectedItemsByTypeOption(selected)
     setSelectedMaterialOption(selected)
   }
+
   return (
     <div className={styles.dashboard}>
       <header className={styles.header}>Supplier Performance Monitoring System</header>

@@ -52,7 +52,9 @@ function KeyMetrics({
   return (
     <div className={styles.keyMetrics}>
       <form className={styles.keyMetricsForm}>
-        <h3>Performance_metrics for {supplier}</h3>
+        <h3>
+          Performance Metrics (<span>{selectedMaterial}</span>)
+        </h3>
         <section>
           <legend>Delivery</legend>
           <Input
