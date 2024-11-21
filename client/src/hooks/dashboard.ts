@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 
-import { getArticles, getItemsByType, getMaterialTypes } from '@/services/dashboard'
+import { getArticles, getItemsByType, getMaterialTypes, getSuppliers } from '@/services/dashboard'
 import { SelectOptions } from '@/types/dashboard'
 
 export const useArticles = () => {
@@ -22,5 +22,12 @@ export const useItemsByType = ({ value }: SelectOptions) => {
     queryKey: ['items_by_type', value],
     queryFn: () => getItemsByType(value),
     enabled: !!value,
+  })
+}
+
+export const useSuppliers = () => {
+  return useQuery({
+    queryKey: ['suppliers'],
+    queryFn: getSuppliers,
   })
 }

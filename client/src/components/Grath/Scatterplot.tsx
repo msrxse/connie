@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { Dispatch, SetStateAction, useState } from 'react'
 
 import * as d3 from 'd3'
 
-import { ItemsByType } from '@/types/dashboard'
+import { ItemsByType, SelectOptions } from '@/types/dashboard'
 
 import { AxisBottom } from './AxisBottom'
 import { AxisLeft } from './AxisLeft'
@@ -15,9 +15,15 @@ type ScatterplotProps = {
   width: number
   height: number
   data: ItemsByType[] | undefined
+  setSelectedSupplierOption: Dispatch<SetStateAction<SelectOptions | undefined>>
 }
 
-export const Scatterplot = ({ width, height, data }: ScatterplotProps) => {
+export const Scatterplot = ({
+  width,
+  height,
+  data,
+  setSelectedSupplierOption,
+}: ScatterplotProps) => {
   if (!data) {
     return null
   }
@@ -77,6 +83,7 @@ export const Scatterplot = ({ width, height, data }: ScatterplotProps) => {
           return setHoveredSupplier(null)
         }}
         onMouseOver={() => setHoveredSupplier(d.supplier)} // callback to update the state
+        onMouseDown={() => setSelectedSupplierOption({ label: d.supplier, value: d.supplier })}
       />
     )
   })

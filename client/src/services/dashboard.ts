@@ -17,3 +17,8 @@ export const getItemsByType = async (selectedOption: string) => {
   const response = await api.get<ItemsByType[]>(`/itemsByType?material_type=${selectedOption}`)
   return response?.data
 }
+
+export const getSuppliers = async () => {
+  const response = await api.get<SelectOptions[]>('/suppliers')
+  return response?.data
+}

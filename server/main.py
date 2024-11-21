@@ -111,3 +111,27 @@ async def get_items_by_type(material_type: str):
         # Log the error (or handle it as needed)
         print(f"Error fetching items by type: {e}")
         return []
+
+
+@app.get("/api/suppliers")
+async def get_suppliers():
+    query = """
+    SELECT DISTINCT
+        supplier,
+    FROM
+        deliveries
+    """
+    try:
+        # Extract the 'material_type' column as a list of strings
+        result = con.execute(query).df()
+        suppliers = result["supplier"].tolist()
+
+        # Format each item as an object with 'value' and 'label'
+        formatted_types = [{"value": mt, "label": mt.capitalize()} for mt in suppliers]
+
+        return formatted_types
+
+    except Exception as e:
+        # Log the error (or handle it as needed)
+        print(f"Error fetching suppliers: {e}")
+        return []
