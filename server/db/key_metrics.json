@@ -1,0 +1,2474 @@
+[
+  {
+    "supplier_id": 1,
+    "supplier": "Harris, Williams and Proctor",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 88.91753328391063,
+        "average_delivery_delay_days": 1.5
+      },
+      "quality": {
+        "defective_rate_percentage": 0.7,
+        "product_compliance_rate_percentage": 95.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 36.1,
+        "resolution_rate_percentage": 94.3
+      },
+      "financial": {
+        "cost_variance_percentage": -4.9,
+        "invoicing_accuracy_percentage": 97.1
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "Reliable supplier with consistent performance and competitive pricing."
+  },
+  {
+    "supplier_id": 2,
+    "supplier": "Garrett, Townsend and Murray",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 92.04828277765287,
+        "average_delivery_delay_days": 0.2
+      },
+      "quality": {
+        "defective_rate_percentage": 1.4,
+        "product_compliance_rate_percentage": 95.7
+      },
+      "responsiveness": {
+        "average_response_time_hours": 41.7,
+        "resolution_rate_percentage": 96.1
+      },
+      "financial": {
+        "cost_variance_percentage": 1.4,
+        "invoicing_accuracy_percentage": 95.2
+      }
+    },
+    "overall_rating": 4.4,
+    "comments": "Supplier needs improvement in delivery timeliness and quality control."
+  },
+  {
+    "supplier_id": 3,
+    "supplier": "White-Smith",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.7682641951828,
+        "average_delivery_delay_days": 0.9
+      },
+      "quality": {
+        "defective_rate_percentage": 1.8,
+        "product_compliance_rate_percentage": 96.1
+      },
+      "responsiveness": {
+        "average_response_time_hours": 12.2,
+        "resolution_rate_percentage": 99.3
+      },
+      "financial": {
+        "cost_variance_percentage": -2.9,
+        "invoicing_accuracy_percentage": 95.3
+      }
+    },
+    "overall_rating": 4.3,
+    "comments": "Improve chair drug model great represent big."
+  },
+  {
+    "supplier_id": 4,
+    "supplier": "Patrick Inc",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.21993560290105,
+        "average_delivery_delay_days": 1.8
+      },
+      "quality": {
+        "defective_rate_percentage": 1.7,
+        "product_compliance_rate_percentage": 99.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 41.7,
+        "resolution_rate_percentage": 94.1
+      },
+      "financial": {
+        "cost_variance_percentage": -3.1,
+        "invoicing_accuracy_percentage": 95.9
+      }
+    },
+    "overall_rating": 3.2,
+    "comments": "Space always why fill her majority alone."
+  },
+  {
+    "supplier_id": 5,
+    "supplier": "Moore-Hale",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.18447141892466,
+        "average_delivery_delay_days": 2.4
+      },
+      "quality": {
+        "defective_rate_percentage": 4.7,
+        "product_compliance_rate_percentage": 97.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 11.7,
+        "resolution_rate_percentage": 80.5
+      },
+      "financial": {
+        "cost_variance_percentage": 7.8,
+        "invoicing_accuracy_percentage": 98.3
+      }
+    },
+    "overall_rating": 4.4,
+    "comments": "Believe them manage month future true full may door ask house old."
+  },
+  {
+    "supplier_id": 6,
+    "supplier": "Dunn Ltd",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.35806180552164,
+        "average_delivery_delay_days": 3.6
+      },
+      "quality": {
+        "defective_rate_percentage": 0.6,
+        "product_compliance_rate_percentage": 95.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 10.7,
+        "resolution_rate_percentage": 94.3
+      },
+      "financial": {
+        "cost_variance_percentage": 4.1,
+        "invoicing_accuracy_percentage": 99.3
+      }
+    },
+    "overall_rating": 4.1,
+    "comments": "Scene you manage stop even benefit cup husband."
+  },
+  {
+    "supplier_id": 7,
+    "supplier": "Adkins, Thomas and Khan",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 99.1975768957176,
+        "average_delivery_delay_days": 2.8
+      },
+      "quality": {
+        "defective_rate_percentage": 2.3,
+        "product_compliance_rate_percentage": 95.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 31.9,
+        "resolution_rate_percentage": 93.7
+      },
+      "financial": {
+        "cost_variance_percentage": -0.5,
+        "invoicing_accuracy_percentage": 97.6
+      }
+    },
+    "overall_rating": 4.0,
+    "comments": "Worker must green man president above dream nothing toward tend ball majority."
+  },
+  {
+    "supplier_id": 8,
+    "supplier": "Smith-Bell",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.23426007166705,
+        "average_delivery_delay_days": 1.4
+      },
+      "quality": {
+        "defective_rate_percentage": 1.4,
+        "product_compliance_rate_percentage": 97.1
+      },
+      "responsiveness": {
+        "average_response_time_hours": 34.1,
+        "resolution_rate_percentage": 81.5
+      },
+      "financial": {
+        "cost_variance_percentage": -5.4,
+        "invoicing_accuracy_percentage": 98.1
+      }
+    },
+    "overall_rating": 3.1,
+    "comments": "Base early tough floor item blood challenge into lot."
+  },
+  {
+    "supplier_id": 9,
+    "supplier": "Hoffman LLC",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 88.19598748411525,
+        "average_delivery_delay_days": 4.2
+      },
+      "quality": {
+        "defective_rate_percentage": 0.0,
+        "product_compliance_rate_percentage": 98.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 46.8,
+        "resolution_rate_percentage": 94.7
+      },
+      "financial": {
+        "cost_variance_percentage": 4.4,
+        "invoicing_accuracy_percentage": 98.0
+      }
+    },
+    "overall_rating": 3.7,
+    "comments": "Stay me large story center maybe organization option authority new inside certainly itself."
+  },
+  {
+    "supplier_id": 10,
+    "supplier": "Bennett, Ferguson and Jones",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.18573951000165,
+        "average_delivery_delay_days": 5.0
+      },
+      "quality": {
+        "defective_rate_percentage": 0.3,
+        "product_compliance_rate_percentage": 95.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 37.0,
+        "resolution_rate_percentage": 83.8
+      },
+      "financial": {
+        "cost_variance_percentage": 3.4,
+        "invoicing_accuracy_percentage": 95.4
+      }
+    },
+    "overall_rating": 4.7,
+    "comments": "One economic long much most station teacher present politics attorney."
+  },
+  {
+    "supplier_id": 11,
+    "supplier": "Wall, Dominguez and Brock",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 86.9287033993666,
+        "average_delivery_delay_days": 4.7
+      },
+      "quality": {
+        "defective_rate_percentage": 3.1,
+        "product_compliance_rate_percentage": 99.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 33.0,
+        "resolution_rate_percentage": 96.3
+      },
+      "financial": {
+        "cost_variance_percentage": -6.3,
+        "invoicing_accuracy_percentage": 98.1
+      }
+    },
+    "overall_rating": 3.6,
+    "comments": "Visit with during cover size good voice."
+  },
+  {
+    "supplier_id": 12,
+    "supplier": "Garcia, Villarreal and King",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.82275482439377,
+        "average_delivery_delay_days": 3.6
+      },
+      "quality": {
+        "defective_rate_percentage": 0.3,
+        "product_compliance_rate_percentage": 97.1
+      },
+      "responsiveness": {
+        "average_response_time_hours": 4.1,
+        "resolution_rate_percentage": 85.8
+      },
+      "financial": {
+        "cost_variance_percentage": 3.0,
+        "invoicing_accuracy_percentage": 95.6
+      }
+    },
+    "overall_rating": 3.1,
+    "comments": "Strong crime unit adult value around box scene about investment about."
+  },
+  {
+    "supplier_id": 13,
+    "supplier": "Vaughn Inc",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 95.73851035251195,
+        "average_delivery_delay_days": 4.1
+      },
+      "quality": {
+        "defective_rate_percentage": 2.1,
+        "product_compliance_rate_percentage": 97.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 18.5,
+        "resolution_rate_percentage": 89.0
+      },
+      "financial": {
+        "cost_variance_percentage": -7.4,
+        "invoicing_accuracy_percentage": 99.2
+      }
+    },
+    "overall_rating": 4.6,
+    "comments": "Ready fine design relate hand late if international ever."
+  },
+  {
+    "supplier_id": 14,
+    "supplier": "Villarreal, Le and Faulkner",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 99.41612708049988,
+        "average_delivery_delay_days": 3.3
+      },
+      "quality": {
+        "defective_rate_percentage": 4.3,
+        "product_compliance_rate_percentage": 97.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 24.8,
+        "resolution_rate_percentage": 96.1
+      },
+      "financial": {
+        "cost_variance_percentage": -2.5,
+        "invoicing_accuracy_percentage": 95.1
+      }
+    },
+    "overall_rating": 4.1,
+    "comments": "Art beautiful glass school be two reason that piece citizen firm."
+  },
+  {
+    "supplier_id": 15,
+    "supplier": "Kennedy Inc",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.85183882993302,
+        "average_delivery_delay_days": 4.0
+      },
+      "quality": {
+        "defective_rate_percentage": 2.7,
+        "product_compliance_rate_percentage": 98.7
+      },
+      "responsiveness": {
+        "average_response_time_hours": 35.2,
+        "resolution_rate_percentage": 81.2
+      },
+      "financial": {
+        "cost_variance_percentage": -1.4,
+        "invoicing_accuracy_percentage": 96.3
+      }
+    },
+    "overall_rating": 4.5,
+    "comments": "Current out mean military all yourself effort election market form."
+  },
+  {
+    "supplier_id": 16,
+    "supplier": "Wright-Gonzalez",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 95.21199643620463,
+        "average_delivery_delay_days": 5.0
+      },
+      "quality": {
+        "defective_rate_percentage": 1.9,
+        "product_compliance_rate_percentage": 96.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 44.2,
+        "resolution_rate_percentage": 80.4
+      },
+      "financial": {
+        "cost_variance_percentage": -3.2,
+        "invoicing_accuracy_percentage": 99.8
+      }
+    },
+    "overall_rating": 4.1,
+    "comments": "Benefit operation certainly other boy student."
+  },
+  {
+    "supplier_id": 17,
+    "supplier": "Gilbert, Mccormick and Garrett",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.95608880255233,
+        "average_delivery_delay_days": 2.3
+      },
+      "quality": {
+        "defective_rate_percentage": 0.0,
+        "product_compliance_rate_percentage": 96.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 6.8,
+        "resolution_rate_percentage": 83.3
+      },
+      "financial": {
+        "cost_variance_percentage": -4.2,
+        "invoicing_accuracy_percentage": 97.4
+      }
+    },
+    "overall_rating": 4.3,
+    "comments": "When project free boy leg later yet yourself surface party the."
+  },
+  {
+    "supplier_id": 18,
+    "supplier": "Cole-Gordon",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 86.86377521263343,
+        "average_delivery_delay_days": 0.7
+      },
+      "quality": {
+        "defective_rate_percentage": 1.2,
+        "product_compliance_rate_percentage": 95.7
+      },
+      "responsiveness": {
+        "average_response_time_hours": 2.3,
+        "resolution_rate_percentage": 85.0
+      },
+      "financial": {
+        "cost_variance_percentage": -7.3,
+        "invoicing_accuracy_percentage": 98.1
+      }
+    },
+    "overall_rating": 4.0,
+    "comments": "Congress tax buy fear take campaign still law Mrs purpose dinner."
+  },
+  {
+    "supplier_id": 19,
+    "supplier": "Jones-Arnold",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.15711806230469,
+        "average_delivery_delay_days": 2.1
+      },
+      "quality": {
+        "defective_rate_percentage": 2.6,
+        "product_compliance_rate_percentage": 99.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 12.3,
+        "resolution_rate_percentage": 91.3
+      },
+      "financial": {
+        "cost_variance_percentage": 9.9,
+        "invoicing_accuracy_percentage": 95.9
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "Effect marriage none somebody lead book read strategy resource."
+  },
+  {
+    "supplier_id": 20,
+    "supplier": "Nelson, Stevens and Coffey",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 90.13845565563068,
+        "average_delivery_delay_days": 1.2
+      },
+      "quality": {
+        "defective_rate_percentage": 4.3,
+        "product_compliance_rate_percentage": 95.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 41.6,
+        "resolution_rate_percentage": 92.2
+      },
+      "financial": {
+        "cost_variance_percentage": -9.2,
+        "invoicing_accuracy_percentage": 99.9
+      }
+    },
+    "overall_rating": 5.0,
+    "comments": "Physical strong produce already already network ten describe team take."
+  },
+  {
+    "supplier_id": 21,
+    "supplier": "Haynes, Bradshaw and Reed",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 86.89927215126414,
+        "average_delivery_delay_days": 1.5
+      },
+      "quality": {
+        "defective_rate_percentage": 2.2,
+        "product_compliance_rate_percentage": 99.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 11.5,
+        "resolution_rate_percentage": 88.5
+      },
+      "financial": {
+        "cost_variance_percentage": -9.2,
+        "invoicing_accuracy_percentage": 96.2
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "Almost someone find thus risk though act during middle onto nature American town."
+  },
+  {
+    "supplier_id": 22,
+    "supplier": "Mcclain Inc",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.08859729189597,
+        "average_delivery_delay_days": 2.9
+      },
+      "quality": {
+        "defective_rate_percentage": 4.9,
+        "product_compliance_rate_percentage": 98.6
+      },
+      "responsiveness": {
+        "average_response_time_hours": 35.2,
+        "resolution_rate_percentage": 86.4
+      },
+      "financial": {
+        "cost_variance_percentage": 3.6,
+        "invoicing_accuracy_percentage": 98.3
+      }
+    },
+    "overall_rating": 3.5,
+    "comments": "Art close region decade certain information beat fall room agency different store."
+  },
+  {
+    "supplier_id": 23,
+    "supplier": "Phillips-Miller",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 96.52624774978868,
+        "average_delivery_delay_days": 4.1
+      },
+      "quality": {
+        "defective_rate_percentage": 0.5,
+        "product_compliance_rate_percentage": 95.6
+      },
+      "responsiveness": {
+        "average_response_time_hours": 21.1,
+        "resolution_rate_percentage": 97.5
+      },
+      "financial": {
+        "cost_variance_percentage": 0.6,
+        "invoicing_accuracy_percentage": 97.0
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "Task because forward military vote if star mind something company."
+  },
+  {
+    "supplier_id": 24,
+    "supplier": "Grant LLC",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 89.60841390538977,
+        "average_delivery_delay_days": 2.9
+      },
+      "quality": {
+        "defective_rate_percentage": 1.5,
+        "product_compliance_rate_percentage": 98.6
+      },
+      "responsiveness": {
+        "average_response_time_hours": 13.0,
+        "resolution_rate_percentage": 82.2
+      },
+      "financial": {
+        "cost_variance_percentage": -2.6,
+        "invoicing_accuracy_percentage": 95.6
+      }
+    },
+    "overall_rating": 3.7,
+    "comments": "South cut people watch ground north sound election simply agreement."
+  },
+  {
+    "supplier_id": 25,
+    "supplier": "Rodriguez Group",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 85.6898434295883,
+        "average_delivery_delay_days": 0.7
+      },
+      "quality": {
+        "defective_rate_percentage": 1.5,
+        "product_compliance_rate_percentage": 100.0
+      },
+      "responsiveness": {
+        "average_response_time_hours": 19.8,
+        "resolution_rate_percentage": 86.5
+      },
+      "financial": {
+        "cost_variance_percentage": -1.8,
+        "invoicing_accuracy_percentage": 97.9
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "Owner easy say oil cultural himself away sister."
+  },
+  {
+    "supplier_id": 26,
+    "supplier": "Collins, Stone and Stephens",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 90.21408975907474,
+        "average_delivery_delay_days": 3.0
+      },
+      "quality": {
+        "defective_rate_percentage": 4.0,
+        "product_compliance_rate_percentage": 99.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 32.0,
+        "resolution_rate_percentage": 91.4
+      },
+      "financial": {
+        "cost_variance_percentage": 3.9,
+        "invoicing_accuracy_percentage": 97.3
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "If trip social region trade half movie hundred quite any enter avoid."
+  },
+  {
+    "supplier_id": 27,
+    "supplier": "Smith, Sloan and Maddox",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 99.19675240243467,
+        "average_delivery_delay_days": 3.2
+      },
+      "quality": {
+        "defective_rate_percentage": 0.9,
+        "product_compliance_rate_percentage": 96.0
+      },
+      "responsiveness": {
+        "average_response_time_hours": 16.2,
+        "resolution_rate_percentage": 85.8
+      },
+      "financial": {
+        "cost_variance_percentage": 8.4,
+        "invoicing_accuracy_percentage": 97.8
+      }
+    },
+    "overall_rating": 3.1,
+    "comments": "Policy again something success worry standard family begin."
+  },
+  {
+    "supplier_id": 28,
+    "supplier": "Jefferson, Roberts and Phillips",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 96.63865145092309,
+        "average_delivery_delay_days": 2.7
+      },
+      "quality": {
+        "defective_rate_percentage": 0.9,
+        "product_compliance_rate_percentage": 96.7
+      },
+      "responsiveness": {
+        "average_response_time_hours": 25.3,
+        "resolution_rate_percentage": 87.7
+      },
+      "financial": {
+        "cost_variance_percentage": -0.3,
+        "invoicing_accuracy_percentage": 99.0
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "Billion open once either read cause bill thousand owner of sound."
+  },
+  {
+    "supplier_id": 29,
+    "supplier": "Alexander-Patrick",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 89.99873453491145,
+        "average_delivery_delay_days": 0.6
+      },
+      "quality": {
+        "defective_rate_percentage": 3.6,
+        "product_compliance_rate_percentage": 97.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 22.4,
+        "resolution_rate_percentage": 80.9
+      },
+      "financial": {
+        "cost_variance_percentage": 4.6,
+        "invoicing_accuracy_percentage": 95.3
+      }
+    },
+    "overall_rating": 4.4,
+    "comments": "Response son four growth anyone trial eight remember officer."
+  },
+  {
+    "supplier_id": 30,
+    "supplier": "Ponce-Spencer",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 89.05647143748196,
+        "average_delivery_delay_days": 0.0
+      },
+      "quality": {
+        "defective_rate_percentage": 3.2,
+        "product_compliance_rate_percentage": 95.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 2.9,
+        "resolution_rate_percentage": 99.6
+      },
+      "financial": {
+        "cost_variance_percentage": -0.4,
+        "invoicing_accuracy_percentage": 96.8
+      }
+    },
+    "overall_rating": 4.1,
+    "comments": "Ask color eye city fund laugh character serious then man less charge."
+  },
+  {
+    "supplier_id": 31,
+    "supplier": "Rodgers-Gonzalez",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 95.54261745492296,
+        "average_delivery_delay_days": 3.7
+      },
+      "quality": {
+        "defective_rate_percentage": 2.7,
+        "product_compliance_rate_percentage": 95.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 12.1,
+        "resolution_rate_percentage": 80.6
+      },
+      "financial": {
+        "cost_variance_percentage": -0.3,
+        "invoicing_accuracy_percentage": 97.1
+      }
+    },
+    "overall_rating": 3.8,
+    "comments": "Bar begin edge enjoy form myself still trouble."
+  },
+  {
+    "supplier_id": 32,
+    "supplier": "Decker Group",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 98.90626516276721,
+        "average_delivery_delay_days": 0.9
+      },
+      "quality": {
+        "defective_rate_percentage": 0.9,
+        "product_compliance_rate_percentage": 98.0
+      },
+      "responsiveness": {
+        "average_response_time_hours": 2.6,
+        "resolution_rate_percentage": 92.4
+      },
+      "financial": {
+        "cost_variance_percentage": 3.8,
+        "invoicing_accuracy_percentage": 95.6
+      }
+    },
+    "overall_rating": 4.5,
+    "comments": "Me part again reason old add understand picture degree during rock check."
+  },
+  {
+    "supplier_id": 33,
+    "supplier": "Hunter Group",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 85.5930035825188,
+        "average_delivery_delay_days": 0.2
+      },
+      "quality": {
+        "defective_rate_percentage": 2.3,
+        "product_compliance_rate_percentage": 97.0
+      },
+      "responsiveness": {
+        "average_response_time_hours": 18.2,
+        "resolution_rate_percentage": 94.3
+      },
+      "financial": {
+        "cost_variance_percentage": 9.9,
+        "invoicing_accuracy_percentage": 97.9
+      }
+    },
+    "overall_rating": 3.3,
+    "comments": "Development thousand recently choice talk station brother reality major reach main growth door."
+  },
+  {
+    "supplier_id": 34,
+    "supplier": "Costa-Evans",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 97.90816377917818,
+        "average_delivery_delay_days": 2.2
+      },
+      "quality": {
+        "defective_rate_percentage": 4.7,
+        "product_compliance_rate_percentage": 96.0
+      },
+      "responsiveness": {
+        "average_response_time_hours": 21.4,
+        "resolution_rate_percentage": 96.9
+      },
+      "financial": {
+        "cost_variance_percentage": -2.4,
+        "invoicing_accuracy_percentage": 96.7
+      }
+    },
+    "overall_rating": 4.2,
+    "comments": "Too trial miss season factor free door today."
+  },
+  {
+    "supplier_id": 35,
+    "supplier": "Sutton-Brown",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 96.94765544098207,
+        "average_delivery_delay_days": 1.2
+      },
+      "quality": {
+        "defective_rate_percentage": 0.4,
+        "product_compliance_rate_percentage": 97.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 4.0,
+        "resolution_rate_percentage": 92.6
+      },
+      "financial": {
+        "cost_variance_percentage": -3.6,
+        "invoicing_accuracy_percentage": 98.8
+      }
+    },
+    "overall_rating": 3.1,
+    "comments": "Break war can machine enough yard wide drive carry dark wish Mrs."
+  },
+  {
+    "supplier_id": 36,
+    "supplier": "Lewis, Fischer and Lewis",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 90.22440477900477,
+        "average_delivery_delay_days": 2.0
+      },
+      "quality": {
+        "defective_rate_percentage": 2.1,
+        "product_compliance_rate_percentage": 95.6
+      },
+      "responsiveness": {
+        "average_response_time_hours": 25.0,
+        "resolution_rate_percentage": 85.1
+      },
+      "financial": {
+        "cost_variance_percentage": -0.7,
+        "invoicing_accuracy_percentage": 99.8
+      }
+    },
+    "overall_rating": 4.5,
+    "comments": "Herself event option summer operation pretty experience black national room."
+  },
+  {
+    "supplier_id": 37,
+    "supplier": "Ibarra, Holmes and Schultz",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 92.12373533848215,
+        "average_delivery_delay_days": 4.7
+      },
+      "quality": {
+        "defective_rate_percentage": 2.6,
+        "product_compliance_rate_percentage": 99.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 34.5,
+        "resolution_rate_percentage": 91.0
+      },
+      "financial": {
+        "cost_variance_percentage": -1.1,
+        "invoicing_accuracy_percentage": 97.6
+      }
+    },
+    "overall_rating": 4.1,
+    "comments": "Four while word new must light indicate perhaps."
+  },
+  {
+    "supplier_id": 38,
+    "supplier": "Hill LLC",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 95.78035621268792,
+        "average_delivery_delay_days": 0.6
+      },
+      "quality": {
+        "defective_rate_percentage": 2.8,
+        "product_compliance_rate_percentage": 99.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 23.9,
+        "resolution_rate_percentage": 87.6
+      },
+      "financial": {
+        "cost_variance_percentage": 2.9,
+        "invoicing_accuracy_percentage": 95.1
+      }
+    },
+    "overall_rating": 4.4,
+    "comments": "Including design population need probably staff this check bar."
+  },
+  {
+    "supplier_id": 39,
+    "supplier": "Smith-Montgomery",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 99.1430988611399,
+        "average_delivery_delay_days": 2.9
+      },
+      "quality": {
+        "defective_rate_percentage": 4.5,
+        "product_compliance_rate_percentage": 99.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 8.0,
+        "resolution_rate_percentage": 86.0
+      },
+      "financial": {
+        "cost_variance_percentage": -3.2,
+        "invoicing_accuracy_percentage": 98.2
+      }
+    },
+    "overall_rating": 3.0,
+    "comments": "However occur push person so cover."
+  },
+  {
+    "supplier_id": 40,
+    "supplier": "Roy, Simpson and Scott",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.66922791149491,
+        "average_delivery_delay_days": 3.3
+      },
+      "quality": {
+        "defective_rate_percentage": 3.8,
+        "product_compliance_rate_percentage": 99.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 19.1,
+        "resolution_rate_percentage": 94.8
+      },
+      "financial": {
+        "cost_variance_percentage": 7.3,
+        "invoicing_accuracy_percentage": 98.7
+      }
+    },
+    "overall_rating": 4.4,
+    "comments": "Special everything strong talk piece attorney PM war onto five wall."
+  },
+  {
+    "supplier_id": 41,
+    "supplier": "Carpenter LLC",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 98.14554099541144,
+        "average_delivery_delay_days": 4.7
+      },
+      "quality": {
+        "defective_rate_percentage": 2.5,
+        "product_compliance_rate_percentage": 95.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 2.1,
+        "resolution_rate_percentage": 83.3
+      },
+      "financial": {
+        "cost_variance_percentage": -1.3,
+        "invoicing_accuracy_percentage": 95.3
+      }
+    },
+    "overall_rating": 3.4,
+    "comments": "Building your make best method run stuff would office."
+  },
+  {
+    "supplier_id": 42,
+    "supplier": "Lee-Moody",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 88.41157415780899,
+        "average_delivery_delay_days": 1.7
+      },
+      "quality": {
+        "defective_rate_percentage": 1.2,
+        "product_compliance_rate_percentage": 96.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 4.2,
+        "resolution_rate_percentage": 84.1
+      },
+      "financial": {
+        "cost_variance_percentage": -9.7,
+        "invoicing_accuracy_percentage": 98.0
+      }
+    },
+    "overall_rating": 4.6,
+    "comments": "Tonight kitchen third involve two else girl."
+  },
+  {
+    "supplier_id": 43,
+    "supplier": "Thomas-Bell",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 90.19158140349123,
+        "average_delivery_delay_days": 2.1
+      },
+      "quality": {
+        "defective_rate_percentage": 1.8,
+        "product_compliance_rate_percentage": 95.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 27.9,
+        "resolution_rate_percentage": 85.2
+      },
+      "financial": {
+        "cost_variance_percentage": 6.4,
+        "invoicing_accuracy_percentage": 95.5
+      }
+    },
+    "overall_rating": 3.8,
+    "comments": "Often example east field size know if recent."
+  },
+  {
+    "supplier_id": 44,
+    "supplier": "Brown, Ramirez and Sawyer",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 92.765440927715,
+        "average_delivery_delay_days": 4.1
+      },
+      "quality": {
+        "defective_rate_percentage": 2.8,
+        "product_compliance_rate_percentage": 96.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 39.9,
+        "resolution_rate_percentage": 82.9
+      },
+      "financial": {
+        "cost_variance_percentage": -5.1,
+        "invoicing_accuracy_percentage": 95.3
+      }
+    },
+    "overall_rating": 3.7,
+    "comments": "Lose camera right probably without southern fall."
+  },
+  {
+    "supplier_id": 45,
+    "supplier": "Gonzalez Ltd",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 86.43327351997208,
+        "average_delivery_delay_days": 1.0
+      },
+      "quality": {
+        "defective_rate_percentage": 1.5,
+        "product_compliance_rate_percentage": 99.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 29.0,
+        "resolution_rate_percentage": 91.2
+      },
+      "financial": {
+        "cost_variance_percentage": -9.9,
+        "invoicing_accuracy_percentage": 97.5
+      }
+    },
+    "overall_rating": 4.6,
+    "comments": "Kind economy look stuff room firm somebody."
+  },
+  {
+    "supplier_id": 46,
+    "supplier": "Wilson PLC",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 90.48677059779477,
+        "average_delivery_delay_days": 3.6
+      },
+      "quality": {
+        "defective_rate_percentage": 4.6,
+        "product_compliance_rate_percentage": 95.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 43.5,
+        "resolution_rate_percentage": 94.6
+      },
+      "financial": {
+        "cost_variance_percentage": 1.8,
+        "invoicing_accuracy_percentage": 96.9
+      }
+    },
+    "overall_rating": 3.6,
+    "comments": "Bill management keep foot no rest personal these discussion now pay carry."
+  },
+  {
+    "supplier_id": 47,
+    "supplier": "Sanchez-Erickson",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 88.98373170600799,
+        "average_delivery_delay_days": 2.4
+      },
+      "quality": {
+        "defective_rate_percentage": 3.4,
+        "product_compliance_rate_percentage": 96.1
+      },
+      "responsiveness": {
+        "average_response_time_hours": 45.9,
+        "resolution_rate_percentage": 88.9
+      },
+      "financial": {
+        "cost_variance_percentage": 5.6,
+        "invoicing_accuracy_percentage": 97.8
+      }
+    },
+    "overall_rating": 3.7,
+    "comments": "Order money training behind deal they newspaper smile music above responsibility."
+  },
+  {
+    "supplier_id": 48,
+    "supplier": "Meyers-Jones",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 86.52554929985263,
+        "average_delivery_delay_days": 1.8
+      },
+      "quality": {
+        "defective_rate_percentage": 4.5,
+        "product_compliance_rate_percentage": 98.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 38.8,
+        "resolution_rate_percentage": 94.0
+      },
+      "financial": {
+        "cost_variance_percentage": 0.1,
+        "invoicing_accuracy_percentage": 98.6
+      }
+    },
+    "overall_rating": 4.6,
+    "comments": "Fast throw city some throughout compare candidate choose thus project itself fire lot."
+  },
+  {
+    "supplier_id": 49,
+    "supplier": "Meyer, Craig and Hobbs",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.51888012125966,
+        "average_delivery_delay_days": 4.7
+      },
+      "quality": {
+        "defective_rate_percentage": 2.1,
+        "product_compliance_rate_percentage": 99.0
+      },
+      "responsiveness": {
+        "average_response_time_hours": 45.5,
+        "resolution_rate_percentage": 88.9
+      },
+      "financial": {
+        "cost_variance_percentage": 6.8,
+        "invoicing_accuracy_percentage": 98.3
+      }
+    },
+    "overall_rating": 3.4,
+    "comments": "Cup subject product staff relationship man fish music really case tree quite."
+  },
+  {
+    "supplier_id": 50,
+    "supplier": "Martin-Daniel",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.71870328431723,
+        "average_delivery_delay_days": 0.1
+      },
+      "quality": {
+        "defective_rate_percentage": 1.8,
+        "product_compliance_rate_percentage": 97.0
+      },
+      "responsiveness": {
+        "average_response_time_hours": 27.6,
+        "resolution_rate_percentage": 98.9
+      },
+      "financial": {
+        "cost_variance_percentage": 3.3,
+        "invoicing_accuracy_percentage": 99.0
+      }
+    },
+    "overall_rating": 4.7,
+    "comments": "Call thought discuss soldier front student system."
+  },
+  {
+    "supplier_id": 51,
+    "supplier": "Crawford, Tucker and Shea",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.94843663362643,
+        "average_delivery_delay_days": 2.6
+      },
+      "quality": {
+        "defective_rate_percentage": 2.0,
+        "product_compliance_rate_percentage": 97.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 10.5,
+        "resolution_rate_percentage": 83.2
+      },
+      "financial": {
+        "cost_variance_percentage": -5.9,
+        "invoicing_accuracy_percentage": 98.5
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "If follow hospital machine media seem heart eat prepare."
+  },
+  {
+    "supplier_id": 52,
+    "supplier": "Hughes, Shepherd and Patterson",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 90.91916419952395,
+        "average_delivery_delay_days": 2.5
+      },
+      "quality": {
+        "defective_rate_percentage": 0.3,
+        "product_compliance_rate_percentage": 98.7
+      },
+      "responsiveness": {
+        "average_response_time_hours": 39.9,
+        "resolution_rate_percentage": 99.7
+      },
+      "financial": {
+        "cost_variance_percentage": 3.7,
+        "invoicing_accuracy_percentage": 96.2
+      }
+    },
+    "overall_rating": 4.6,
+    "comments": "Market business local ability cup maybe western ever loss degree every than."
+  },
+  {
+    "supplier_id": 53,
+    "supplier": "Raymond Group",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.75479970604923,
+        "average_delivery_delay_days": 1.5
+      },
+      "quality": {
+        "defective_rate_percentage": 0.5,
+        "product_compliance_rate_percentage": 97.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 16.2,
+        "resolution_rate_percentage": 81.2
+      },
+      "financial": {
+        "cost_variance_percentage": 5.0,
+        "invoicing_accuracy_percentage": 97.5
+      }
+    },
+    "overall_rating": 5.0,
+    "comments": "Pm foreign turn memory police trip bag middle seek event better guy control."
+  },
+  {
+    "supplier_id": 54,
+    "supplier": "Hudson-Gilbert",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 94.30889354573088,
+        "average_delivery_delay_days": 1.3
+      },
+      "quality": {
+        "defective_rate_percentage": 3.9,
+        "product_compliance_rate_percentage": 99.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 37.0,
+        "resolution_rate_percentage": 94.0
+      },
+      "financial": {
+        "cost_variance_percentage": -1.8,
+        "invoicing_accuracy_percentage": 99.7
+      }
+    },
+    "overall_rating": 3.1,
+    "comments": "Always friend PM school feeling somebody type some quality talk only dinner."
+  },
+  {
+    "supplier_id": 55,
+    "supplier": "Mcbride, Bender and Robinson",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 98.70913304396042,
+        "average_delivery_delay_days": 4.1
+      },
+      "quality": {
+        "defective_rate_percentage": 1.1,
+        "product_compliance_rate_percentage": 97.1
+      },
+      "responsiveness": {
+        "average_response_time_hours": 24.0,
+        "resolution_rate_percentage": 81.4
+      },
+      "financial": {
+        "cost_variance_percentage": 2.5,
+        "invoicing_accuracy_percentage": 96.6
+      }
+    },
+    "overall_rating": 4.6,
+    "comments": "Upon culture environmental organization nor year nature."
+  },
+  {
+    "supplier_id": 56,
+    "supplier": "Mcneil-Ramirez",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.4149558463409,
+        "average_delivery_delay_days": 1.0
+      },
+      "quality": {
+        "defective_rate_percentage": 3.0,
+        "product_compliance_rate_percentage": 96.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 45.8,
+        "resolution_rate_percentage": 98.8
+      },
+      "financial": {
+        "cost_variance_percentage": -6.9,
+        "invoicing_accuracy_percentage": 97.1
+      }
+    },
+    "overall_rating": 4.1,
+    "comments": "Term official day about why behind travel realize."
+  },
+  {
+    "supplier_id": 57,
+    "supplier": "Rogers-Austin",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.20542163860958,
+        "average_delivery_delay_days": 4.1
+      },
+      "quality": {
+        "defective_rate_percentage": 0.9,
+        "product_compliance_rate_percentage": 98.1
+      },
+      "responsiveness": {
+        "average_response_time_hours": 5.5,
+        "resolution_rate_percentage": 96.2
+      },
+      "financial": {
+        "cost_variance_percentage": 1.4,
+        "invoicing_accuracy_percentage": 98.1
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "Pick choose raise different strong pressure to wide."
+  },
+  {
+    "supplier_id": 58,
+    "supplier": "Stanley PLC",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.66603659785899,
+        "average_delivery_delay_days": 1.8
+      },
+      "quality": {
+        "defective_rate_percentage": 0.8,
+        "product_compliance_rate_percentage": 99.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 6.6,
+        "resolution_rate_percentage": 96.6
+      },
+      "financial": {
+        "cost_variance_percentage": 0.1,
+        "invoicing_accuracy_percentage": 98.9
+      }
+    },
+    "overall_rating": 5.0,
+    "comments": "Heart weight their station work list."
+  },
+  {
+    "supplier_id": 59,
+    "supplier": "Caldwell, Bradley and Walker",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 85.65993382983591,
+        "average_delivery_delay_days": 0.1
+      },
+      "quality": {
+        "defective_rate_percentage": 1.8,
+        "product_compliance_rate_percentage": 99.6
+      },
+      "responsiveness": {
+        "average_response_time_hours": 24.8,
+        "resolution_rate_percentage": 93.0
+      },
+      "financial": {
+        "cost_variance_percentage": -3.7,
+        "invoicing_accuracy_percentage": 97.5
+      }
+    },
+    "overall_rating": 3.2,
+    "comments": "Security by ever series nor purpose writer should whatever movement."
+  },
+  {
+    "supplier_id": 60,
+    "supplier": "Robbins and Sons",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 85.10023262792733,
+        "average_delivery_delay_days": 1.7
+      },
+      "quality": {
+        "defective_rate_percentage": 3.6,
+        "product_compliance_rate_percentage": 96.0
+      },
+      "responsiveness": {
+        "average_response_time_hours": 18.4,
+        "resolution_rate_percentage": 86.3
+      },
+      "financial": {
+        "cost_variance_percentage": -2.4,
+        "invoicing_accuracy_percentage": 95.2
+      }
+    },
+    "overall_rating": 4.0,
+    "comments": "Song fear director technology partner I great today tax southern carry type return."
+  },
+  {
+    "supplier_id": 61,
+    "supplier": "Tanner, Fowler and Garcia",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.70487154914473,
+        "average_delivery_delay_days": 4.9
+      },
+      "quality": {
+        "defective_rate_percentage": 0.6,
+        "product_compliance_rate_percentage": 96.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 21.4,
+        "resolution_rate_percentage": 94.3
+      },
+      "financial": {
+        "cost_variance_percentage": 3.1,
+        "invoicing_accuracy_percentage": 97.0
+      }
+    },
+    "overall_rating": 4.6,
+    "comments": "Many your husband fear black city somebody process conference."
+  },
+  {
+    "supplier_id": 62,
+    "supplier": "Schneider Ltd",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 88.17467930979927,
+        "average_delivery_delay_days": 1.8
+      },
+      "quality": {
+        "defective_rate_percentage": 3.1,
+        "product_compliance_rate_percentage": 99.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 34.7,
+        "resolution_rate_percentage": 93.2
+      },
+      "financial": {
+        "cost_variance_percentage": -5.3,
+        "invoicing_accuracy_percentage": 99.5
+      }
+    },
+    "overall_rating": 3.7,
+    "comments": "Institution window loss building have trial class effort skill until establish bar."
+  },
+  {
+    "supplier_id": 63,
+    "supplier": "Palmer-Reed",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 90.65351003291501,
+        "average_delivery_delay_days": 0.2
+      },
+      "quality": {
+        "defective_rate_percentage": 1.7,
+        "product_compliance_rate_percentage": 96.6
+      },
+      "responsiveness": {
+        "average_response_time_hours": 34.8,
+        "resolution_rate_percentage": 89.7
+      },
+      "financial": {
+        "cost_variance_percentage": 8.7,
+        "invoicing_accuracy_percentage": 95.3
+      }
+    },
+    "overall_rating": 3.2,
+    "comments": "Test lay rather rather especially with often other scientist."
+  },
+  {
+    "supplier_id": 64,
+    "supplier": "Delgado and Sons",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.2430782883305,
+        "average_delivery_delay_days": 0.6
+      },
+      "quality": {
+        "defective_rate_percentage": 3.3,
+        "product_compliance_rate_percentage": 96.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 19.9,
+        "resolution_rate_percentage": 84.1
+      },
+      "financial": {
+        "cost_variance_percentage": 8.6,
+        "invoicing_accuracy_percentage": 98.8
+      }
+    },
+    "overall_rating": 4.0,
+    "comments": "Always risk age improve exist physical at."
+  },
+  {
+    "supplier_id": 65,
+    "supplier": "Adkins-Sullivan",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.86891561120723,
+        "average_delivery_delay_days": 4.0
+      },
+      "quality": {
+        "defective_rate_percentage": 2.3,
+        "product_compliance_rate_percentage": 98.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 30.9,
+        "resolution_rate_percentage": 98.0
+      },
+      "financial": {
+        "cost_variance_percentage": -7.1,
+        "invoicing_accuracy_percentage": 99.5
+      }
+    },
+    "overall_rating": 4.1,
+    "comments": "Writer simple ask protect left among structure television benefit."
+  },
+  {
+    "supplier_id": 66,
+    "supplier": "Hubbard, Houston and Wilson",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 94.61569660417459,
+        "average_delivery_delay_days": 1.7
+      },
+      "quality": {
+        "defective_rate_percentage": 3.3,
+        "product_compliance_rate_percentage": 98.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 7.3,
+        "resolution_rate_percentage": 100.0
+      },
+      "financial": {
+        "cost_variance_percentage": 0.4,
+        "invoicing_accuracy_percentage": 95.8
+      }
+    },
+    "overall_rating": 3.5,
+    "comments": "Wide then ago or skill follow magazine."
+  },
+  {
+    "supplier_id": 67,
+    "supplier": "Wallace, Allen and Adams",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 90.63844787444813,
+        "average_delivery_delay_days": 1.3
+      },
+      "quality": {
+        "defective_rate_percentage": 1.6,
+        "product_compliance_rate_percentage": 98.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 32.2,
+        "resolution_rate_percentage": 96.1
+      },
+      "financial": {
+        "cost_variance_percentage": 3.1,
+        "invoicing_accuracy_percentage": 98.3
+      }
+    },
+    "overall_rating": 3.4,
+    "comments": "Behavior be total her left doctor usually wonder rich close fish test."
+  },
+  {
+    "supplier_id": 68,
+    "supplier": "Davenport, Turner and Norton",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 92.52250283097699,
+        "average_delivery_delay_days": 3.5
+      },
+      "quality": {
+        "defective_rate_percentage": 3.0,
+        "product_compliance_rate_percentage": 99.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 47.9,
+        "resolution_rate_percentage": 84.5
+      },
+      "financial": {
+        "cost_variance_percentage": 0.4,
+        "invoicing_accuracy_percentage": 97.3
+      }
+    },
+    "overall_rating": 4.2,
+    "comments": "Usually cut very for model job have."
+  },
+  {
+    "supplier_id": 69,
+    "supplier": "Jones Inc",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 94.51609243139157,
+        "average_delivery_delay_days": 0.4
+      },
+      "quality": {
+        "defective_rate_percentage": 1.3,
+        "product_compliance_rate_percentage": 97.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 14.9,
+        "resolution_rate_percentage": 92.2
+      },
+      "financial": {
+        "cost_variance_percentage": -6.6,
+        "invoicing_accuracy_percentage": 95.8
+      }
+    },
+    "overall_rating": 4.4,
+    "comments": "Reach team employee skin involve rather weight skill method yourself several sometimes."
+  },
+  {
+    "supplier_id": 70,
+    "supplier": "Bell-Boyd",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 99.55965390665686,
+        "average_delivery_delay_days": 4.2
+      },
+      "quality": {
+        "defective_rate_percentage": 3.0,
+        "product_compliance_rate_percentage": 95.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 17.9,
+        "resolution_rate_percentage": 94.6
+      },
+      "financial": {
+        "cost_variance_percentage": 1.0,
+        "invoicing_accuracy_percentage": 98.0
+      }
+    },
+    "overall_rating": 3.1,
+    "comments": "Name treat company item almost local someone."
+  },
+  {
+    "supplier_id": 71,
+    "supplier": "Brown, Stanley and Arnold",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 92.93942196571005,
+        "average_delivery_delay_days": 2.6
+      },
+      "quality": {
+        "defective_rate_percentage": 2.4,
+        "product_compliance_rate_percentage": 95.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 37.5,
+        "resolution_rate_percentage": 87.6
+      },
+      "financial": {
+        "cost_variance_percentage": 7.2,
+        "invoicing_accuracy_percentage": 97.1
+      }
+    },
+    "overall_rating": 3.2,
+    "comments": "Natural collection effect above drive whose experience serve yourself rock under later coach."
+  },
+  {
+    "supplier_id": 72,
+    "supplier": "Miller-Wilson",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 98.29696835274292,
+        "average_delivery_delay_days": 4.2
+      },
+      "quality": {
+        "defective_rate_percentage": 2.8,
+        "product_compliance_rate_percentage": 97.6
+      },
+      "responsiveness": {
+        "average_response_time_hours": 39.3,
+        "resolution_rate_percentage": 87.8
+      },
+      "financial": {
+        "cost_variance_percentage": 5.7,
+        "invoicing_accuracy_percentage": 97.3
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "Anything employee may discuss involve American high lead section exist meeting everyone."
+  },
+  {
+    "supplier_id": 73,
+    "supplier": "Perry, Weeks and Stafford",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 90.36274811293211,
+        "average_delivery_delay_days": 2.3
+      },
+      "quality": {
+        "defective_rate_percentage": 1.4,
+        "product_compliance_rate_percentage": 97.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 9.6,
+        "resolution_rate_percentage": 86.5
+      },
+      "financial": {
+        "cost_variance_percentage": -5.4,
+        "invoicing_accuracy_percentage": 95.8
+      }
+    },
+    "overall_rating": 4.2,
+    "comments": "Growth treatment particular follow father one into resource."
+  },
+  {
+    "supplier_id": 74,
+    "supplier": "Davis Inc",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 88.32071219389799,
+        "average_delivery_delay_days": 4.3
+      },
+      "quality": {
+        "defective_rate_percentage": 3.6,
+        "product_compliance_rate_percentage": 95.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 7.7,
+        "resolution_rate_percentage": 88.8
+      },
+      "financial": {
+        "cost_variance_percentage": 8.9,
+        "invoicing_accuracy_percentage": 95.9
+      }
+    },
+    "overall_rating": 4.3,
+    "comments": "My tonight class by minute family quickly director."
+  },
+  {
+    "supplier_id": 75,
+    "supplier": "Davis-Sparks",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 95.82341985806883,
+        "average_delivery_delay_days": 1.0
+      },
+      "quality": {
+        "defective_rate_percentage": 4.5,
+        "product_compliance_rate_percentage": 96.7
+      },
+      "responsiveness": {
+        "average_response_time_hours": 17.6,
+        "resolution_rate_percentage": 82.5
+      },
+      "financial": {
+        "cost_variance_percentage": 1.9,
+        "invoicing_accuracy_percentage": 96.3
+      }
+    },
+    "overall_rating": 3.8,
+    "comments": "Government wish ask expect international find scientist."
+  },
+  {
+    "supplier_id": 76,
+    "supplier": "Reyes, Cooper and Hunter",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.39799922791894,
+        "average_delivery_delay_days": 0.8
+      },
+      "quality": {
+        "defective_rate_percentage": 3.3,
+        "product_compliance_rate_percentage": 98.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 14.4,
+        "resolution_rate_percentage": 91.3
+      },
+      "financial": {
+        "cost_variance_percentage": -1.4,
+        "invoicing_accuracy_percentage": 98.7
+      }
+    },
+    "overall_rating": 4.2,
+    "comments": "Born bank fine medical another movement tend ball sing service."
+  },
+  {
+    "supplier_id": 77,
+    "supplier": "Hoffman, Reyes and Hernandez",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 94.6834241064809,
+        "average_delivery_delay_days": 5.0
+      },
+      "quality": {
+        "defective_rate_percentage": 1.9,
+        "product_compliance_rate_percentage": 97.7
+      },
+      "responsiveness": {
+        "average_response_time_hours": 26.1,
+        "resolution_rate_percentage": 86.0
+      },
+      "financial": {
+        "cost_variance_percentage": 5.8,
+        "invoicing_accuracy_percentage": 97.8
+      }
+    },
+    "overall_rating": 3.9,
+    "comments": "Face vote first else give board those player structure ready determine south pass."
+  },
+  {
+    "supplier_id": 78,
+    "supplier": "Mcgee, Dyer and Morris",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 97.36388696556168,
+        "average_delivery_delay_days": 0.4
+      },
+      "quality": {
+        "defective_rate_percentage": 2.4,
+        "product_compliance_rate_percentage": 96.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 8.4,
+        "resolution_rate_percentage": 91.7
+      },
+      "financial": {
+        "cost_variance_percentage": 7.6,
+        "invoicing_accuracy_percentage": 97.4
+      }
+    },
+    "overall_rating": 4.3,
+    "comments": "Town must enough back rest suggest again tell mean former."
+  },
+  {
+    "supplier_id": 79,
+    "supplier": "Dickson LLC",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 86.60381662279168,
+        "average_delivery_delay_days": 4.9
+      },
+      "quality": {
+        "defective_rate_percentage": 4.3,
+        "product_compliance_rate_percentage": 96.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 46.5,
+        "resolution_rate_percentage": 80.3
+      },
+      "financial": {
+        "cost_variance_percentage": 0.5,
+        "invoicing_accuracy_percentage": 96.4
+      }
+    },
+    "overall_rating": 4.9,
+    "comments": "Sense role amount admit address increase forward step day use play."
+  },
+  {
+    "supplier_id": 80,
+    "supplier": "Watson LLC",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 86.93428889577596,
+        "average_delivery_delay_days": 4.1
+      },
+      "quality": {
+        "defective_rate_percentage": 1.4,
+        "product_compliance_rate_percentage": 99.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 47.9,
+        "resolution_rate_percentage": 86.1
+      },
+      "financial": {
+        "cost_variance_percentage": 5.7,
+        "invoicing_accuracy_percentage": 95.1
+      }
+    },
+    "overall_rating": 4.7,
+    "comments": "Live go although identify game eye who."
+  },
+  {
+    "supplier_id": 81,
+    "supplier": "Harper, Mendez and Torres",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.8721241500737,
+        "average_delivery_delay_days": 3.1
+      },
+      "quality": {
+        "defective_rate_percentage": 2.7,
+        "product_compliance_rate_percentage": 99.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 5.6,
+        "resolution_rate_percentage": 82.5
+      },
+      "financial": {
+        "cost_variance_percentage": -7.0,
+        "invoicing_accuracy_percentage": 96.0
+      }
+    },
+    "overall_rating": 4.8,
+    "comments": "Charge main event minute door raise site light."
+  },
+  {
+    "supplier_id": 82,
+    "supplier": "Myers and Sons",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 89.43106308820693,
+        "average_delivery_delay_days": 4.2
+      },
+      "quality": {
+        "defective_rate_percentage": 0.3,
+        "product_compliance_rate_percentage": 95.6
+      },
+      "responsiveness": {
+        "average_response_time_hours": 44.1,
+        "resolution_rate_percentage": 93.1
+      },
+      "financial": {
+        "cost_variance_percentage": -7.7,
+        "invoicing_accuracy_percentage": 99.2
+      }
+    },
+    "overall_rating": 4.5,
+    "comments": "First others grow brother field tell water."
+  },
+  {
+    "supplier_id": 83,
+    "supplier": "Davidson, Miller and Wells",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 99.60251498790788,
+        "average_delivery_delay_days": 1.5
+      },
+      "quality": {
+        "defective_rate_percentage": 0.6,
+        "product_compliance_rate_percentage": 99.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 6.5,
+        "resolution_rate_percentage": 84.2
+      },
+      "financial": {
+        "cost_variance_percentage": -0.9,
+        "invoicing_accuracy_percentage": 95.6
+      }
+    },
+    "overall_rating": 3.6,
+    "comments": "Scene impact those option make reveal year lose contain capital."
+  },
+  {
+    "supplier_id": 84,
+    "supplier": "Barton, Harris and Norton",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.47809481817492,
+        "average_delivery_delay_days": 4.1
+      },
+      "quality": {
+        "defective_rate_percentage": 3.8,
+        "product_compliance_rate_percentage": 97.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 46.5,
+        "resolution_rate_percentage": 87.3
+      },
+      "financial": {
+        "cost_variance_percentage": -8.3,
+        "invoicing_accuracy_percentage": 98.7
+      }
+    },
+    "overall_rating": 3.0,
+    "comments": "Eight down door will recognize effect work."
+  },
+  {
+    "supplier_id": 85,
+    "supplier": "Johnston-Evans",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.13037801532536,
+        "average_delivery_delay_days": 0.9
+      },
+      "quality": {
+        "defective_rate_percentage": 1.4,
+        "product_compliance_rate_percentage": 98.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 40.6,
+        "resolution_rate_percentage": 90.9
+      },
+      "financial": {
+        "cost_variance_percentage": 2.3,
+        "invoicing_accuracy_percentage": 95.4
+      }
+    },
+    "overall_rating": 4.6,
+    "comments": "Candidate their price consider radio direction property lose I although single somebody."
+  },
+  {
+    "supplier_id": 86,
+    "supplier": "Baker, Reeves and Pena",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 85.98117224777239,
+        "average_delivery_delay_days": 1.1
+      },
+      "quality": {
+        "defective_rate_percentage": 0.9,
+        "product_compliance_rate_percentage": 96.0
+      },
+      "responsiveness": {
+        "average_response_time_hours": 36.6,
+        "resolution_rate_percentage": 91.5
+      },
+      "financial": {
+        "cost_variance_percentage": -3.6,
+        "invoicing_accuracy_percentage": 99.3
+      }
+    },
+    "overall_rating": 4.3,
+    "comments": "Former statement sign knowledge nation talk history third."
+  },
+  {
+    "supplier_id": 87,
+    "supplier": "Dickson, Lucas and Reynolds",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 92.96317365995633,
+        "average_delivery_delay_days": 2.7
+      },
+      "quality": {
+        "defective_rate_percentage": 1.6,
+        "product_compliance_rate_percentage": 97.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 6.4,
+        "resolution_rate_percentage": 87.8
+      },
+      "financial": {
+        "cost_variance_percentage": 2.6,
+        "invoicing_accuracy_percentage": 99.8
+      }
+    },
+    "overall_rating": 4.1,
+    "comments": "Group industry night contain eat write dog school build half."
+  },
+  {
+    "supplier_id": 88,
+    "supplier": "Jenkins, Russell and Thomas",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 85.25344546408199,
+        "average_delivery_delay_days": 1.2
+      },
+      "quality": {
+        "defective_rate_percentage": 0.3,
+        "product_compliance_rate_percentage": 96.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 17.1,
+        "resolution_rate_percentage": 87.2
+      },
+      "financial": {
+        "cost_variance_percentage": -8.6,
+        "invoicing_accuracy_percentage": 99.5
+      }
+    },
+    "overall_rating": 3.6,
+    "comments": "Movement sell likely red lay determine writer."
+  },
+  {
+    "supplier_id": 89,
+    "supplier": "Reid-Hurley",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 89.50854798849272,
+        "average_delivery_delay_days": 2.5
+      },
+      "quality": {
+        "defective_rate_percentage": 2.6,
+        "product_compliance_rate_percentage": 99.5
+      },
+      "responsiveness": {
+        "average_response_time_hours": 39.6,
+        "resolution_rate_percentage": 90.1
+      },
+      "financial": {
+        "cost_variance_percentage": -6.2,
+        "invoicing_accuracy_percentage": 98.2
+      }
+    },
+    "overall_rating": 3.9,
+    "comments": "Shake himself seat inside well building seem determine catch wrong contain."
+  },
+  {
+    "supplier_id": 90,
+    "supplier": "Williams and Sons",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.56459018866562,
+        "average_delivery_delay_days": 1.3
+      },
+      "quality": {
+        "defective_rate_percentage": 1.6,
+        "product_compliance_rate_percentage": 99.3
+      },
+      "responsiveness": {
+        "average_response_time_hours": 37.4,
+        "resolution_rate_percentage": 99.1
+      },
+      "financial": {
+        "cost_variance_percentage": -3.3,
+        "invoicing_accuracy_percentage": 95.1
+      }
+    },
+    "overall_rating": 4.2,
+    "comments": "Huge tough that director back job ready movie."
+  },
+  {
+    "supplier_id": 91,
+    "supplier": "Gibson, Davis and Wood",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 92.00860581047463,
+        "average_delivery_delay_days": 2.5
+      },
+      "quality": {
+        "defective_rate_percentage": 3.5,
+        "product_compliance_rate_percentage": 96.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 12.2,
+        "resolution_rate_percentage": 94.5
+      },
+      "financial": {
+        "cost_variance_percentage": 2.0,
+        "invoicing_accuracy_percentage": 99.0
+      }
+    },
+    "overall_rating": 4.8,
+    "comments": "Minute interest common run protect compare but across."
+  },
+  {
+    "supplier_id": 92,
+    "supplier": "Shields-Williams",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 98.82784938300676,
+        "average_delivery_delay_days": 2.6
+      },
+      "quality": {
+        "defective_rate_percentage": 0.7,
+        "product_compliance_rate_percentage": 96.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 30.0,
+        "resolution_rate_percentage": 99.7
+      },
+      "financial": {
+        "cost_variance_percentage": 1.0,
+        "invoicing_accuracy_percentage": 96.5
+      }
+    },
+    "overall_rating": 4.7,
+    "comments": "Bad medical occur then resource produce."
+  },
+  {
+    "supplier_id": 93,
+    "supplier": "Romero LLC",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 89.75519688653563,
+        "average_delivery_delay_days": 0.7
+      },
+      "quality": {
+        "defective_rate_percentage": 2.4,
+        "product_compliance_rate_percentage": 99.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 42.1,
+        "resolution_rate_percentage": 83.8
+      },
+      "financial": {
+        "cost_variance_percentage": 9.6,
+        "invoicing_accuracy_percentage": 98.2
+      }
+    },
+    "overall_rating": 4.1,
+    "comments": "Win stage talk stuff house deep forward."
+  },
+  {
+    "supplier_id": 94,
+    "supplier": "Schwartz, Kelley and Pierce",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 92.26993508220842,
+        "average_delivery_delay_days": 2.7
+      },
+      "quality": {
+        "defective_rate_percentage": 0.5,
+        "product_compliance_rate_percentage": 99.8
+      },
+      "responsiveness": {
+        "average_response_time_hours": 24.8,
+        "resolution_rate_percentage": 96.0
+      },
+      "financial": {
+        "cost_variance_percentage": 4.5,
+        "invoicing_accuracy_percentage": 97.7
+      }
+    },
+    "overall_rating": 3.3,
+    "comments": "Behind gun box commercial individual great party."
+  },
+  {
+    "supplier_id": 95,
+    "supplier": "Small, Sanders and West",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.4515658729315,
+        "average_delivery_delay_days": 0.5
+      },
+      "quality": {
+        "defective_rate_percentage": 4.2,
+        "product_compliance_rate_percentage": 96.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 43.7,
+        "resolution_rate_percentage": 94.8
+      },
+      "financial": {
+        "cost_variance_percentage": 0.1,
+        "invoicing_accuracy_percentage": 98.2
+      }
+    },
+    "overall_rating": 3.5,
+    "comments": "Eight benefit entire rate which make thank until culture boy money treat market."
+  },
+  {
+    "supplier_id": 96,
+    "supplier": "Hayes, Fox and Morales",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.48454955640783,
+        "average_delivery_delay_days": 1.3
+      },
+      "quality": {
+        "defective_rate_percentage": 0.1,
+        "product_compliance_rate_percentage": 95.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 25.4,
+        "resolution_rate_percentage": 82.0
+      },
+      "financial": {
+        "cost_variance_percentage": -6.2,
+        "invoicing_accuracy_percentage": 99.7
+      }
+    },
+    "overall_rating": 3.6,
+    "comments": "Type into per view rock voice idea hope institution lose star team voice."
+  },
+  {
+    "supplier_id": 97,
+    "supplier": "Porter-Walker",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 87.55340619551124,
+        "average_delivery_delay_days": 1.1
+      },
+      "quality": {
+        "defective_rate_percentage": 0.8,
+        "product_compliance_rate_percentage": 99.7
+      },
+      "responsiveness": {
+        "average_response_time_hours": 27.4,
+        "resolution_rate_percentage": 87.0
+      },
+      "financial": {
+        "cost_variance_percentage": -6.7,
+        "invoicing_accuracy_percentage": 95.7
+      }
+    },
+    "overall_rating": 4.2,
+    "comments": "Question world add economic body imagine operation manager goal everybody no."
+  },
+  {
+    "supplier_id": 98,
+    "supplier": "Morris-Burns",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 93.9214708354188,
+        "average_delivery_delay_days": 1.4
+      },
+      "quality": {
+        "defective_rate_percentage": 3.8,
+        "product_compliance_rate_percentage": 98.4
+      },
+      "responsiveness": {
+        "average_response_time_hours": 8.8,
+        "resolution_rate_percentage": 96.6
+      },
+      "financial": {
+        "cost_variance_percentage": 8.0,
+        "invoicing_accuracy_percentage": 95.8
+      }
+    },
+    "overall_rating": 3.5,
+    "comments": "Second story especially glass mother shake hit control fund some create consider."
+  },
+  {
+    "supplier_id": 99,
+    "supplier": "Kidd, Stanley and Rasmussen",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 88.74232706402448,
+        "average_delivery_delay_days": 3.2
+      },
+      "quality": {
+        "defective_rate_percentage": 0.7,
+        "product_compliance_rate_percentage": 99.9
+      },
+      "responsiveness": {
+        "average_response_time_hours": 45.1,
+        "resolution_rate_percentage": 83.2
+      },
+      "financial": {
+        "cost_variance_percentage": -4.6,
+        "invoicing_accuracy_percentage": 97.8
+      }
+    },
+    "overall_rating": 4.7,
+    "comments": "Score wind guy majority six partner hair."
+  },
+  {
+    "supplier_id": 100,
+    "supplier": "Mcgrath, Jones and Watkins",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 89.67939117518878,
+        "average_delivery_delay_days": 4.6
+      },
+      "quality": {
+        "defective_rate_percentage": 3.7,
+        "product_compliance_rate_percentage": 96.2
+      },
+      "responsiveness": {
+        "average_response_time_hours": 32.9,
+        "resolution_rate_percentage": 98.7
+      },
+      "financial": {
+        "cost_variance_percentage": -8.4,
+        "invoicing_accuracy_percentage": 97.3
+      }
+    },
+    "overall_rating": 3.5,
+    "comments": "Right Democrat food quite tax sure state stuff economy college yard."
+  },
+  {
+    "supplier_id": 101,
+    "supplier": "Shepherd, Taylor and Klein",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 86.4885598876679,
+        "average_delivery_delay_days": 2.2
+      },
+      "quality": {
+        "defective_rate_percentage": 2.7,
+        "product_compliance_rate_percentage": 95.1
+      },
+      "responsiveness": {
+        "average_response_time_hours": 33.6,
+        "resolution_rate_percentage": 97.1
+      },
+      "financial": {
+        "cost_variance_percentage": -4.7,
+        "invoicing_accuracy_percentage": 99.3
+      }
+    },
+    "overall_rating": 4.2,
+    "comments": "Appear close responsibility as owner level fear grow assume forget house traditional."
+  },
+  {
+    "supplier_id": 102,
+    "supplier": "Wilson-Knight",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 91.54996826645528,
+        "average_delivery_delay_days": 1.9
+      },
+      "quality": {
+        "defective_rate_percentage": 4.2,
+        "product_compliance_rate_percentage": 98.7
+      },
+      "responsiveness": {
+        "average_response_time_hours": 20.5,
+        "resolution_rate_percentage": 82.4
+      },
+      "financial": {
+        "cost_variance_percentage": -0.8,
+        "invoicing_accuracy_percentage": 97.1
+      }
+    },
+    "overall_rating": 4.8,
+    "comments": "Charge fire game likely exactly note attorney summer wonder."
+  },
+  {
+    "supplier_id": 103,
+    "supplier": "Sanders Group",
+    "performance_metrics": {
+      "delivery": {
+        "on_time_percentage": 98.77588534118546,
+        "average_delivery_delay_days": 5.0
+      },
+      "quality": {
+        "defective_rate_percentage": 1.3,
+        "product_compliance_rate_percentage": 99.1
+      },
+      "responsiveness": {
+        "average_response_time_hours": 29.5,
+        "resolution_rate_percentage": 91.0
+      },
+      "financial": {
+        "cost_variance_percentage": 7.4,
+        "invoicing_accuracy_percentage": 98.0
+      }
+    },
+    "overall_rating": 4.2,
+    "comments": "Quality remember close enough should hand fire hot entire thing."
+  }
+]

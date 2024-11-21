@@ -22,6 +22,9 @@ con.execute(
     "CREATE VIEW deliveries AS SELECT * FROM read_json_auto('db/deliveries.json');"
 )
 con.execute("CREATE VIEW items AS SELECT * FROM read_json_auto('db/items.json');")
+con.execute(
+    "CREATE VIEW key_metrics AS SELECT * FROM read_json_auto('db/key_metrics.json');"
+)
 
 
 @app.get("/")
@@ -134,4 +137,28 @@ async def get_suppliers():
     except Exception as e:
         # Log the error (or handle it as needed)
         print(f"Error fetching suppliers: {e}")
+        return []
+
+
+@app.get("/api/key_metric")
+async def get_key_metric_by_id(delivery_id: int):
+    query = """
+    SELECT 
+        *
+    FROM
+        key_metrics 
+    WHERE 
+        supplier_id = ?;
+    """
+    try:
+        # Execute the parameterized query
+        result = con.execute(query, (delivery_id,)).df()
+        result = result.to_json(orient="records")
+        parsed = loads(result)
+
+        return parsed
+
+    except Exception as e:
+        # Log the error (or handle it as needed)
+        print(f"Error fetching key metrics by id: {e}")
         return []
