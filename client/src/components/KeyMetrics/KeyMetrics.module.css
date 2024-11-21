@@ -1,2 +1,20 @@
 .keyMetrics {
 }
+
+.keyMetricsForm {
+  overflow: hidden;
+}
+
+.keyMetricsForm > section {
+  padding: 0.5em 0;
+  padding-bottom: 1em;
+}
+
+.keyMetricsForm > section > legend {
+  font-weight: 600;
+  font-size: 16px;
+  color: #344054;
+  display: block;
+  margin-bottom: 8px;
+  margin-left: -2px;
+}

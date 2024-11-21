@@ -7,7 +7,7 @@ import {
   getMaterialTypes,
   getSuppliers,
 } from '@/services/dashboard'
-import { SelectOptions } from '@/types/dashboard'
+import { KeyMetric, SelectOptions } from '@/types/dashboard'
 
 export const useArticles = () => {
   return useQuery({
@@ -42,6 +42,7 @@ export const useKeyMetricById = (id: number) => {
   return useQuery({
     queryKey: ['items_by_type', id],
     queryFn: () => getKeyMetricById(id),
+    select: (metrics) => metrics[0],
     enabled: !!id,
   })
 }
@@ -60,7 +61,7 @@ export const useGetDeliveryIdBySupplier = (selectedMaterial: string) => {
     }
     const queryKey = ['items_by_type', selectedMaterial]
     const query = queryClient.getQueryCache().find({ queryKey })
-    return query ? query.state.data.filter((each) => each.supplier === supplier)[0] : undefined
+    return query ? query.state?.data?.filter((each) => each.supplier === supplier)[0] : undefined
   }
 
   return getRecord
