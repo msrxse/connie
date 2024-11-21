@@ -2,47 +2,56 @@ import { useState } from 'react'
 
 import * as d3 from 'd3'
 
+import { ItemsByType } from '@/types/dashboard'
+
 import { AxisBottom } from './AxisBottom'
 import { AxisLeft } from './AxisLeft'
 import styles from './Scatterplot.module.css'
 import { InteractionData, Tooltip } from './Tooltip'
 
-const MARGIN = { top: 20, right: 20, bottom: 20, left: 20 }
-
-type DataPoint = {
-  x: number
-  y: number
-  size: number
-  group: string
-  subGroup: string
-}
+const MARGIN = { top: 40, right: 20, bottom: 80, left: 40 }
 
 type ScatterplotProps = {
   width: number
   height: number
-  data: DataPoint[]
+  data: ItemsByType[] | undefined
 }
 
 export const Scatterplot = ({ width, height, data }: ScatterplotProps) => {
+  if (!data) {
+    return null
+  }
   const boundsWidth = width - MARGIN.right - MARGIN.left
   const boundsHeight = height - MARGIN.top - MARGIN.bottom
 
   const [hovered, setHovered] = useState<InteractionData | null>(null)
-  const [hoveredGroup, setHoveredGroup] = useState<string | null>(null)
+  const [hoveredSupplier, setHoveredSupplier] = useState<string | null>(null)
 
   // Scales
-  const yScale = d3.scaleLinear().domain([35, 85]).range([boundsHeight, 0])
-  const xScale = d3.scaleLinear().domain([-3000, 50000]).range([0, boundsWidth])
-  const allGroups = data.map((d) => String(d.group))
+  const allLinesData = data.map((x) => x['total_amount'])
+  const selectedDates = data.map((x) => x['expiration_date'])
+  const valueDomain = d3.extent(allLinesData)
+  const timeDomain = d3.extent(selectedDates)
+
+  const yScale = d3
+    .scaleLinear()
+    .domain(valueDomain as number[])
+    .range([boundsHeight, 0])
+  // const xScale = d3.scaleLinear().domain([-3000, 50000]).range([0, boundsWidth])
+  const xScale = d3
+    .scaleUtc()
+    .range([0, boundsWidth])
+    .domain(timeDomain as unknown as [number, number])
+  const allSuppliers = data.map((d) => String(d.supplier))
   const colorScale = d3
     .scaleOrdinal<string>()
-    .domain(allGroups)
+    .domain(allSuppliers)
     .range(['#e0ac2b', '#e85252', '#6689c6', '#9a6fb0', '#a53253'])
 
   // Build the shapes
   const allShapes = data.map((d, i) => {
     const className = // class if the circle depends on the hover state
-      hoveredGroup && d.group !== hoveredGroup
+      hoveredSupplier && d.supplier !== hoveredSupplier
         ? styles.scatterplotCircle + ' ' + styles.dimmed
         : styles.scatterplotCircle
 
@@ -50,25 +59,24 @@ export const Scatterplot = ({ width, height, data }: ScatterplotProps) => {
       <circle
         key={i}
         r={5}
-        cx={xScale(d.x)}
-        cy={yScale(d.y)}
+        cx={xScale(d['expiration_date'])}
+        cy={yScale(d['total_amount'])}
         className={className} // class is attributed here
-        stroke={colorScale(d.group)}
-        fill={colorScale(d.group)}
+        stroke={colorScale(d.supplier)}
+        fill={colorScale(d.supplier)}
         fillOpacity={0.7}
         onMouseEnter={() =>
           setHovered({
-            xPos: xScale(d.x),
-            yPos: yScale(d.y),
-            name: d.subGroup,
+            xPos: xScale(d['expiration_date']),
+            yPos: yScale(d['total_amount']),
+            name: d.supplier,
           })
         }
         onMouseLeave={() => {
           setHovered(null)
-          return setHoveredGroup(null)
+          return setHoveredSupplier(null)
         }}
-        onMouseOver={() => setHoveredGroup(d.group)} // callback to update the state
-        // onMouseLeave={() => setHoveredGroup(null)} // and to set it back to null
+        onMouseOver={() => setHoveredSupplier(d.supplier)} // callback to update the state
       />
     )
   })

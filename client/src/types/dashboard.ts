@@ -17,6 +17,8 @@ export type ItemsByType = {
   total_amount: number
   expiration_date: number
   quantity: number
+  country_of_origin: string
+  material_type: string
 }
 
 export type SelectOptions = {

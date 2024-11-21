@@ -85,9 +85,11 @@ async def get_items_by_type(material_type: str):
         d.delivery_date,
         d.supplier,
         i.item_id,
+        i.country_of_origin,
         i.total_amount,
         i.expiration_date,
-        i.quantity
+        i.quantity,
+        i.material_type
     FROM
         deliveries d
     JOIN
