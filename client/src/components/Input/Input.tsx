@@ -3,6 +3,7 @@ import { ChangeEvent } from 'react'
 import styles from './Input.module.css'
 
 interface InputProps {
+  index?: number
   type: 'text' | 'number' | 'email' | 'password'
   label: string
   value: string | number
@@ -15,6 +16,7 @@ interface InputProps {
 }
 
 const Input = ({
+  index,
   type,
   label,
   value,
@@ -27,14 +29,21 @@ const Input = ({
 }: InputProps) => {
   return (
     <div className={styles.inputWrapper}>
-      <label htmlFor={label}>{label}</label>
+      <label htmlFor={`${label}-${index || 0}`}>{label}</label>
       <>
         {isTextArea ? (
-          <textarea name="Text1" value={value} cols={30} rows={5} disabled={disabled} />
+          <textarea
+            id={`${label}-${index || 0}`}
+            name={label}
+            value={value}
+            cols={30}
+            rows={5}
+            disabled={disabled}
+          />
         ) : (
           <input
             type={type}
-            id={label}
+            id={`${label}-${index || 0}`}
             value={value}
             name={name}
             placeholder={placeholder}

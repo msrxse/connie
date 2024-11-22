@@ -6,6 +6,7 @@ import {
   getKeyMetricById,
   getMaterialTypes,
   getSuppliers,
+  getTraceActions,
 } from '@/services/dashboard'
 import { KeyMetric, SelectOptions } from '@/types/dashboard'
 
@@ -65,4 +66,11 @@ export const useGetDeliveryIdBySupplier = (selectedMaterial: string) => {
   }
 
   return getRecord
+}
+
+export const useTraceActions = () => {
+  return useQuery({
+    queryKey: ['trace_actions'],
+    queryFn: getTraceActions,
+  })
 }

@@ -52,8 +52,8 @@ export type KeyMetric = {
 }
 
 export type Supplier = {
-  id: number
-  name: string
+  delivery_id: number
+  supplier: string
   performance: {
     on_time_delivery: number
     quality_rating: number
@@ -64,8 +64,14 @@ export type Supplier = {
     current: number
     max: number
   }
+  evidence_trace: EvidenceTrace[]
   potential_actions: PotentialActions[]
   alternative_suppliers: AlternativeSuppliers[]
+}
+
+type EvidenceTrace = {
+  action_id: number
+  description: string
 }
 
 export type PotentialActions = {
@@ -87,3 +93,45 @@ export type AlternativeSuppliers = {
     phone: string
   }
 }
+
+// trace actions
+
+type SupplierPerformance = {
+  on_time_delivery: number // Percentage (0-100)
+  quality_rating: number // Rating (0-5)
+  price_rating: number // Rating (0-5)
+}
+
+type Capacity = {
+  current: number // Current capacity
+  max: number // Maximum capacity
+}
+
+type PotentialAction = {
+  action_id: number // Unique identifier for action
+  description: string // Description of the action
+}
+
+type AlternativeSupplier = {
+  id: number // Unique identifier for the supplier
+  name: string // Name of the supplier
+  online_source: string // URL of the supplier's online source
+  estimated_performance: SupplierPerformance // Performance metrics for the alternative supplier
+  contact_info: {
+    email: string // Contact email for the supplier
+    phone: string // Contact phone number for the supplier
+  }
+}
+
+type TraceAction = {
+  delivery_id: number // Unique identifier for the delivery
+  supplier: string // Name of the supplier
+  performance: SupplierPerformance // Performance metrics for the supplier
+  contract_end_date: string // Unix timestamp for the contract's end date
+  capacity: Capacity // Capacity details of the supplier
+  evidence_trace: EvidenceTrace[] // Array of evidence trace objects
+  potential_actions: PotentialAction[] // Array of potential actions
+  alternative_suppliers: AlternativeSupplier[] // Array of alternative suppliers
+}
+
+export type TraceActions = TraceAction[]

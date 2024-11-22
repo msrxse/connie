@@ -1,0 +1,5976 @@
+[
+  {
+    "delivery_id": 1,
+    "supplier": "Burns-Cook",
+    "performance": {
+      "on_time_delivery": 95,
+      "quality_rating": 4.0,
+      "price_rating": 4.2
+    },
+    "contract_end_date": "2025-11-30",
+    "capacity": {
+      "current": 70,
+      "max": 82
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 1,
+        "description": "Each quality expect up for to debate."
+      },
+      {
+        "evidence_id": 2,
+        "description": "Low event read our discover bit event."
+      },
+      {
+        "evidence_id": 3,
+        "description": "Push student who."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 1,
+        "description": "Development trial turn war house adult list."
+      },
+      {
+        "action_id": 2,
+        "description": "Professor matter already manager fight get election."
+      },
+      {
+        "action_id": 3,
+        "description": "Practice station themselves material."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 1,
+        "name": "Martinez, Stewart and Rosario",
+        "online_source": "https://brennan-thomas.com/",
+        "estimated_performance": {
+          "on_time_delivery": 92,
+          "quality_rating": 4.4,
+          "price_rating": 4.7
+        },
+        "contact_info": {
+          "email": "jorge87@yu.com",
+          "phone": "+1-356-248-4711x61074"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 2,
+    "supplier": "Atkinson Ltd",
+    "performance": {
+      "on_time_delivery": 72,
+      "quality_rating": 4.8,
+      "price_rating": 4.6
+    },
+    "contract_end_date": "2025-01-27",
+    "capacity": {
+      "current": 38,
+      "max": 83
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 4,
+        "description": "Human PM defense receive."
+      },
+      {
+        "evidence_id": 5,
+        "description": "Ask ago apply build skill tonight."
+      },
+      {
+        "evidence_id": 6,
+        "description": "Not pretty perform suggest look ready."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 4,
+        "description": "Social bank build you ball."
+      },
+      {
+        "action_id": 5,
+        "description": "Ground return local improve action."
+      },
+      {
+        "action_id": 6,
+        "description": "Top win performance."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 2,
+        "name": "Bell, Johnston and Hill",
+        "online_source": "http://www.hopkins-carroll.com/",
+        "estimated_performance": {
+          "on_time_delivery": 87,
+          "quality_rating": 3.7,
+          "price_rating": 4.4
+        },
+        "contact_info": {
+          "email": "rfrank@washington-garza.com",
+          "phone": "001-453-233-6661x500"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 3,
+    "supplier": "Hernandez, Villa and Cobb",
+    "performance": {
+      "on_time_delivery": 100,
+      "quality_rating": 4.0,
+      "price_rating": 4.7
+    },
+    "contract_end_date": "2026-01-27",
+    "capacity": {
+      "current": 35,
+      "max": 74
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 7,
+        "description": "Family education give guess thought this."
+      },
+      {
+        "evidence_id": 8,
+        "description": "Available when approach put."
+      },
+      {
+        "evidence_id": 9,
+        "description": "Tend oil wonder up."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 7,
+        "description": "Beautiful bit this exist."
+      },
+      {
+        "action_id": 8,
+        "description": "Expert until city by woman by state store."
+      },
+      {
+        "action_id": 9,
+        "description": "Audience traditional nice instead month at and."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 3,
+        "name": "Browning Inc",
+        "online_source": "https://hunter.net/",
+        "estimated_performance": {
+          "on_time_delivery": 89,
+          "quality_rating": 2.6,
+          "price_rating": 4.4
+        },
+        "contact_info": {
+          "email": "larrysanchez@sparks.com",
+          "phone": "001-905-640-2016x3983"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 4,
+    "supplier": "Foster-Franklin",
+    "performance": {
+      "on_time_delivery": 66,
+      "quality_rating": 3.8,
+      "price_rating": 4.1
+    },
+    "contract_end_date": "2026-11-06",
+    "capacity": {
+      "current": 40,
+      "max": 100
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 10,
+        "description": "Interesting rise but discover cover machine."
+      },
+      {
+        "evidence_id": 11,
+        "description": "New tend man decide give cup step."
+      },
+      {
+        "evidence_id": 12,
+        "description": "Leader half we cause exist future turn."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 10,
+        "description": "Administration five president enter large."
+      },
+      {
+        "action_id": 11,
+        "description": "Organization party check dinner trouble conference."
+      },
+      {
+        "action_id": 12,
+        "description": "Ask identify language future speak benefit responsibility."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 4,
+        "name": "Willis, Miller and Caldwell",
+        "online_source": "http://www.brown-mccarthy.org/",
+        "estimated_performance": {
+          "on_time_delivery": 81,
+          "quality_rating": 4.3,
+          "price_rating": 4.2
+        },
+        "contact_info": {
+          "email": "christina64@jennings-price.com",
+          "phone": "424.461.2903x5455"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 5,
+    "supplier": "Baker LLC",
+    "performance": {
+      "on_time_delivery": 85,
+      "quality_rating": 4.4,
+      "price_rating": 4.9
+    },
+    "contract_end_date": "2025-11-21",
+    "capacity": {
+      "current": 61,
+      "max": 74
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 13,
+        "description": "Toward approach brother day opportunity."
+      },
+      {
+        "evidence_id": 14,
+        "description": "Thank whether expert operation attorney trade."
+      },
+      {
+        "evidence_id": 15,
+        "description": "Language indicate war early great."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 13,
+        "description": "Upon mother entire lead health animal form."
+      },
+      {
+        "action_id": 14,
+        "description": "Cost research book add control put."
+      },
+      {
+        "action_id": 15,
+        "description": "She agreement often away."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 5,
+        "name": "Hart and Sons",
+        "online_source": "http://meadows-osborne.com/",
+        "estimated_performance": {
+          "on_time_delivery": 72,
+          "quality_rating": 3.2,
+          "price_rating": 4.2
+        },
+        "contact_info": {
+          "email": "claytonlopez@parker.info",
+          "phone": "001-694-659-1207x09202"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 6,
+    "supplier": "Bailey, Parsons and Jackson",
+    "performance": {
+      "on_time_delivery": 94,
+      "quality_rating": 3.2,
+      "price_rating": 4.8
+    },
+    "contract_end_date": "2026-08-20",
+    "capacity": {
+      "current": 54,
+      "max": 84
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 16,
+        "description": "Someone health condition court street."
+      },
+      {
+        "evidence_id": 17,
+        "description": "Song far station difference."
+      },
+      {
+        "evidence_id": 18,
+        "description": "Window couple important realize."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 16,
+        "description": "Often meet plan real."
+      },
+      {
+        "action_id": 17,
+        "description": "Mission apply fight including social could second."
+      },
+      {
+        "action_id": 18,
+        "description": "Clear material fact hard save professor down."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 6,
+        "name": "Harmon, Boyle and Johnson",
+        "online_source": "http://knapp.org/",
+        "estimated_performance": {
+          "on_time_delivery": 61,
+          "quality_rating": 3.9,
+          "price_rating": 4.6
+        },
+        "contact_info": {
+          "email": "kevin13@jones-zimmerman.com",
+          "phone": "725-760-4792x95322"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 7,
+    "supplier": "Freeman, Forbes and Stevens",
+    "performance": {
+      "on_time_delivery": 70,
+      "quality_rating": 4.7,
+      "price_rating": 5.0
+    },
+    "contract_end_date": "2025-01-23",
+    "capacity": {
+      "current": 58,
+      "max": 75
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 19,
+        "description": "Music team event pressure factor blood."
+      },
+      {
+        "evidence_id": 20,
+        "description": "Mission meet have that property education officer red."
+      },
+      {
+        "evidence_id": 21,
+        "description": "Political perhaps enough."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 19,
+        "description": "Special seat still pretty special."
+      },
+      {
+        "action_id": 20,
+        "description": "People however cost I."
+      },
+      {
+        "action_id": 21,
+        "description": "Peace home after not spend sport dog."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 7,
+        "name": "Becker Inc",
+        "online_source": "https://kent.com/",
+        "estimated_performance": {
+          "on_time_delivery": 92,
+          "quality_rating": 3.2,
+          "price_rating": 4.4
+        },
+        "contact_info": {
+          "email": "marthamorales@morales.com",
+          "phone": "761.981.8013"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 8,
+    "supplier": "Davis Group",
+    "performance": {
+      "on_time_delivery": 96,
+      "quality_rating": 2.8,
+      "price_rating": 4.5
+    },
+    "contract_end_date": "2025-05-22",
+    "capacity": {
+      "current": 51,
+      "max": 93
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 22,
+        "description": "Professional travel in their expert majority."
+      },
+      {
+        "evidence_id": 23,
+        "description": "Unit good someone camera plan watch father."
+      },
+      {
+        "evidence_id": 24,
+        "description": "Stand door maintain sound form eye."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 22,
+        "description": "Question sister yes."
+      },
+      {
+        "action_id": 23,
+        "description": "Sea military protect account."
+      },
+      {
+        "action_id": 24,
+        "description": "Memory contain talk view change black effort rock."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 8,
+        "name": "Matthews-Coleman",
+        "online_source": "http://rojas-todd.com/",
+        "estimated_performance": {
+          "on_time_delivery": 79,
+          "quality_rating": 4.8,
+          "price_rating": 4.5
+        },
+        "contact_info": {
+          "email": "michaelthompson@johnson-russell.net",
+          "phone": "(854)653-6510"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 9,
+    "supplier": "Weber-White",
+    "performance": {
+      "on_time_delivery": 87,
+      "quality_rating": 3.6,
+      "price_rating": 3.5
+    },
+    "contract_end_date": "2025-09-03",
+    "capacity": {
+      "current": 58,
+      "max": 82
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 25,
+        "description": "Value position while."
+      },
+      {
+        "evidence_id": 26,
+        "description": "Hope positive hear citizen mean body see break."
+      },
+      {
+        "evidence_id": 27,
+        "description": "History little member traditional eye also full."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 25,
+        "description": "Glass unit course think size put."
+      },
+      {
+        "action_id": 26,
+        "description": "Try here push imagine simple."
+      },
+      {
+        "action_id": 27,
+        "description": "Again one pull lawyer."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 9,
+        "name": "Cox, Parsons and Jones",
+        "online_source": "https://www.white.com/",
+        "estimated_performance": {
+          "on_time_delivery": 82,
+          "quality_rating": 3.0,
+          "price_rating": 3.9
+        },
+        "contact_info": {
+          "email": "megan34@perez.biz",
+          "phone": "(907)530-1286x006"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 10,
+    "supplier": "Mendoza, Carson and Mcmahon",
+    "performance": {
+      "on_time_delivery": 73,
+      "quality_rating": 2.8,
+      "price_rating": 4.3
+    },
+    "contract_end_date": "2024-12-02",
+    "capacity": {
+      "current": 77,
+      "max": 70
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 28,
+        "description": "Imagine increase task modern energy."
+      },
+      {
+        "evidence_id": 29,
+        "description": "Teach professional indicate hundred memory."
+      },
+      {
+        "evidence_id": 30,
+        "description": "Attorney choice score order effort available."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 28,
+        "description": "Station whose everyone its PM forward line."
+      },
+      {
+        "action_id": 29,
+        "description": "Quickly receive control watch."
+      },
+      {
+        "action_id": 30,
+        "description": "Local already sing."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 10,
+        "name": "Brown, Phillips and Hall",
+        "online_source": "https://www.shelton-thompson.com/",
+        "estimated_performance": {
+          "on_time_delivery": 82,
+          "quality_rating": 4.1,
+          "price_rating": 3.6
+        },
+        "contact_info": {
+          "email": "apierce@taylor.biz",
+          "phone": "217.486.6191x17224"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 11,
+    "supplier": "Robinson-Grimes",
+    "performance": {
+      "on_time_delivery": 65,
+      "quality_rating": 4.1,
+      "price_rating": 2.9
+    },
+    "contract_end_date": "2026-06-25",
+    "capacity": {
+      "current": 68,
+      "max": 93
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 31,
+        "description": "Today feel large reduce total trial away."
+      },
+      {
+        "evidence_id": 32,
+        "description": "Every debate middle short hit."
+      },
+      {
+        "evidence_id": 33,
+        "description": "Especially matter two apply close."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 31,
+        "description": "Possible official put over allow interesting night kind."
+      },
+      {
+        "action_id": 32,
+        "description": "Answer defense century above."
+      },
+      {
+        "action_id": 33,
+        "description": "On role space majority black."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 11,
+        "name": "Phelps-Collins",
+        "online_source": "http://www.gardner-rojas.com/",
+        "estimated_performance": {
+          "on_time_delivery": 100,
+          "quality_rating": 4.5,
+          "price_rating": 2.7
+        },
+        "contact_info": {
+          "email": "smalltiffany@nelson.com",
+          "phone": "809.560.2791x8312"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 12,
+    "supplier": "Moore-Strong",
+    "performance": {
+      "on_time_delivery": 80,
+      "quality_rating": 2.9,
+      "price_rating": 2.7
+    },
+    "contract_end_date": "2026-04-13",
+    "capacity": {
+      "current": 45,
+      "max": 81
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 34,
+        "description": "Rich paper similar science station exactly."
+      },
+      {
+        "evidence_id": 35,
+        "description": "Difficult area six fine job."
+      },
+      {
+        "evidence_id": 36,
+        "description": "Page create because least story fund."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 34,
+        "description": "Rock claim or his anyone very food as."
+      },
+      {
+        "action_id": 35,
+        "description": "Save factor determine practice instead stage value might."
+      },
+      {
+        "action_id": 36,
+        "description": "Force address foot people blood."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 12,
+        "name": "Nguyen-Peters",
+        "online_source": "http://www.torres.com/",
+        "estimated_performance": {
+          "on_time_delivery": 67,
+          "quality_rating": 4.6,
+          "price_rating": 4.3
+        },
+        "contact_info": {
+          "email": "jessica87@cook.com",
+          "phone": "+1-944-295-4831"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 13,
+    "supplier": "Martinez Inc",
+    "performance": {
+      "on_time_delivery": 90,
+      "quality_rating": 4.3,
+      "price_rating": 3.5
+    },
+    "contract_end_date": "2025-10-27",
+    "capacity": {
+      "current": 40,
+      "max": 77
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 37,
+        "description": "Break land list prove sure author fast."
+      },
+      {
+        "evidence_id": 38,
+        "description": "Less yard western gas member each present left."
+      },
+      {
+        "evidence_id": 39,
+        "description": "Sell deal government way opportunity."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 37,
+        "description": "Bring material identify market citizen participant listen kind."
+      },
+      {
+        "action_id": 38,
+        "description": "Again sometimes size."
+      },
+      {
+        "action_id": 39,
+        "description": "Career down in over."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 13,
+        "name": "Johnson, Robinson and Shepherd",
+        "online_source": "https://www.hodges.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 76,
+          "quality_rating": 2.9,
+          "price_rating": 3.2
+        },
+        "contact_info": {
+          "email": "bailey56@west.com",
+          "phone": "4477601217"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 14,
+    "supplier": "Mccarthy Inc",
+    "performance": {
+      "on_time_delivery": 89,
+      "quality_rating": 3.1,
+      "price_rating": 2.6
+    },
+    "contract_end_date": "2025-05-23",
+    "capacity": {
+      "current": 70,
+      "max": 79
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 40,
+        "description": "Color agency toward available each."
+      },
+      {
+        "evidence_id": 41,
+        "description": "Number ever others letter could."
+      },
+      {
+        "evidence_id": 42,
+        "description": "End brother matter fine yourself dream."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 40,
+        "description": "Vote teacher production eight tree."
+      },
+      {
+        "action_id": 41,
+        "description": "Feel sister case boy."
+      },
+      {
+        "action_id": 42,
+        "description": "Nor high I beautiful wife."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 14,
+        "name": "Cooke, Martinez and Sanchez",
+        "online_source": "https://www.jefferson-peters.com/",
+        "estimated_performance": {
+          "on_time_delivery": 92,
+          "quality_rating": 3.7,
+          "price_rating": 4.2
+        },
+        "contact_info": {
+          "email": "jsmith@lopez.com",
+          "phone": "361.781.5464x96410"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 15,
+    "supplier": "Castillo-Stewart",
+    "performance": {
+      "on_time_delivery": 80,
+      "quality_rating": 3.5,
+      "price_rating": 3.2
+    },
+    "contract_end_date": "2024-11-28",
+    "capacity": {
+      "current": 55,
+      "max": 96
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 43,
+        "description": "Crime catch crime."
+      },
+      {
+        "evidence_id": 44,
+        "description": "Medical page force just."
+      },
+      {
+        "evidence_id": 45,
+        "description": "Join Congress ahead paper center."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 43,
+        "description": "Space hit whatever where popular drive bank forward."
+      },
+      {
+        "action_id": 44,
+        "description": "Say subject senior radio tonight check."
+      },
+      {
+        "action_id": 45,
+        "description": "Interest pass old wish own."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 15,
+        "name": "Neal, Gould and Reynolds",
+        "online_source": "https://ryan.com/",
+        "estimated_performance": {
+          "on_time_delivery": 68,
+          "quality_rating": 4.0,
+          "price_rating": 4.5
+        },
+        "contact_info": {
+          "email": "amullins@fuller-fernandez.com",
+          "phone": "480.475.0316x6975"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 16,
+    "supplier": "Powell, Arnold and Johnson",
+    "performance": {
+      "on_time_delivery": 81,
+      "quality_rating": 2.7,
+      "price_rating": 4.8
+    },
+    "contract_end_date": "2024-12-08",
+    "capacity": {
+      "current": 48,
+      "max": 74
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 46,
+        "description": "Couple reveal really environment list."
+      },
+      {
+        "evidence_id": 47,
+        "description": "Oil popular contain."
+      },
+      {
+        "evidence_id": 48,
+        "description": "Thousand second left business prepare community major."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 46,
+        "description": "Manage wife than place."
+      },
+      {
+        "action_id": 47,
+        "description": "Blue bring put friend."
+      },
+      {
+        "action_id": 48,
+        "description": "If trouble kitchen statement option billion."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 16,
+        "name": "Jackson-Winters",
+        "online_source": "http://www.medina.org/",
+        "estimated_performance": {
+          "on_time_delivery": 87,
+          "quality_rating": 4.2,
+          "price_rating": 3.2
+        },
+        "contact_info": {
+          "email": "tinadiaz@melton-pope.net",
+          "phone": "(796)247-5333"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 17,
+    "supplier": "Kelly-Mcintyre",
+    "performance": {
+      "on_time_delivery": 73,
+      "quality_rating": 2.9,
+      "price_rating": 3.1
+    },
+    "contract_end_date": "2026-08-24",
+    "capacity": {
+      "current": 71,
+      "max": 96
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 49,
+        "description": "Field once international begin both red firm."
+      },
+      {
+        "evidence_id": 50,
+        "description": "Senior however wear loss care."
+      },
+      {
+        "evidence_id": 51,
+        "description": "Any think reveal matter each campaign."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 49,
+        "description": "Building deep themselves traditional."
+      },
+      {
+        "action_id": 50,
+        "description": "Relationship past computer son thousand economy company."
+      },
+      {
+        "action_id": 51,
+        "description": "Total city back tree."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 17,
+        "name": "Hudson-Watkins",
+        "online_source": "https://www.adams.com/",
+        "estimated_performance": {
+          "on_time_delivery": 67,
+          "quality_rating": 4.0,
+          "price_rating": 4.7
+        },
+        "contact_info": {
+          "email": "lisahamilton@hernandez.com",
+          "phone": "001-887-985-3315x91060"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 18,
+    "supplier": "Murray-Jenkins",
+    "performance": {
+      "on_time_delivery": 100,
+      "quality_rating": 3.9,
+      "price_rating": 4.9
+    },
+    "contract_end_date": "2026-05-23",
+    "capacity": {
+      "current": 47,
+      "max": 71
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 52,
+        "description": "Program behavior range a ability."
+      },
+      {
+        "evidence_id": 53,
+        "description": "Pressure three just those television save."
+      },
+      {
+        "evidence_id": 54,
+        "description": "Foreign blue gun voice."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 52,
+        "description": "Person feeling arrive impact job."
+      },
+      {
+        "action_id": 53,
+        "description": "Any debate into."
+      },
+      {
+        "action_id": 54,
+        "description": "Event professional help employee."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 18,
+        "name": "Blair Ltd",
+        "online_source": "https://www.taylor.com/",
+        "estimated_performance": {
+          "on_time_delivery": 95,
+          "quality_rating": 3.5,
+          "price_rating": 4.2
+        },
+        "contact_info": {
+          "email": "davidpeterson@curtis.com",
+          "phone": "885-616-7773x119"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 19,
+    "supplier": "Nichols, Morris and Sellers",
+    "performance": {
+      "on_time_delivery": 61,
+      "quality_rating": 3.2,
+      "price_rating": 2.6
+    },
+    "contract_end_date": "2025-12-21",
+    "capacity": {
+      "current": 50,
+      "max": 91
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 55,
+        "description": "Man if make industry quickly despite defense."
+      },
+      {
+        "evidence_id": 56,
+        "description": "Beat event where thus shake prevent town."
+      },
+      {
+        "evidence_id": 57,
+        "description": "Chair material later one what response about board."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 55,
+        "description": "Personal responsibility during city successful lawyer drive will."
+      },
+      {
+        "action_id": 56,
+        "description": "Assume old theory ability figure whatever together student."
+      },
+      {
+        "action_id": 57,
+        "description": "Talk protect event black road we."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 19,
+        "name": "Reynolds-Mcpherson",
+        "online_source": "http://www.johnson-wagner.com/",
+        "estimated_performance": {
+          "on_time_delivery": 81,
+          "quality_rating": 4.6,
+          "price_rating": 2.6
+        },
+        "contact_info": {
+          "email": "bdiaz@rodriguez.biz",
+          "phone": "7263540387"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 20,
+    "supplier": "Meyer Ltd",
+    "performance": {
+      "on_time_delivery": 74,
+      "quality_rating": 2.6,
+      "price_rating": 4.7
+    },
+    "contract_end_date": "2025-02-28",
+    "capacity": {
+      "current": 40,
+      "max": 78
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 58,
+        "description": "Wind daughter health deep piece trouble finish."
+      },
+      {
+        "evidence_id": 59,
+        "description": "But consider myself go."
+      },
+      {
+        "evidence_id": 60,
+        "description": "Full key cup."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 58,
+        "description": "Hospital city media include seat."
+      },
+      {
+        "action_id": 59,
+        "description": "Really information cultural whatever sound lead."
+      },
+      {
+        "action_id": 60,
+        "description": "Sing able party environmental."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 20,
+        "name": "Harrison, Thompson and Mathis",
+        "online_source": "http://moore.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 89,
+          "quality_rating": 4.9,
+          "price_rating": 3.5
+        },
+        "contact_info": {
+          "email": "carol77@craig-brooks.info",
+          "phone": "(492)577-9888"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 21,
+    "supplier": "Cardenas, Rice and Cunningham",
+    "performance": {
+      "on_time_delivery": 87,
+      "quality_rating": 3.0,
+      "price_rating": 2.8
+    },
+    "contract_end_date": "2025-12-03",
+    "capacity": {
+      "current": 60,
+      "max": 86
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 61,
+        "description": "Try wait write key weight decide consider."
+      },
+      {
+        "evidence_id": 62,
+        "description": "Use send event source almost contain letter."
+      },
+      {
+        "evidence_id": 63,
+        "description": "Catch single look mean another."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 61,
+        "description": "Offer structure worker."
+      },
+      {
+        "action_id": 62,
+        "description": "Inside class road marriage house onto crime figure."
+      },
+      {
+        "action_id": 63,
+        "description": "Set effort job better make."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 21,
+        "name": "Sherman-Morris",
+        "online_source": "https://www.nichols-parker.com/",
+        "estimated_performance": {
+          "on_time_delivery": 95,
+          "quality_rating": 4.9,
+          "price_rating": 2.6
+        },
+        "contact_info": {
+          "email": "jasondougherty@davis-smith.biz",
+          "phone": "827-265-4102"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 22,
+    "supplier": "Harris Ltd",
+    "performance": {
+      "on_time_delivery": 71,
+      "quality_rating": 4.9,
+      "price_rating": 2.5
+    },
+    "contract_end_date": "2026-04-13",
+    "capacity": {
+      "current": 71,
+      "max": 72
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 64,
+        "description": "Go forget at stuff itself husband order late."
+      },
+      {
+        "evidence_id": 65,
+        "description": "Fish six brother poor."
+      },
+      {
+        "evidence_id": 66,
+        "description": "Five road husband."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 64,
+        "description": "Public both design myself measure agency step."
+      },
+      {
+        "action_id": 65,
+        "description": "Drug weight quite state success."
+      },
+      {
+        "action_id": 66,
+        "description": "Central central pressure as bed policy."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 22,
+        "name": "Hodges-Phillips",
+        "online_source": "https://www.hernandez.com/",
+        "estimated_performance": {
+          "on_time_delivery": 82,
+          "quality_rating": 2.8,
+          "price_rating": 3.3
+        },
+        "contact_info": {
+          "email": "susanwagner@armstrong.org",
+          "phone": "765-586-4197"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 23,
+    "supplier": "Colon-Williams",
+    "performance": {
+      "on_time_delivery": 89,
+      "quality_rating": 3.1,
+      "price_rating": 4.9
+    },
+    "contract_end_date": "2025-10-15",
+    "capacity": {
+      "current": 48,
+      "max": 97
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 67,
+        "description": "Tax last attention together."
+      },
+      {
+        "evidence_id": 68,
+        "description": "Yet pattern standard."
+      },
+      {
+        "evidence_id": 69,
+        "description": "Add memory wind teacher magazine foreign theory."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 67,
+        "description": "Student political measure mean itself."
+      },
+      {
+        "action_id": 68,
+        "description": "Similar kind physical area who star stand."
+      },
+      {
+        "action_id": 69,
+        "description": "Region owner prevent part company get."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 23,
+        "name": "Freeman, Cooper and Baird",
+        "online_source": "http://www.wilson.com/",
+        "estimated_performance": {
+          "on_time_delivery": 77,
+          "quality_rating": 2.6,
+          "price_rating": 4.9
+        },
+        "contact_info": {
+          "email": "saundersmisty@king.com",
+          "phone": "558.911.2964x16839"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 24,
+    "supplier": "Taylor Inc",
+    "performance": {
+      "on_time_delivery": 97,
+      "quality_rating": 4.5,
+      "price_rating": 4.2
+    },
+    "contract_end_date": "2026-02-07",
+    "capacity": {
+      "current": 45,
+      "max": 94
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 70,
+        "description": "Store usually real station language west girl safe."
+      },
+      {
+        "evidence_id": 71,
+        "description": "Material development conference well view spring among."
+      },
+      {
+        "evidence_id": 72,
+        "description": "Go election attack just mission weight the even."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 70,
+        "description": "Information attorney main former fly stage chance."
+      },
+      {
+        "action_id": 71,
+        "description": "Someone task from sign likely point science war."
+      },
+      {
+        "action_id": 72,
+        "description": "North see at prove important."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 24,
+        "name": "Ryan, Lawrence and Jackson",
+        "online_source": "https://www.lee.net/",
+        "estimated_performance": {
+          "on_time_delivery": 82,
+          "quality_rating": 3.2,
+          "price_rating": 4.4
+        },
+        "contact_info": {
+          "email": "wfischer@cook.com",
+          "phone": "2508816744"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 25,
+    "supplier": "Robinson PLC",
+    "performance": {
+      "on_time_delivery": 92,
+      "quality_rating": 3.0,
+      "price_rating": 4.3
+    },
+    "contract_end_date": "2025-03-02",
+    "capacity": {
+      "current": 54,
+      "max": 89
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 73,
+        "description": "Explain key event base six consumer detail wonder."
+      },
+      {
+        "evidence_id": 74,
+        "description": "Interest certain door process nor budget."
+      },
+      {
+        "evidence_id": 75,
+        "description": "Will unit fund yes policy trade."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 73,
+        "description": "Family according teach local address way."
+      },
+      {
+        "action_id": 74,
+        "description": "Have despite discover real why."
+      },
+      {
+        "action_id": 75,
+        "description": "Call usually run somebody ahead into throughout."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 25,
+        "name": "Miles Ltd",
+        "online_source": "http://www.price-clark.com/",
+        "estimated_performance": {
+          "on_time_delivery": 86,
+          "quality_rating": 4.8,
+          "price_rating": 2.8
+        },
+        "contact_info": {
+          "email": "kevindixon@schmidt.com",
+          "phone": "001-753-387-3799x0423"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 26,
+    "supplier": "Wilson-Ferrell",
+    "performance": {
+      "on_time_delivery": 90,
+      "quality_rating": 4.9,
+      "price_rating": 4.1
+    },
+    "contract_end_date": "2025-05-07",
+    "capacity": {
+      "current": 48,
+      "max": 86
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 76,
+        "description": "Fund hot Mrs wait finally check move group."
+      },
+      {
+        "evidence_id": 77,
+        "description": "Summer field wait."
+      },
+      {
+        "evidence_id": 78,
+        "description": "Top whole everyone month."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 76,
+        "description": "Source arm history learn."
+      },
+      {
+        "action_id": 77,
+        "description": "You available from meet second dinner with spend."
+      },
+      {
+        "action_id": 78,
+        "description": "Option design spend safe travel baby deal cost."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 26,
+        "name": "Ray, Richards and Johnson",
+        "online_source": "http://www.rowe.net/",
+        "estimated_performance": {
+          "on_time_delivery": 85,
+          "quality_rating": 4.5,
+          "price_rating": 4.5
+        },
+        "contact_info": {
+          "email": "ypeterson@vazquez-chaney.com",
+          "phone": "+1-355-695-0167x76543"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 27,
+    "supplier": "Martinez, Jenkins and Moreno",
+    "performance": {
+      "on_time_delivery": 64,
+      "quality_rating": 4.7,
+      "price_rating": 3.8
+    },
+    "contract_end_date": "2025-10-27",
+    "capacity": {
+      "current": 60,
+      "max": 93
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 79,
+        "description": "Its fear land herself inside civil foot."
+      },
+      {
+        "evidence_id": 80,
+        "description": "Seek why free."
+      },
+      {
+        "evidence_id": 81,
+        "description": "Simply much education travel in impact."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 79,
+        "description": "It baby four sort."
+      },
+      {
+        "action_id": 80,
+        "description": "Deal glass simple life audience trade resource."
+      },
+      {
+        "action_id": 81,
+        "description": "Night base right have state."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 27,
+        "name": "Hensley Ltd",
+        "online_source": "http://www.sanders.net/",
+        "estimated_performance": {
+          "on_time_delivery": 74,
+          "quality_rating": 3.4,
+          "price_rating": 3.8
+        },
+        "contact_info": {
+          "email": "kevinfernandez@jones.com",
+          "phone": "525-352-6448"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 28,
+    "supplier": "Garrison, Bailey and Phillips",
+    "performance": {
+      "on_time_delivery": 64,
+      "quality_rating": 4.4,
+      "price_rating": 3.7
+    },
+    "contract_end_date": "2025-01-17",
+    "capacity": {
+      "current": 79,
+      "max": 83
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 82,
+        "description": "Budget interview enough yourself analysis conference seven explain."
+      },
+      {
+        "evidence_id": 83,
+        "description": "Machine six to reflect."
+      },
+      {
+        "evidence_id": 84,
+        "description": "Industry activity together from above."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 82,
+        "description": "Life mission as perform morning."
+      },
+      {
+        "action_id": 83,
+        "description": "Really simply large represent role."
+      },
+      {
+        "action_id": 84,
+        "description": "Letter authority side paper their."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 28,
+        "name": "Reyes, Cabrera and Stanley",
+        "online_source": "http://davis.com/",
+        "estimated_performance": {
+          "on_time_delivery": 63,
+          "quality_rating": 4.9,
+          "price_rating": 2.6
+        },
+        "contact_info": {
+          "email": "jonathan00@sims.com",
+          "phone": "+1-522-860-8931"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 29,
+    "supplier": "Brooks Inc",
+    "performance": {
+      "on_time_delivery": 64,
+      "quality_rating": 4.1,
+      "price_rating": 2.6
+    },
+    "contract_end_date": "2026-09-13",
+    "capacity": {
+      "current": 80,
+      "max": 91
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 85,
+        "description": "There speak state far."
+      },
+      {
+        "evidence_id": 86,
+        "description": "East message miss local often operation she."
+      },
+      {
+        "evidence_id": 87,
+        "description": "Leg particularly if involve respond hand."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 85,
+        "description": "Respond relate identify teacher."
+      },
+      {
+        "action_id": 86,
+        "description": "Behind development perform success reduce."
+      },
+      {
+        "action_id": 87,
+        "description": "Huge natural on."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 29,
+        "name": "Brown, Edwards and Watts",
+        "online_source": "http://davis-lee.com/",
+        "estimated_performance": {
+          "on_time_delivery": 66,
+          "quality_rating": 4.1,
+          "price_rating": 4.5
+        },
+        "contact_info": {
+          "email": "etran@smith.biz",
+          "phone": "001-236-976-7113x58393"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 30,
+    "supplier": "Reed-Herrera",
+    "performance": {
+      "on_time_delivery": 91,
+      "quality_rating": 2.7,
+      "price_rating": 2.7
+    },
+    "contract_end_date": "2025-08-10",
+    "capacity": {
+      "current": 30,
+      "max": 72
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 88,
+        "description": "Need whether future those million."
+      },
+      {
+        "evidence_id": 89,
+        "description": "Marriage star into arm something yet."
+      },
+      {
+        "evidence_id": 90,
+        "description": "Site almost clear."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 88,
+        "description": "Probably similar window blood energy character hit."
+      },
+      {
+        "action_id": 89,
+        "description": "Move agree tell class most."
+      },
+      {
+        "action_id": 90,
+        "description": "Experience smile hand event agent."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 30,
+        "name": "Johnson-Martin",
+        "online_source": "https://morse-palmer.com/",
+        "estimated_performance": {
+          "on_time_delivery": 76,
+          "quality_rating": 3.6,
+          "price_rating": 3.0
+        },
+        "contact_info": {
+          "email": "donstone@roberts.com",
+          "phone": "+1-500-303-0190x132"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 31,
+    "supplier": "Rodriguez PLC",
+    "performance": {
+      "on_time_delivery": 96,
+      "quality_rating": 4.8,
+      "price_rating": 4.8
+    },
+    "contract_end_date": "2026-01-03",
+    "capacity": {
+      "current": 38,
+      "max": 84
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 91,
+        "description": "Heart administration American condition stage."
+      },
+      {
+        "evidence_id": 92,
+        "description": "Leg modern improve news station."
+      },
+      {
+        "evidence_id": 93,
+        "description": "Me doctor relationship assume from factor college."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 91,
+        "description": "Science election lose write big national."
+      },
+      {
+        "action_id": 92,
+        "description": "Summer friend less window stop push."
+      },
+      {
+        "action_id": 93,
+        "description": "Opportunity require meet to citizen us table."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 31,
+        "name": "Smith PLC",
+        "online_source": "http://www.anderson.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 76,
+          "quality_rating": 3.8,
+          "price_rating": 3.6
+        },
+        "contact_info": {
+          "email": "margaret77@alexander.org",
+          "phone": "911.633.4570"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 32,
+    "supplier": "Hernandez-Hall",
+    "performance": {
+      "on_time_delivery": 76,
+      "quality_rating": 2.6,
+      "price_rating": 4.1
+    },
+    "contract_end_date": "2025-05-19",
+    "capacity": {
+      "current": 31,
+      "max": 76
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 94,
+        "description": "Though interview best."
+      },
+      {
+        "evidence_id": 95,
+        "description": "Chance operation significant move investment."
+      },
+      {
+        "evidence_id": 96,
+        "description": "Strategy while sea find anyone recognize a exist."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 94,
+        "description": "Stuff single sign around."
+      },
+      {
+        "action_id": 95,
+        "description": "Know give support against food product."
+      },
+      {
+        "action_id": 96,
+        "description": "Feel door sense trouble response trouble treat."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 32,
+        "name": "Davis, Roberts and Parker",
+        "online_source": "http://atkinson.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 90,
+          "quality_rating": 4.6,
+          "price_rating": 4.8
+        },
+        "contact_info": {
+          "email": "janicepierce@stewart.info",
+          "phone": "236.958.3236x18228"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 33,
+    "supplier": "Meyer Group",
+    "performance": {
+      "on_time_delivery": 71,
+      "quality_rating": 3.4,
+      "price_rating": 3.6
+    },
+    "contract_end_date": "2026-09-15",
+    "capacity": {
+      "current": 77,
+      "max": 83
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 97,
+        "description": "Behavior any resource key hospital."
+      },
+      {
+        "evidence_id": 98,
+        "description": "Food board mouth like decision."
+      },
+      {
+        "evidence_id": 99,
+        "description": "Girl into morning energy material reason."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 97,
+        "description": "Store someone quickly cover third most foreign."
+      },
+      {
+        "action_id": 98,
+        "description": "Right also soon suddenly suddenly."
+      },
+      {
+        "action_id": 99,
+        "description": "Fish meet PM stop level employee."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 33,
+        "name": "Molina and Sons",
+        "online_source": "http://www.webb.com/",
+        "estimated_performance": {
+          "on_time_delivery": 80,
+          "quality_rating": 4.6,
+          "price_rating": 3.8
+        },
+        "contact_info": {
+          "email": "lewiswilliam@parker.com",
+          "phone": "001-658-600-0713x0928"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 34,
+    "supplier": "Gonzalez, Graves and Moore",
+    "performance": {
+      "on_time_delivery": 71,
+      "quality_rating": 4.0,
+      "price_rating": 3.3
+    },
+    "contract_end_date": "2025-10-16",
+    "capacity": {
+      "current": 34,
+      "max": 86
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 100,
+        "description": "Opportunity rather notice."
+      },
+      {
+        "evidence_id": 101,
+        "description": "Simple easy relate hospital."
+      },
+      {
+        "evidence_id": 102,
+        "description": "Exactly read something especially."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 100,
+        "description": "Effort these natural fight save west all manager."
+      },
+      {
+        "action_id": 101,
+        "description": "Company compare report pretty point along."
+      },
+      {
+        "action_id": 102,
+        "description": "Apply officer success run star hand."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 34,
+        "name": "Craig-Miller",
+        "online_source": "http://www.elliott.info/",
+        "estimated_performance": {
+          "on_time_delivery": 92,
+          "quality_rating": 3.2,
+          "price_rating": 2.9
+        },
+        "contact_info": {
+          "email": "herrerajennifer@lopez.com",
+          "phone": "473-835-1168"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 35,
+    "supplier": "Case LLC",
+    "performance": {
+      "on_time_delivery": 65,
+      "quality_rating": 3.7,
+      "price_rating": 3.7
+    },
+    "contract_end_date": "2025-10-28",
+    "capacity": {
+      "current": 57,
+      "max": 71
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 103,
+        "description": "Security image body above leader production how."
+      },
+      {
+        "evidence_id": 104,
+        "description": "Always including owner wonder run game."
+      },
+      {
+        "evidence_id": 105,
+        "description": "Happy hope bag us decision mission event."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 103,
+        "description": "Couple may something computer free space manager window."
+      },
+      {
+        "action_id": 104,
+        "description": "Gun down dinner third move."
+      },
+      {
+        "action_id": 105,
+        "description": "So bad rise window art."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 35,
+        "name": "Kim, Hull and Larsen",
+        "online_source": "https://www.nunez.com/",
+        "estimated_performance": {
+          "on_time_delivery": 80,
+          "quality_rating": 4.3,
+          "price_rating": 3.5
+        },
+        "contact_info": {
+          "email": "zreynolds@murray.com",
+          "phone": "307.525.4681"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 36,
+    "supplier": "Carter, Murillo and Frazier",
+    "performance": {
+      "on_time_delivery": 100,
+      "quality_rating": 2.9,
+      "price_rating": 4.8
+    },
+    "contract_end_date": "2026-06-03",
+    "capacity": {
+      "current": 77,
+      "max": 86
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 106,
+        "description": "See line as."
+      },
+      {
+        "evidence_id": 107,
+        "description": "Newspaper really kind letter lay."
+      },
+      {
+        "evidence_id": 108,
+        "description": "Father give relate majority give."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 106,
+        "description": "Arrive city machine interesting."
+      },
+      {
+        "action_id": 107,
+        "description": "Probably situation loss laugh want."
+      },
+      {
+        "action_id": 108,
+        "description": "Security if use long Mr great."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 36,
+        "name": "Johnson-Hays",
+        "online_source": "https://chandler-grant.net/",
+        "estimated_performance": {
+          "on_time_delivery": 63,
+          "quality_rating": 4.2,
+          "price_rating": 2.9
+        },
+        "contact_info": {
+          "email": "rebeccalewis@sanchez.com",
+          "phone": "001-828-360-6468x8536"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 37,
+    "supplier": "Jackson-Gay",
+    "performance": {
+      "on_time_delivery": 92,
+      "quality_rating": 4.7,
+      "price_rating": 3.4
+    },
+    "contract_end_date": "2025-11-28",
+    "capacity": {
+      "current": 37,
+      "max": 72
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 109,
+        "description": "Above upon behavior put."
+      },
+      {
+        "evidence_id": 110,
+        "description": "Lay system explain show picture note."
+      },
+      {
+        "evidence_id": 111,
+        "description": "Economy discuss discover only until ball."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 109,
+        "description": "Sign none assume walk."
+      },
+      {
+        "action_id": 110,
+        "description": "Image tend true who eye situation girl."
+      },
+      {
+        "action_id": 111,
+        "description": "Officer skin allow might culture."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 37,
+        "name": "Byrd PLC",
+        "online_source": "https://nguyen.com/",
+        "estimated_performance": {
+          "on_time_delivery": 89,
+          "quality_rating": 3.7,
+          "price_rating": 3.6
+        },
+        "contact_info": {
+          "email": "anthonyparker@arroyo-berger.biz",
+          "phone": "+1-828-516-3374x680"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 38,
+    "supplier": "Harris-Mora",
+    "performance": {
+      "on_time_delivery": 81,
+      "quality_rating": 4.7,
+      "price_rating": 2.8
+    },
+    "contract_end_date": "2025-04-14",
+    "capacity": {
+      "current": 76,
+      "max": 100
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 112,
+        "description": "Provide ahead wide authority debate."
+      },
+      {
+        "evidence_id": 113,
+        "description": "Real hotel current boy drug reflect bed."
+      },
+      {
+        "evidence_id": 114,
+        "description": "Population produce what score property."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 112,
+        "description": "Society go ok low."
+      },
+      {
+        "action_id": 113,
+        "description": "Resource have father today."
+      },
+      {
+        "action_id": 114,
+        "description": "Environment letter trial agree."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 38,
+        "name": "Bullock, Rodgers and Martinez",
+        "online_source": "http://hendrix-carpenter.net/",
+        "estimated_performance": {
+          "on_time_delivery": 99,
+          "quality_rating": 2.8,
+          "price_rating": 4.0
+        },
+        "contact_info": {
+          "email": "jennifermann@vasquez.info",
+          "phone": "001-610-405-6150x31742"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 39,
+    "supplier": "Mills, Moreno and Waller",
+    "performance": {
+      "on_time_delivery": 70,
+      "quality_rating": 4.0,
+      "price_rating": 4.1
+    },
+    "contract_end_date": "2024-11-24",
+    "capacity": {
+      "current": 61,
+      "max": 90
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 115,
+        "description": "Watch anything turn."
+      },
+      {
+        "evidence_id": 116,
+        "description": "Sure they pass."
+      },
+      {
+        "evidence_id": 117,
+        "description": "Enter affect top edge success local summer."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 115,
+        "description": "Upon responsibility raise expert short above former."
+      },
+      {
+        "action_id": 116,
+        "description": "It war tell analysis ball."
+      },
+      {
+        "action_id": 117,
+        "description": "Agency summer law charge cover information."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 39,
+        "name": "Bennett-Moore",
+        "online_source": "https://www.hanson-hoover.com/",
+        "estimated_performance": {
+          "on_time_delivery": 72,
+          "quality_rating": 3.7,
+          "price_rating": 3.8
+        },
+        "contact_info": {
+          "email": "jeremyburns@richardson-ayers.com",
+          "phone": "510-568-2628x361"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 40,
+    "supplier": "Mcdowell-Hunt",
+    "performance": {
+      "on_time_delivery": 95,
+      "quality_rating": 3.5,
+      "price_rating": 4.6
+    },
+    "contract_end_date": "2026-05-27",
+    "capacity": {
+      "current": 34,
+      "max": 93
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 118,
+        "description": "Strategy manager energy police specific push left maybe."
+      },
+      {
+        "evidence_id": 119,
+        "description": "West number section recent bank responsibility."
+      },
+      {
+        "evidence_id": 120,
+        "description": "From energy goal."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 118,
+        "description": "Region know check least seek book same."
+      },
+      {
+        "action_id": 119,
+        "description": "Might effort reason but again discuss."
+      },
+      {
+        "action_id": 120,
+        "description": "Recognize institution well huge laugh food."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 40,
+        "name": "Molina and Sons",
+        "online_source": "https://www.robinson.com/",
+        "estimated_performance": {
+          "on_time_delivery": 87,
+          "quality_rating": 4.7,
+          "price_rating": 3.0
+        },
+        "contact_info": {
+          "email": "deannastuart@zamora-hall.info",
+          "phone": "332.811.7663x271"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 41,
+    "supplier": "Dyer, Oconnell and Mitchell",
+    "performance": {
+      "on_time_delivery": 74,
+      "quality_rating": 4.2,
+      "price_rating": 3.6
+    },
+    "contract_end_date": "2026-07-28",
+    "capacity": {
+      "current": 38,
+      "max": 81
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 121,
+        "description": "Drive share time floor."
+      },
+      {
+        "evidence_id": 122,
+        "description": "Strong paper particular spring soldier thank."
+      },
+      {
+        "evidence_id": 123,
+        "description": "Study herself expert security include there."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 121,
+        "description": "Remember anything to so send mention."
+      },
+      {
+        "action_id": 122,
+        "description": "Behavior strategy build accept nature great myself."
+      },
+      {
+        "action_id": 123,
+        "description": "Into task soon right book exactly amount."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 41,
+        "name": "Mcintyre Ltd",
+        "online_source": "https://hudson.com/",
+        "estimated_performance": {
+          "on_time_delivery": 66,
+          "quality_rating": 4.7,
+          "price_rating": 3.6
+        },
+        "contact_info": {
+          "email": "stevensalazar@khan.info",
+          "phone": "(608)277-6886"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 42,
+    "supplier": "Bowman, Norman and Anderson",
+    "performance": {
+      "on_time_delivery": 65,
+      "quality_rating": 3.2,
+      "price_rating": 2.7
+    },
+    "contract_end_date": "2025-12-10",
+    "capacity": {
+      "current": 58,
+      "max": 100
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 124,
+        "description": "Their require course board late special."
+      },
+      {
+        "evidence_id": 125,
+        "description": "Wife serious end trouble."
+      },
+      {
+        "evidence_id": 126,
+        "description": "Few trip old actually."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 124,
+        "description": "Grow marriage member kitchen."
+      },
+      {
+        "action_id": 125,
+        "description": "Couple century its life despite third."
+      },
+      {
+        "action_id": 126,
+        "description": "Through how talk southern."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 42,
+        "name": "Wong, Sanchez and King",
+        "online_source": "https://www.shields.info/",
+        "estimated_performance": {
+          "on_time_delivery": 71,
+          "quality_rating": 4.7,
+          "price_rating": 3.5
+        },
+        "contact_info": {
+          "email": "lmurphy@brooks.net",
+          "phone": "8012538652"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 43,
+    "supplier": "Ward, Woods and Bolton",
+    "performance": {
+      "on_time_delivery": 64,
+      "quality_rating": 5.0,
+      "price_rating": 4.1
+    },
+    "contract_end_date": "2025-11-19",
+    "capacity": {
+      "current": 59,
+      "max": 76
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 127,
+        "description": "Place voice score than find."
+      },
+      {
+        "evidence_id": 128,
+        "description": "Two check mind woman memory."
+      },
+      {
+        "evidence_id": 129,
+        "description": "Investment young sometimes need."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 127,
+        "description": "Concern artist movie staff."
+      },
+      {
+        "action_id": 128,
+        "description": "Present pay simple us audience."
+      },
+      {
+        "action_id": 129,
+        "description": "Where nation eye family after leader often."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 43,
+        "name": "Torres-Miller",
+        "online_source": "https://gray.com/",
+        "estimated_performance": {
+          "on_time_delivery": 78,
+          "quality_rating": 4.2,
+          "price_rating": 4.6
+        },
+        "contact_info": {
+          "email": "carolyn82@ruiz.biz",
+          "phone": "(369)430-9442x850"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 44,
+    "supplier": "Williams-Green",
+    "performance": {
+      "on_time_delivery": 91,
+      "quality_rating": 4.1,
+      "price_rating": 4.5
+    },
+    "contract_end_date": "2025-12-02",
+    "capacity": {
+      "current": 54,
+      "max": 90
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 130,
+        "description": "Learn floor use very everyone."
+      },
+      {
+        "evidence_id": 131,
+        "description": "Hand their if president soldier."
+      },
+      {
+        "evidence_id": 132,
+        "description": "Power reason name writer serve current heart."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 130,
+        "description": "Tend knowledge hit."
+      },
+      {
+        "action_id": 131,
+        "description": "Sport leader score scene article."
+      },
+      {
+        "action_id": 132,
+        "description": "Degree recently art form."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 44,
+        "name": "Miller, Pena and Johnston",
+        "online_source": "https://www.griffin-wyatt.org/",
+        "estimated_performance": {
+          "on_time_delivery": 81,
+          "quality_rating": 4.0,
+          "price_rating": 3.3
+        },
+        "contact_info": {
+          "email": "ronaldhorn@huynh-taylor.com",
+          "phone": "001-735-296-2056x88951"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 45,
+    "supplier": "Rodriguez-Melton",
+    "performance": {
+      "on_time_delivery": 66,
+      "quality_rating": 3.3,
+      "price_rating": 4.8
+    },
+    "contract_end_date": "2026-09-26",
+    "capacity": {
+      "current": 47,
+      "max": 80
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 133,
+        "description": "Article success also tell author financial."
+      },
+      {
+        "evidence_id": 134,
+        "description": "East per bill onto."
+      },
+      {
+        "evidence_id": 135,
+        "description": "Return majority together skill close expect."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 133,
+        "description": "Grow individual these allow table."
+      },
+      {
+        "action_id": 134,
+        "description": "Task nor share someone will."
+      },
+      {
+        "action_id": 135,
+        "description": "Necessary its event."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 45,
+        "name": "Jackson, Ramos and Alexander",
+        "online_source": "https://www.rose.com/",
+        "estimated_performance": {
+          "on_time_delivery": 75,
+          "quality_rating": 3.7,
+          "price_rating": 4.9
+        },
+        "contact_info": {
+          "email": "benjamin83@sullivan-davis.org",
+          "phone": "(390)488-0776"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 46,
+    "supplier": "Roberson Inc",
+    "performance": {
+      "on_time_delivery": 97,
+      "quality_rating": 3.1,
+      "price_rating": 3.0
+    },
+    "contract_end_date": "2026-09-19",
+    "capacity": {
+      "current": 51,
+      "max": 79
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 136,
+        "description": "American chair present drug."
+      },
+      {
+        "evidence_id": 137,
+        "description": "Discussion she follow."
+      },
+      {
+        "evidence_id": 138,
+        "description": "Size top cover represent reflect."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 136,
+        "description": "Method catch nearly rate third system human."
+      },
+      {
+        "action_id": 137,
+        "description": "Step leader focus well media."
+      },
+      {
+        "action_id": 138,
+        "description": "Develop shake final force pattern."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 46,
+        "name": "Moore-Nguyen",
+        "online_source": "https://www.brown.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 68,
+          "quality_rating": 3.8,
+          "price_rating": 3.7
+        },
+        "contact_info": {
+          "email": "evansmarcus@shaffer.com",
+          "phone": "915-877-0380"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 47,
+    "supplier": "Estrada Inc",
+    "performance": {
+      "on_time_delivery": 91,
+      "quality_rating": 3.2,
+      "price_rating": 4.0
+    },
+    "contract_end_date": "2026-10-02",
+    "capacity": {
+      "current": 50,
+      "max": 78
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 139,
+        "description": "New cell across by letter my."
+      },
+      {
+        "evidence_id": 140,
+        "description": "Increase serious partner war large listen tree."
+      },
+      {
+        "evidence_id": 141,
+        "description": "You machine training indicate president believe sell."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 139,
+        "description": "Live appear day happen third your pressure appear."
+      },
+      {
+        "action_id": 140,
+        "description": "Join listen structure good common set anyone."
+      },
+      {
+        "action_id": 141,
+        "description": "Child true fall beat sit."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 47,
+        "name": "Hess and Sons",
+        "online_source": "https://olsen.com/",
+        "estimated_performance": {
+          "on_time_delivery": 96,
+          "quality_rating": 2.6,
+          "price_rating": 3.6
+        },
+        "contact_info": {
+          "email": "terrijacobs@cross.org",
+          "phone": "001-380-585-0660"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 48,
+    "supplier": "Morgan-Galvan",
+    "performance": {
+      "on_time_delivery": 85,
+      "quality_rating": 4.6,
+      "price_rating": 4.5
+    },
+    "contract_end_date": "2026-02-19",
+    "capacity": {
+      "current": 46,
+      "max": 95
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 142,
+        "description": "Name talk her eight."
+      },
+      {
+        "evidence_id": 143,
+        "description": "Training far system goal."
+      },
+      {
+        "evidence_id": 144,
+        "description": "Pressure toward growth."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 142,
+        "description": "Minute agency forget truth note management."
+      },
+      {
+        "action_id": 143,
+        "description": "Weight authority nor arm for."
+      },
+      {
+        "action_id": 144,
+        "description": "Toward to cold song until until likely."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 48,
+        "name": "Richards and Sons",
+        "online_source": "http://thomas.com/",
+        "estimated_performance": {
+          "on_time_delivery": 63,
+          "quality_rating": 2.8,
+          "price_rating": 3.7
+        },
+        "contact_info": {
+          "email": "brandon88@johnson-kline.org",
+          "phone": "+1-722-443-6388x272"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 49,
+    "supplier": "Brown, Rodriguez and Medina",
+    "performance": {
+      "on_time_delivery": 65,
+      "quality_rating": 3.4,
+      "price_rating": 2.8
+    },
+    "contract_end_date": "2026-04-11",
+    "capacity": {
+      "current": 36,
+      "max": 99
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 145,
+        "description": "Art citizen western radio structure likely."
+      },
+      {
+        "evidence_id": 146,
+        "description": "Note as doctor fly raise not Mr."
+      },
+      {
+        "evidence_id": 147,
+        "description": "Top parent floor should child first sound."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 145,
+        "description": "Cold current last live world action water."
+      },
+      {
+        "action_id": 146,
+        "description": "Bag a coach because believe security."
+      },
+      {
+        "action_id": 147,
+        "description": "Control agree hospital tax beautiful official."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 49,
+        "name": "Reed-Paul",
+        "online_source": "http://walters.com/",
+        "estimated_performance": {
+          "on_time_delivery": 77,
+          "quality_rating": 3.2,
+          "price_rating": 3.4
+        },
+        "contact_info": {
+          "email": "garciaronald@aguilar.com",
+          "phone": "999.293.2547"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 50,
+    "supplier": "Sullivan-May",
+    "performance": {
+      "on_time_delivery": 88,
+      "quality_rating": 3.5,
+      "price_rating": 4.6
+    },
+    "contract_end_date": "2024-11-22",
+    "capacity": {
+      "current": 69,
+      "max": 77
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 148,
+        "description": "Argue TV we financial."
+      },
+      {
+        "evidence_id": 149,
+        "description": "Design just scientist south quickly."
+      },
+      {
+        "evidence_id": 150,
+        "description": "Myself somebody economic parent."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 148,
+        "description": "Property suffer wall police who."
+      },
+      {
+        "action_id": 149,
+        "description": "Themselves follow whom challenge real close lay."
+      },
+      {
+        "action_id": 150,
+        "description": "Notice similar people determine face nearly Congress."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 50,
+        "name": "Smith-Glover",
+        "online_source": "https://www.murphy-hammond.org/",
+        "estimated_performance": {
+          "on_time_delivery": 87,
+          "quality_rating": 4.3,
+          "price_rating": 5.0
+        },
+        "contact_info": {
+          "email": "bfernandez@quinn-guerrero.com",
+          "phone": "209-317-1493x76783"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 51,
+    "supplier": "Smith LLC",
+    "performance": {
+      "on_time_delivery": 90,
+      "quality_rating": 4.3,
+      "price_rating": 4.8
+    },
+    "contract_end_date": "2026-01-22",
+    "capacity": {
+      "current": 59,
+      "max": 72
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 151,
+        "description": "Economy people customer too financial receive dinner agency."
+      },
+      {
+        "evidence_id": 152,
+        "description": "Garden benefit big within reduce."
+      },
+      {
+        "evidence_id": 153,
+        "description": "Hold range score player right officer prevent."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 151,
+        "description": "Increase successful responsibility exactly thus night south."
+      },
+      {
+        "action_id": 152,
+        "description": "Make fear when growth knowledge maintain."
+      },
+      {
+        "action_id": 153,
+        "description": "Performance cultural method offer very arrive left."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 51,
+        "name": "Pierce Ltd",
+        "online_source": "https://www.jones.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 94,
+          "quality_rating": 3.1,
+          "price_rating": 3.2
+        },
+        "contact_info": {
+          "email": "ingramerik@contreras.com",
+          "phone": "(784)661-0041"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 52,
+    "supplier": "Sanchez-Lambert",
+    "performance": {
+      "on_time_delivery": 84,
+      "quality_rating": 4.5,
+      "price_rating": 4.6
+    },
+    "contract_end_date": "2025-09-01",
+    "capacity": {
+      "current": 62,
+      "max": 78
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 154,
+        "description": "Each wait skill direction."
+      },
+      {
+        "evidence_id": 155,
+        "description": "Low at box office pressure."
+      },
+      {
+        "evidence_id": 156,
+        "description": "Play school choice environment."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 154,
+        "description": "Nation hospital while compare thing else."
+      },
+      {
+        "action_id": 155,
+        "description": "Not term day spring into rather cell."
+      },
+      {
+        "action_id": 156,
+        "description": "Consider study sell issue military above kind."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 52,
+        "name": "Mcclain-Clark",
+        "online_source": "https://holt-joseph.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 80,
+          "quality_rating": 3.3,
+          "price_rating": 3.1
+        },
+        "contact_info": {
+          "email": "james52@jones.com",
+          "phone": "364.560.9318x703"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 53,
+    "supplier": "Holmes-Obrien",
+    "performance": {
+      "on_time_delivery": 61,
+      "quality_rating": 3.1,
+      "price_rating": 3.6
+    },
+    "contract_end_date": "2025-12-19",
+    "capacity": {
+      "current": 30,
+      "max": 95
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 157,
+        "description": "Marriage beautiful would rest individual sport gas."
+      },
+      {
+        "evidence_id": 158,
+        "description": "Join let money student artist."
+      },
+      {
+        "evidence_id": 159,
+        "description": "Everyone PM economy defense."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 157,
+        "description": "Weight music piece sport news."
+      },
+      {
+        "action_id": 158,
+        "description": "Test sound important investment major doctor."
+      },
+      {
+        "action_id": 159,
+        "description": "Physical account ability pretty return number rate."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 53,
+        "name": "Robinson, Wu and Welch",
+        "online_source": "https://www.johnson.net/",
+        "estimated_performance": {
+          "on_time_delivery": 77,
+          "quality_rating": 3.8,
+          "price_rating": 3.7
+        },
+        "contact_info": {
+          "email": "willierussell@gomez-stone.info",
+          "phone": "(312)542-9176x3068"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 54,
+    "supplier": "Schmidt-Daniels",
+    "performance": {
+      "on_time_delivery": 83,
+      "quality_rating": 2.9,
+      "price_rating": 3.9
+    },
+    "contract_end_date": "2026-02-16",
+    "capacity": {
+      "current": 56,
+      "max": 81
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 160,
+        "description": "Player throw item seek final event whom stuff."
+      },
+      {
+        "evidence_id": 161,
+        "description": "Past trouble sing section."
+      },
+      {
+        "evidence_id": 162,
+        "description": "Care special still purpose image."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 160,
+        "description": "Music thank let evidence instead hold."
+      },
+      {
+        "action_id": 161,
+        "description": "Democratic other although attorney."
+      },
+      {
+        "action_id": 162,
+        "description": "Kitchen past surface camera."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 54,
+        "name": "Branch, Taylor and Jones",
+        "online_source": "https://www.garner-adkins.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 76,
+          "quality_rating": 4.3,
+          "price_rating": 3.8
+        },
+        "contact_info": {
+          "email": "fullermary@morris.info",
+          "phone": "725.366.5670"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 55,
+    "supplier": "Moore Inc",
+    "performance": {
+      "on_time_delivery": 97,
+      "quality_rating": 3.9,
+      "price_rating": 3.3
+    },
+    "contract_end_date": "2026-01-26",
+    "capacity": {
+      "current": 39,
+      "max": 75
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 163,
+        "description": "Among indeed chance pretty."
+      },
+      {
+        "evidence_id": 164,
+        "description": "Window rate morning probably oil local cell."
+      },
+      {
+        "evidence_id": 165,
+        "description": "For eye world not race house."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 163,
+        "description": "Analysis stand unit yourself fact agent body if."
+      },
+      {
+        "action_id": 164,
+        "description": "Him result business maintain."
+      },
+      {
+        "action_id": 165,
+        "description": "Show lawyer hope indicate success travel cup simply."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 55,
+        "name": "Carney-Harrison",
+        "online_source": "http://www.simmons-phillips.com/",
+        "estimated_performance": {
+          "on_time_delivery": 82,
+          "quality_rating": 4.3,
+          "price_rating": 2.7
+        },
+        "contact_info": {
+          "email": "susanavila@page.com",
+          "phone": "001-355-850-0527x21467"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 56,
+    "supplier": "Morgan-Edwards",
+    "performance": {
+      "on_time_delivery": 78,
+      "quality_rating": 3.9,
+      "price_rating": 4.6
+    },
+    "contract_end_date": "2025-05-30",
+    "capacity": {
+      "current": 36,
+      "max": 76
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 166,
+        "description": "Result federal tough need."
+      },
+      {
+        "evidence_id": 167,
+        "description": "Into structure voice white."
+      },
+      {
+        "evidence_id": 168,
+        "description": "City whom star kind."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 166,
+        "description": "Past office interview something official treatment."
+      },
+      {
+        "action_id": 167,
+        "description": "American available throw force quite garden international."
+      },
+      {
+        "action_id": 168,
+        "description": "Keep oil company."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 56,
+        "name": "Hale-Buck",
+        "online_source": "http://sloan-rogers.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 75,
+          "quality_rating": 2.6,
+          "price_rating": 4.2
+        },
+        "contact_info": {
+          "email": "starkwendy@white.info",
+          "phone": "9037343643"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 57,
+    "supplier": "Perez, Crawford and Dodson",
+    "performance": {
+      "on_time_delivery": 66,
+      "quality_rating": 2.6,
+      "price_rating": 4.6
+    },
+    "contract_end_date": "2024-11-26",
+    "capacity": {
+      "current": 39,
+      "max": 99
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 169,
+        "description": "New couple room nothing tough can."
+      },
+      {
+        "evidence_id": 170,
+        "description": "Page shoulder whose soldier."
+      },
+      {
+        "evidence_id": 171,
+        "description": "Performance visit hair test."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 169,
+        "description": "Expect child approach need set themselves."
+      },
+      {
+        "action_id": 170,
+        "description": "Radio push off."
+      },
+      {
+        "action_id": 171,
+        "description": "Quite act care middle."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 57,
+        "name": "Hanson-Kelly",
+        "online_source": "https://atkins-flores.info/",
+        "estimated_performance": {
+          "on_time_delivery": 100,
+          "quality_rating": 3.4,
+          "price_rating": 4.6
+        },
+        "contact_info": {
+          "email": "taylorjoel@mcdonald.info",
+          "phone": "(259)881-7946x63265"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 58,
+    "supplier": "Fletcher LLC",
+    "performance": {
+      "on_time_delivery": 76,
+      "quality_rating": 3.9,
+      "price_rating": 3.3
+    },
+    "contract_end_date": "2024-12-10",
+    "capacity": {
+      "current": 46,
+      "max": 89
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 172,
+        "description": "Large glass resource."
+      },
+      {
+        "evidence_id": 173,
+        "description": "Down system side deal wear energy how."
+      },
+      {
+        "evidence_id": 174,
+        "description": "Pull sell join when wife might chair."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 172,
+        "description": "Another event side."
+      },
+      {
+        "action_id": 173,
+        "description": "Heart year significant responsibility."
+      },
+      {
+        "action_id": 174,
+        "description": "Performance election market break oil quickly energy."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 58,
+        "name": "Gill-Stephens",
+        "online_source": "https://sanchez-west.com/",
+        "estimated_performance": {
+          "on_time_delivery": 65,
+          "quality_rating": 4.2,
+          "price_rating": 3.1
+        },
+        "contact_info": {
+          "email": "john85@phillips-casey.com",
+          "phone": "+1-254-556-2882"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 59,
+    "supplier": "Gilmore, Figueroa and Young",
+    "performance": {
+      "on_time_delivery": 62,
+      "quality_rating": 4.1,
+      "price_rating": 3.5
+    },
+    "contract_end_date": "2026-01-18",
+    "capacity": {
+      "current": 53,
+      "max": 95
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 175,
+        "description": "His somebody some cause."
+      },
+      {
+        "evidence_id": 176,
+        "description": "Peace nice statement hold."
+      },
+      {
+        "evidence_id": 177,
+        "description": "West live race blue travel year."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 175,
+        "description": "Meeting white pass trade rule time."
+      },
+      {
+        "action_id": 176,
+        "description": "Safe image blood."
+      },
+      {
+        "action_id": 177,
+        "description": "Executive stay project window."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 59,
+        "name": "Harrison-Sullivan",
+        "online_source": "http://www.sherman.com/",
+        "estimated_performance": {
+          "on_time_delivery": 60,
+          "quality_rating": 3.4,
+          "price_rating": 4.1
+        },
+        "contact_info": {
+          "email": "fdavis@harrison-hill.biz",
+          "phone": "475-336-6020"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 60,
+    "supplier": "Simmons-Bradford",
+    "performance": {
+      "on_time_delivery": 65,
+      "quality_rating": 2.7,
+      "price_rating": 3.5
+    },
+    "contract_end_date": "2026-04-01",
+    "capacity": {
+      "current": 66,
+      "max": 99
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 178,
+        "description": "Worker land determine again weight."
+      },
+      {
+        "evidence_id": 179,
+        "description": "Building writer situation scientist Mrs strategy some."
+      },
+      {
+        "evidence_id": 180,
+        "description": "Serve indicate nothing level opportunity tend."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 178,
+        "description": "Four blue hundred first."
+      },
+      {
+        "action_id": 179,
+        "description": "In number suggest."
+      },
+      {
+        "action_id": 180,
+        "description": "Color industry happen need."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 60,
+        "name": "Padilla-George",
+        "online_source": "http://bradshaw.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 73,
+          "quality_rating": 3.7,
+          "price_rating": 2.9
+        },
+        "contact_info": {
+          "email": "tkennedy@rivers-carlson.org",
+          "phone": "958-253-0435x869"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 61,
+    "supplier": "Cunningham LLC",
+    "performance": {
+      "on_time_delivery": 94,
+      "quality_rating": 3.2,
+      "price_rating": 4.2
+    },
+    "contract_end_date": "2025-09-26",
+    "capacity": {
+      "current": 63,
+      "max": 98
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 181,
+        "description": "Power the under."
+      },
+      {
+        "evidence_id": 182,
+        "description": "Ball science American."
+      },
+      {
+        "evidence_id": 183,
+        "description": "Including others behind thousand another financial agent difficult."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 181,
+        "description": "Thought cold bed society see education."
+      },
+      {
+        "action_id": 182,
+        "description": "Wind song politics ability."
+      },
+      {
+        "action_id": 183,
+        "description": "Provide person second red."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 61,
+        "name": "Ruiz Ltd",
+        "online_source": "https://martin.info/",
+        "estimated_performance": {
+          "on_time_delivery": 88,
+          "quality_rating": 4.4,
+          "price_rating": 3.3
+        },
+        "contact_info": {
+          "email": "vchung@smith-hamilton.com",
+          "phone": "+1-750-438-0373"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 62,
+    "supplier": "Lee, Mcdonald and Young",
+    "performance": {
+      "on_time_delivery": 98,
+      "quality_rating": 4.5,
+      "price_rating": 3.5
+    },
+    "contract_end_date": "2026-11-06",
+    "capacity": {
+      "current": 73,
+      "max": 93
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 184,
+        "description": "Imagine walk prepare computer dinner matter wide."
+      },
+      {
+        "evidence_id": 185,
+        "description": "Interest case step score."
+      },
+      {
+        "evidence_id": 186,
+        "description": "Region become house on."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 184,
+        "description": "Letter by three."
+      },
+      {
+        "action_id": 185,
+        "description": "Move vote offer cup lot."
+      },
+      {
+        "action_id": 186,
+        "description": "Red southern one when."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 62,
+        "name": "Gordon-Davis",
+        "online_source": "http://jennings-cruz.com/",
+        "estimated_performance": {
+          "on_time_delivery": 75,
+          "quality_rating": 3.0,
+          "price_rating": 4.1
+        },
+        "contact_info": {
+          "email": "angela07@bean.com",
+          "phone": "785.464.7252"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 63,
+    "supplier": "Tucker and Sons",
+    "performance": {
+      "on_time_delivery": 72,
+      "quality_rating": 4.5,
+      "price_rating": 3.6
+    },
+    "contract_end_date": "2025-05-23",
+    "capacity": {
+      "current": 63,
+      "max": 83
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 187,
+        "description": "Enter page player standard agree."
+      },
+      {
+        "evidence_id": 188,
+        "description": "Add rich billion pay probably station."
+      },
+      {
+        "evidence_id": 189,
+        "description": "New without the fast investment culture."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 187,
+        "description": "Increase trade space Mr write range."
+      },
+      {
+        "action_id": 188,
+        "description": "Indicate total professor available help raise attack."
+      },
+      {
+        "action_id": 189,
+        "description": "Ever rest painting tell thought raise."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 63,
+        "name": "Bennett, Carlson and Gray",
+        "online_source": "http://www.maldonado.com/",
+        "estimated_performance": {
+          "on_time_delivery": 70,
+          "quality_rating": 4.7,
+          "price_rating": 4.2
+        },
+        "contact_info": {
+          "email": "kevinanderson@flynn.com",
+          "phone": "668.582.7504"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 64,
+    "supplier": "Long, Russell and Lynn",
+    "performance": {
+      "on_time_delivery": 98,
+      "quality_rating": 2.9,
+      "price_rating": 5.0
+    },
+    "contract_end_date": "2025-11-15",
+    "capacity": {
+      "current": 62,
+      "max": 78
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 190,
+        "description": "Us community action."
+      },
+      {
+        "evidence_id": 191,
+        "description": "Specific coach clearly."
+      },
+      {
+        "evidence_id": 192,
+        "description": "Other difference specific smile animal front onto."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 190,
+        "description": "Behind interview born water budget next."
+      },
+      {
+        "action_id": 191,
+        "description": "We girl rich group road."
+      },
+      {
+        "action_id": 192,
+        "description": "Set cost fill student food decade another I."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 64,
+        "name": "Patterson-Knox",
+        "online_source": "https://www.reed.net/",
+        "estimated_performance": {
+          "on_time_delivery": 62,
+          "quality_rating": 4.5,
+          "price_rating": 4.6
+        },
+        "contact_info": {
+          "email": "qdennis@walker.com",
+          "phone": "001-645-327-7678x640"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 65,
+    "supplier": "Lewis, Gilbert and Hanson",
+    "performance": {
+      "on_time_delivery": 98,
+      "quality_rating": 4.9,
+      "price_rating": 4.5
+    },
+    "contract_end_date": "2026-07-04",
+    "capacity": {
+      "current": 71,
+      "max": 93
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 193,
+        "description": "Much fact wide impact man mean."
+      },
+      {
+        "evidence_id": 194,
+        "description": "Line else challenge force."
+      },
+      {
+        "evidence_id": 195,
+        "description": "According heavy stage practice east type other."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 193,
+        "description": "Purpose human hour stock seven support."
+      },
+      {
+        "action_id": 194,
+        "description": "Including land draw."
+      },
+      {
+        "action_id": 195,
+        "description": "Similar rich by nature miss."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 65,
+        "name": "Marsh, Riley and Huynh",
+        "online_source": "http://www.bryant-wood.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 67,
+          "quality_rating": 2.9,
+          "price_rating": 2.8
+        },
+        "contact_info": {
+          "email": "bradykenneth@diaz.biz",
+          "phone": "001-937-393-9327x7570"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 66,
+    "supplier": "Johnson-Figueroa",
+    "performance": {
+      "on_time_delivery": 73,
+      "quality_rating": 4.4,
+      "price_rating": 4.0
+    },
+    "contract_end_date": "2026-03-30",
+    "capacity": {
+      "current": 77,
+      "max": 72
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 196,
+        "description": "Feel memory have and well sometimes."
+      },
+      {
+        "evidence_id": 197,
+        "description": "Impact program government place support wait."
+      },
+      {
+        "evidence_id": 198,
+        "description": "Level side red resource maintain every off charge."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 196,
+        "description": "Society many thought admit hear simple."
+      },
+      {
+        "action_id": 197,
+        "description": "Staff best about onto for and."
+      },
+      {
+        "action_id": 198,
+        "description": "Similar southern sure authority than me run."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 66,
+        "name": "Nguyen, Berry and Kemp",
+        "online_source": "http://pruitt.com/",
+        "estimated_performance": {
+          "on_time_delivery": 99,
+          "quality_rating": 4.2,
+          "price_rating": 4.9
+        },
+        "contact_info": {
+          "email": "georgegonzalez@park.com",
+          "phone": "+1-364-714-7637x9382"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 67,
+    "supplier": "Coleman, Lewis and Ruiz",
+    "performance": {
+      "on_time_delivery": 86,
+      "quality_rating": 3.7,
+      "price_rating": 4.3
+    },
+    "contract_end_date": "2026-09-28",
+    "capacity": {
+      "current": 32,
+      "max": 78
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 199,
+        "description": "Try try letter course dark hotel."
+      },
+      {
+        "evidence_id": 200,
+        "description": "Leave speech five population head property technology."
+      },
+      {
+        "evidence_id": 201,
+        "description": "Marriage fall task interest official."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 199,
+        "description": "Government born shoulder lawyer."
+      },
+      {
+        "action_id": 200,
+        "description": "Attack pull inside important."
+      },
+      {
+        "action_id": 201,
+        "description": "Despite speech beat section development night."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 67,
+        "name": "Robinson and Sons",
+        "online_source": "http://wilson.org/",
+        "estimated_performance": {
+          "on_time_delivery": 68,
+          "quality_rating": 4.3,
+          "price_rating": 3.4
+        },
+        "contact_info": {
+          "email": "mooneyangelica@church.com",
+          "phone": "919-485-5605x18813"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 68,
+    "supplier": "Olson, Shaffer and Beasley",
+    "performance": {
+      "on_time_delivery": 75,
+      "quality_rating": 3.6,
+      "price_rating": 3.5
+    },
+    "contract_end_date": "2025-09-28",
+    "capacity": {
+      "current": 42,
+      "max": 83
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 202,
+        "description": "Blood else perhaps hair."
+      },
+      {
+        "evidence_id": 203,
+        "description": "Statement degree across and different."
+      },
+      {
+        "evidence_id": 204,
+        "description": "Board leg look effort school event."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 202,
+        "description": "Successful note traditional young morning another even."
+      },
+      {
+        "action_id": 203,
+        "description": "Role throw your theory else large concern beyond."
+      },
+      {
+        "action_id": 204,
+        "description": "Window worry sea animal early."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 68,
+        "name": "Anderson Ltd",
+        "online_source": "http://www.jones.com/",
+        "estimated_performance": {
+          "on_time_delivery": 69,
+          "quality_rating": 3.4,
+          "price_rating": 4.1
+        },
+        "contact_info": {
+          "email": "davidcolon@stewart-evans.com",
+          "phone": "001-423-978-9050x8319"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 69,
+    "supplier": "Ray, Barrett and Kennedy",
+    "performance": {
+      "on_time_delivery": 68,
+      "quality_rating": 3.3,
+      "price_rating": 3.3
+    },
+    "contract_end_date": "2026-02-27",
+    "capacity": {
+      "current": 64,
+      "max": 77
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 205,
+        "description": "Whole participant fire themselves their."
+      },
+      {
+        "evidence_id": 206,
+        "description": "Challenge enter wish movement continue."
+      },
+      {
+        "evidence_id": 207,
+        "description": "Loss draw month natural."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 205,
+        "description": "Cut dream general section."
+      },
+      {
+        "action_id": 206,
+        "description": "Beyond hard consumer charge nor."
+      },
+      {
+        "action_id": 207,
+        "description": "Black always southern almost center three lose."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 69,
+        "name": "Martin and Sons",
+        "online_source": "http://caldwell-madden.com/",
+        "estimated_performance": {
+          "on_time_delivery": 84,
+          "quality_rating": 4.6,
+          "price_rating": 4.1
+        },
+        "contact_info": {
+          "email": "tabbott@evans.net",
+          "phone": "7858272191"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 70,
+    "supplier": "Brewer-Blair",
+    "performance": {
+      "on_time_delivery": 78,
+      "quality_rating": 3.9,
+      "price_rating": 3.7
+    },
+    "contract_end_date": "2025-12-03",
+    "capacity": {
+      "current": 36,
+      "max": 90
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 208,
+        "description": "He better policy floor start maybe born."
+      },
+      {
+        "evidence_id": 209,
+        "description": "Charge wonder price let a project free."
+      },
+      {
+        "evidence_id": 210,
+        "description": "Least since reveal."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 208,
+        "description": "Effect around business recent security high."
+      },
+      {
+        "action_id": 209,
+        "description": "Buy research others choice."
+      },
+      {
+        "action_id": 210,
+        "description": "No everything share behavior."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 70,
+        "name": "Rice-Bell",
+        "online_source": "http://mcintyre.com/",
+        "estimated_performance": {
+          "on_time_delivery": 80,
+          "quality_rating": 3.8,
+          "price_rating": 2.8
+        },
+        "contact_info": {
+          "email": "jamesbowen@morgan-morgan.com",
+          "phone": "(258)515-9054x953"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 71,
+    "supplier": "Bates-Velazquez",
+    "performance": {
+      "on_time_delivery": 89,
+      "quality_rating": 2.7,
+      "price_rating": 4.5
+    },
+    "contract_end_date": "2025-09-13",
+    "capacity": {
+      "current": 44,
+      "max": 92
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 211,
+        "description": "Meeting something thank practice edge let."
+      },
+      {
+        "evidence_id": 212,
+        "description": "Executive hospital radio risk teacher during cause especially."
+      },
+      {
+        "evidence_id": 213,
+        "description": "Movement pull mean attorney plant level lot."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 211,
+        "description": "Actually remain prevent unit recently position."
+      },
+      {
+        "action_id": 212,
+        "description": "Natural play computer."
+      },
+      {
+        "action_id": 213,
+        "description": "Artist drop if voice decade toward."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 71,
+        "name": "Roberts Ltd",
+        "online_source": "https://baker.info/",
+        "estimated_performance": {
+          "on_time_delivery": 78,
+          "quality_rating": 4.1,
+          "price_rating": 2.7
+        },
+        "contact_info": {
+          "email": "hnguyen@perez.com",
+          "phone": "543.811.9298"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 72,
+    "supplier": "Gibbs PLC",
+    "performance": {
+      "on_time_delivery": 93,
+      "quality_rating": 4.3,
+      "price_rating": 4.3
+    },
+    "contract_end_date": "2024-11-25",
+    "capacity": {
+      "current": 77,
+      "max": 73
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 214,
+        "description": "Despite start box nor debate director."
+      },
+      {
+        "evidence_id": 215,
+        "description": "Ball picture pass history recently pay."
+      },
+      {
+        "evidence_id": 216,
+        "description": "Resource fight something serious day write he."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 214,
+        "description": "Number even practice personal recognize myself do."
+      },
+      {
+        "action_id": 215,
+        "description": "Green think type beat agreement suggest door."
+      },
+      {
+        "action_id": 216,
+        "description": "Democrat civil billion."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 72,
+        "name": "Hancock PLC",
+        "online_source": "https://hampton.info/",
+        "estimated_performance": {
+          "on_time_delivery": 79,
+          "quality_rating": 3.6,
+          "price_rating": 4.5
+        },
+        "contact_info": {
+          "email": "juanlane@smith.com",
+          "phone": "695.968.6998"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 73,
+    "supplier": "King and Sons",
+    "performance": {
+      "on_time_delivery": 95,
+      "quality_rating": 3.4,
+      "price_rating": 4.4
+    },
+    "contract_end_date": "2026-09-20",
+    "capacity": {
+      "current": 30,
+      "max": 89
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 217,
+        "description": "Everyone someone out of than throw."
+      },
+      {
+        "evidence_id": 218,
+        "description": "She enter win again cause ahead report."
+      },
+      {
+        "evidence_id": 219,
+        "description": "Successful its so with area."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 217,
+        "description": "General food impact mother increase."
+      },
+      {
+        "action_id": 218,
+        "description": "Next personal travel write deal."
+      },
+      {
+        "action_id": 219,
+        "description": "Represent medical herself discussion article."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 73,
+        "name": "Jackson LLC",
+        "online_source": "https://www.casey-garcia.com/",
+        "estimated_performance": {
+          "on_time_delivery": 63,
+          "quality_rating": 5.0,
+          "price_rating": 3.5
+        },
+        "contact_info": {
+          "email": "tim41@jones.biz",
+          "phone": "001-764-211-5573x74751"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 74,
+    "supplier": "Gutierrez Ltd",
+    "performance": {
+      "on_time_delivery": 65,
+      "quality_rating": 3.0,
+      "price_rating": 3.2
+    },
+    "contract_end_date": "2026-02-20",
+    "capacity": {
+      "current": 56,
+      "max": 94
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 220,
+        "description": "Back could wait between none."
+      },
+      {
+        "evidence_id": 221,
+        "description": "Again by establish technology number health final."
+      },
+      {
+        "evidence_id": 222,
+        "description": "Occur speak world far range wonder."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 220,
+        "description": "Job appear state tax among each."
+      },
+      {
+        "action_id": 221,
+        "description": "Happen car various require."
+      },
+      {
+        "action_id": 222,
+        "description": "Anyone compare choice attorney song."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 74,
+        "name": "Moran, Ruiz and Olson",
+        "online_source": "http://www.fields.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 95,
+          "quality_rating": 2.7,
+          "price_rating": 4.0
+        },
+        "contact_info": {
+          "email": "mackenzie51@dawson-jordan.org",
+          "phone": "939-216-1825"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 75,
+    "supplier": "Skinner Inc",
+    "performance": {
+      "on_time_delivery": 68,
+      "quality_rating": 4.7,
+      "price_rating": 3.6
+    },
+    "contract_end_date": "2026-06-08",
+    "capacity": {
+      "current": 61,
+      "max": 100
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 223,
+        "description": "College myself pay available mission term."
+      },
+      {
+        "evidence_id": 224,
+        "description": "American serious production."
+      },
+      {
+        "evidence_id": 225,
+        "description": "Man late avoid kind however."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 223,
+        "description": "Whole study including receive support major."
+      },
+      {
+        "action_id": 224,
+        "description": "Business station power only his fund about."
+      },
+      {
+        "action_id": 225,
+        "description": "Offer executive south model why identify detail."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 75,
+        "name": "Holden-George",
+        "online_source": "https://www.cannon-johnston.com/",
+        "estimated_performance": {
+          "on_time_delivery": 65,
+          "quality_rating": 2.7,
+          "price_rating": 3.0
+        },
+        "contact_info": {
+          "email": "haysmichelle@klein.biz",
+          "phone": "(685)240-7856x31016"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 76,
+    "supplier": "Gibson, Farley and Fox",
+    "performance": {
+      "on_time_delivery": 92,
+      "quality_rating": 3.8,
+      "price_rating": 2.9
+    },
+    "contract_end_date": "2025-06-22",
+    "capacity": {
+      "current": 44,
+      "max": 73
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 226,
+        "description": "Back probably key event decide financial."
+      },
+      {
+        "evidence_id": 227,
+        "description": "Become need it recognize look street economic."
+      },
+      {
+        "evidence_id": 228,
+        "description": "She low arrive however before."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 226,
+        "description": "With same concern car phone young."
+      },
+      {
+        "action_id": 227,
+        "description": "Rise get red it condition."
+      },
+      {
+        "action_id": 228,
+        "description": "Factor minute including treatment change administration low."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 76,
+        "name": "Shepard, Kline and Wilson",
+        "online_source": "http://www.bridges.org/",
+        "estimated_performance": {
+          "on_time_delivery": 98,
+          "quality_rating": 3.5,
+          "price_rating": 4.8
+        },
+        "contact_info": {
+          "email": "melissa30@pena-robinson.net",
+          "phone": "+1-727-998-4548"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 77,
+    "supplier": "Webb, Washington and Martin",
+    "performance": {
+      "on_time_delivery": 60,
+      "quality_rating": 4.0,
+      "price_rating": 3.1
+    },
+    "contract_end_date": "2025-06-20",
+    "capacity": {
+      "current": 45,
+      "max": 99
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 229,
+        "description": "Dark whether certain road language whose."
+      },
+      {
+        "evidence_id": 230,
+        "description": "Least pattern Democrat peace mind significant blood threat."
+      },
+      {
+        "evidence_id": 231,
+        "description": "Many federal network item also."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 229,
+        "description": "Wrong instead wall by while."
+      },
+      {
+        "action_id": 230,
+        "description": "Room certainly change time manager nothing commercial laugh."
+      },
+      {
+        "action_id": 231,
+        "description": "Maybe feeling movie."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 77,
+        "name": "Williams, Barnett and Richmond",
+        "online_source": "https://flowers.org/",
+        "estimated_performance": {
+          "on_time_delivery": 85,
+          "quality_rating": 2.7,
+          "price_rating": 4.1
+        },
+        "contact_info": {
+          "email": "kramerjames@wilson.org",
+          "phone": "224-994-2205"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 78,
+    "supplier": "Gonzalez and Sons",
+    "performance": {
+      "on_time_delivery": 80,
+      "quality_rating": 4.9,
+      "price_rating": 4.7
+    },
+    "contract_end_date": "2026-03-28",
+    "capacity": {
+      "current": 65,
+      "max": 81
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 232,
+        "description": "Full area sell very age amount can."
+      },
+      {
+        "evidence_id": 233,
+        "description": "Edge use question interview pick project look."
+      },
+      {
+        "evidence_id": 234,
+        "description": "Head eye national wide push international Republican."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 232,
+        "description": "Card imagine majority night feeling low agent."
+      },
+      {
+        "action_id": 233,
+        "description": "Sound head put animal public visit lot."
+      },
+      {
+        "action_id": 234,
+        "description": "Record here about risk."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 78,
+        "name": "Robinson, George and Fischer",
+        "online_source": "http://lang-powers.com/",
+        "estimated_performance": {
+          "on_time_delivery": 76,
+          "quality_rating": 4.1,
+          "price_rating": 3.5
+        },
+        "contact_info": {
+          "email": "ellismaria@chan-davis.com",
+          "phone": "232-551-3784x17273"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 79,
+    "supplier": "Montoya LLC",
+    "performance": {
+      "on_time_delivery": 100,
+      "quality_rating": 2.9,
+      "price_rating": 4.3
+    },
+    "contract_end_date": "2025-01-06",
+    "capacity": {
+      "current": 42,
+      "max": 97
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 235,
+        "description": "Military system despite three appear action."
+      },
+      {
+        "evidence_id": 236,
+        "description": "Impact call fire measure prevent."
+      },
+      {
+        "evidence_id": 237,
+        "description": "History reality fight its live ball."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 235,
+        "description": "Message win within view cover various."
+      },
+      {
+        "action_id": 236,
+        "description": "West yard policy carry himself."
+      },
+      {
+        "action_id": 237,
+        "description": "Factor third hotel hand."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 79,
+        "name": "Santos, Walters and Reyes",
+        "online_source": "http://www.white.com/",
+        "estimated_performance": {
+          "on_time_delivery": 89,
+          "quality_rating": 4.3,
+          "price_rating": 3.6
+        },
+        "contact_info": {
+          "email": "jonathanperez@stout.com",
+          "phone": "+1-996-404-0579"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 80,
+    "supplier": "Jordan, May and Bauer",
+    "performance": {
+      "on_time_delivery": 80,
+      "quality_rating": 3.9,
+      "price_rating": 2.9
+    },
+    "contract_end_date": "2025-01-30",
+    "capacity": {
+      "current": 38,
+      "max": 85
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 238,
+        "description": "Worry purpose management pay bank agent."
+      },
+      {
+        "evidence_id": 239,
+        "description": "Ready behavior much cost agency full factor."
+      },
+      {
+        "evidence_id": 240,
+        "description": "City member meet account arm sort notice."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 238,
+        "description": "Executive between rock."
+      },
+      {
+        "action_id": 239,
+        "description": "Go commercial keep then discover rise rise."
+      },
+      {
+        "action_id": 240,
+        "description": "Mouth employee air song experience century someone."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 80,
+        "name": "Perry, Carter and Hill",
+        "online_source": "https://www.gonzales-jefferson.net/",
+        "estimated_performance": {
+          "on_time_delivery": 84,
+          "quality_rating": 3.0,
+          "price_rating": 4.2
+        },
+        "contact_info": {
+          "email": "michael45@small-moon.com",
+          "phone": "001-402-863-6874x21070"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 81,
+    "supplier": "Houston, Carlson and Madden",
+    "performance": {
+      "on_time_delivery": 95,
+      "quality_rating": 3.1,
+      "price_rating": 3.8
+    },
+    "contract_end_date": "2026-05-23",
+    "capacity": {
+      "current": 59,
+      "max": 75
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 241,
+        "description": "Name reason total college before military."
+      },
+      {
+        "evidence_id": 242,
+        "description": "Watch child key part open remain."
+      },
+      {
+        "evidence_id": 243,
+        "description": "Reason remain establish employee great note state entire."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 241,
+        "description": "Attorney gas war class out product threat."
+      },
+      {
+        "action_id": 242,
+        "description": "Price pattern radio model during."
+      },
+      {
+        "action_id": 243,
+        "description": "Increase out part."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 81,
+        "name": "Parks-Vargas",
+        "online_source": "http://www.hall.com/",
+        "estimated_performance": {
+          "on_time_delivery": 75,
+          "quality_rating": 3.7,
+          "price_rating": 2.9
+        },
+        "contact_info": {
+          "email": "shawn39@burgess.info",
+          "phone": "+1-550-982-8274"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 82,
+    "supplier": "Kelly, Macdonald and Sanders",
+    "performance": {
+      "on_time_delivery": 63,
+      "quality_rating": 3.3,
+      "price_rating": 3.4
+    },
+    "contract_end_date": "2024-12-26",
+    "capacity": {
+      "current": 71,
+      "max": 81
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 244,
+        "description": "Study mean heart TV."
+      },
+      {
+        "evidence_id": 245,
+        "description": "Really reveal fire serve."
+      },
+      {
+        "evidence_id": 246,
+        "description": "Research reach exactly could they."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 244,
+        "description": "Their administration among him north."
+      },
+      {
+        "action_id": 245,
+        "description": "Traditional rise do along fast natural gas."
+      },
+      {
+        "action_id": 246,
+        "description": "Energy present mother."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 82,
+        "name": "Dickson, Hanson and Long",
+        "online_source": "https://www.long.com/",
+        "estimated_performance": {
+          "on_time_delivery": 67,
+          "quality_rating": 3.0,
+          "price_rating": 4.2
+        },
+        "contact_info": {
+          "email": "josephlivingston@white-wilson.net",
+          "phone": "(543)537-4554"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 83,
+    "supplier": "Christian Group",
+    "performance": {
+      "on_time_delivery": 71,
+      "quality_rating": 4.7,
+      "price_rating": 3.0
+    },
+    "contract_end_date": "2026-05-29",
+    "capacity": {
+      "current": 44,
+      "max": 91
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 247,
+        "description": "It surface recognize exist religious page whole wide."
+      },
+      {
+        "evidence_id": 248,
+        "description": "Evidence TV cost wide."
+      },
+      {
+        "evidence_id": 249,
+        "description": "Crime after pressure you economy around."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 247,
+        "description": "Stop reflect remain science then build."
+      },
+      {
+        "action_id": 248,
+        "description": "History party perhaps environmental send practice poor."
+      },
+      {
+        "action_id": 249,
+        "description": "Country later beyond face dinner a song."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 83,
+        "name": "Martin Inc",
+        "online_source": "https://parrish-little.info/",
+        "estimated_performance": {
+          "on_time_delivery": 100,
+          "quality_rating": 3.7,
+          "price_rating": 3.2
+        },
+        "contact_info": {
+          "email": "dustin34@kaiser-rivera.biz",
+          "phone": "269-201-7191x979"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 84,
+    "supplier": "Aguilar, Gardner and Jackson",
+    "performance": {
+      "on_time_delivery": 60,
+      "quality_rating": 3.7,
+      "price_rating": 4.6
+    },
+    "contract_end_date": "2026-10-05",
+    "capacity": {
+      "current": 39,
+      "max": 92
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 250,
+        "description": "Kid yeah yard simply window address yourself."
+      },
+      {
+        "evidence_id": 251,
+        "description": "Better else lay four."
+      },
+      {
+        "evidence_id": 252,
+        "description": "Part mind seek eat old imagine total."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 250,
+        "description": "Grow politics same most bank."
+      },
+      {
+        "action_id": 251,
+        "description": "Dark several protect camera."
+      },
+      {
+        "action_id": 252,
+        "description": "Ground condition wide child focus student."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 84,
+        "name": "Dunlap, Bennett and Mcgee",
+        "online_source": "https://george.com/",
+        "estimated_performance": {
+          "on_time_delivery": 97,
+          "quality_rating": 4.7,
+          "price_rating": 4.9
+        },
+        "contact_info": {
+          "email": "wfields@berry.info",
+          "phone": "791.616.6875"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 85,
+    "supplier": "Miller-Fuentes",
+    "performance": {
+      "on_time_delivery": 68,
+      "quality_rating": 3.9,
+      "price_rating": 2.7
+    },
+    "contract_end_date": "2026-02-14",
+    "capacity": {
+      "current": 41,
+      "max": 82
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 253,
+        "description": "Management doctor green Democrat situation agency head."
+      },
+      {
+        "evidence_id": 254,
+        "description": "Specific institution indeed head four one foreign."
+      },
+      {
+        "evidence_id": 255,
+        "description": "Arm doctor compare open marriage federal might behavior."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 253,
+        "description": "Away build force staff."
+      },
+      {
+        "action_id": 254,
+        "description": "Big American develop."
+      },
+      {
+        "action_id": 255,
+        "description": "Individual around artist each end rest use voice."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 85,
+        "name": "Mendoza Group",
+        "online_source": "http://smith-gilmore.info/",
+        "estimated_performance": {
+          "on_time_delivery": 80,
+          "quality_rating": 3.3,
+          "price_rating": 3.9
+        },
+        "contact_info": {
+          "email": "ivaughn@hancock.org",
+          "phone": "668.484.9648"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 86,
+    "supplier": "Rogers Inc",
+    "performance": {
+      "on_time_delivery": 93,
+      "quality_rating": 3.4,
+      "price_rating": 3.8
+    },
+    "contract_end_date": "2025-01-14",
+    "capacity": {
+      "current": 37,
+      "max": 73
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 256,
+        "description": "Early care great might seat family."
+      },
+      {
+        "evidence_id": 257,
+        "description": "Some material item the fund who."
+      },
+      {
+        "evidence_id": 258,
+        "description": "One skill should lawyer everybody nor."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 256,
+        "description": "Weight happy argue civil."
+      },
+      {
+        "action_id": 257,
+        "description": "Future positive minute approach."
+      },
+      {
+        "action_id": 258,
+        "description": "Film she voice life student door."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 86,
+        "name": "Luna-Lee",
+        "online_source": "http://www.rodriguez-nguyen.com/",
+        "estimated_performance": {
+          "on_time_delivery": 67,
+          "quality_rating": 4.7,
+          "price_rating": 3.1
+        },
+        "contact_info": {
+          "email": "vbaker@cooper.com",
+          "phone": "001-984-230-7571x836"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 87,
+    "supplier": "Johnson, Barnes and Reed",
+    "performance": {
+      "on_time_delivery": 97,
+      "quality_rating": 3.5,
+      "price_rating": 4.5
+    },
+    "contract_end_date": "2026-06-13",
+    "capacity": {
+      "current": 56,
+      "max": 72
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 259,
+        "description": "Nothing something sound husband strategy statement service check."
+      },
+      {
+        "evidence_id": 260,
+        "description": "Someone police product just describe professor."
+      },
+      {
+        "evidence_id": 261,
+        "description": "Indeed edge treatment cold report."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 259,
+        "description": "That card paper wear."
+      },
+      {
+        "action_id": 260,
+        "description": "Member involve month million."
+      },
+      {
+        "action_id": 261,
+        "description": "Identify beautiful sure that option early."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 87,
+        "name": "Gordon-Moreno",
+        "online_source": "http://www.lawrence.com/",
+        "estimated_performance": {
+          "on_time_delivery": 62,
+          "quality_rating": 4.8,
+          "price_rating": 4.7
+        },
+        "contact_info": {
+          "email": "walshshannon@martinez.info",
+          "phone": "001-464-252-0994x48876"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 88,
+    "supplier": "Newton-Williams",
+    "performance": {
+      "on_time_delivery": 63,
+      "quality_rating": 3.1,
+      "price_rating": 3.9
+    },
+    "contract_end_date": "2025-12-27",
+    "capacity": {
+      "current": 35,
+      "max": 75
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 262,
+        "description": "Toward expert suggest party clearly adult magazine."
+      },
+      {
+        "evidence_id": 263,
+        "description": "Worry magazine start institution such surface."
+      },
+      {
+        "evidence_id": 264,
+        "description": "Interesting attorney capital floor home chair financial."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 262,
+        "description": "Question itself else level area imagine against."
+      },
+      {
+        "action_id": 263,
+        "description": "Huge specific change expert others model however."
+      },
+      {
+        "action_id": 264,
+        "description": "Friend know page first computer federal authority note."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 88,
+        "name": "Montgomery LLC",
+        "online_source": "https://miller-byrd.org/",
+        "estimated_performance": {
+          "on_time_delivery": 63,
+          "quality_rating": 3.5,
+          "price_rating": 3.8
+        },
+        "contact_info": {
+          "email": "johnlewis@watson.info",
+          "phone": "624.659.9156x44786"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 89,
+    "supplier": "Solomon-Collins",
+    "performance": {
+      "on_time_delivery": 80,
+      "quality_rating": 3.0,
+      "price_rating": 4.7
+    },
+    "contract_end_date": "2024-12-26",
+    "capacity": {
+      "current": 71,
+      "max": 82
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 265,
+        "description": "To continue pick water everybody."
+      },
+      {
+        "evidence_id": 266,
+        "description": "Daughter check improve minute TV church usually listen."
+      },
+      {
+        "evidence_id": 267,
+        "description": "Support lose continue become."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 265,
+        "description": "Official dinner identify staff activity Democrat."
+      },
+      {
+        "action_id": 266,
+        "description": "Apply tough trip include despite."
+      },
+      {
+        "action_id": 267,
+        "description": "Decade despite out cell toward."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 89,
+        "name": "Clark Group",
+        "online_source": "http://ferrell.info/",
+        "estimated_performance": {
+          "on_time_delivery": 89,
+          "quality_rating": 5.0,
+          "price_rating": 3.3
+        },
+        "contact_info": {
+          "email": "chall@tucker-gallegos.com",
+          "phone": "7816402608"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 90,
+    "supplier": "Livingston Group",
+    "performance": {
+      "on_time_delivery": 81,
+      "quality_rating": 4.6,
+      "price_rating": 4.0
+    },
+    "contract_end_date": "2026-07-22",
+    "capacity": {
+      "current": 48,
+      "max": 85
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 268,
+        "description": "Should education young woman local fear."
+      },
+      {
+        "evidence_id": 269,
+        "description": "His concern anything type worry organization."
+      },
+      {
+        "evidence_id": 270,
+        "description": "Well improve team ever."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 268,
+        "description": "Foreign factor specific him her pass."
+      },
+      {
+        "action_id": 269,
+        "description": "Argue anything exactly science center."
+      },
+      {
+        "action_id": 270,
+        "description": "Someone network deal agent happen."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 90,
+        "name": "Smith, Horn and Smith",
+        "online_source": "http://nixon-nichols.biz/",
+        "estimated_performance": {
+          "on_time_delivery": 73,
+          "quality_rating": 2.6,
+          "price_rating": 3.2
+        },
+        "contact_info": {
+          "email": "ucummings@ferguson-frank.com",
+          "phone": "2323885385"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 91,
+    "supplier": "Lopez-Schultz",
+    "performance": {
+      "on_time_delivery": 82,
+      "quality_rating": 3.9,
+      "price_rating": 2.8
+    },
+    "contract_end_date": "2025-10-02",
+    "capacity": {
+      "current": 63,
+      "max": 88
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 271,
+        "description": "Successful field husband movie political."
+      },
+      {
+        "evidence_id": 272,
+        "description": "Health black realize safe along wide owner."
+      },
+      {
+        "evidence_id": 273,
+        "description": "Behavior tell long weight house."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 271,
+        "description": "Financial for whatever performance."
+      },
+      {
+        "action_id": 272,
+        "description": "Teach consumer stop after network red about."
+      },
+      {
+        "action_id": 273,
+        "description": "And happy career method."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 91,
+        "name": "Wheeler, Wise and Warren",
+        "online_source": "http://guerrero.net/",
+        "estimated_performance": {
+          "on_time_delivery": 67,
+          "quality_rating": 4.5,
+          "price_rating": 3.4
+        },
+        "contact_info": {
+          "email": "fletcherlisa@robertson.com",
+          "phone": "(915)499-8889x696"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 92,
+    "supplier": "Johnson Inc",
+    "performance": {
+      "on_time_delivery": 93,
+      "quality_rating": 3.3,
+      "price_rating": 4.2
+    },
+    "contract_end_date": "2026-01-16",
+    "capacity": {
+      "current": 43,
+      "max": 91
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 274,
+        "description": "Training someone high lawyer stay yeah good."
+      },
+      {
+        "evidence_id": 275,
+        "description": "Own public red yard to."
+      },
+      {
+        "evidence_id": 276,
+        "description": "Knowledge visit man soon local center color."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 274,
+        "description": "Great weight in ten popular I."
+      },
+      {
+        "action_id": 275,
+        "description": "Nor outside fund put skill development."
+      },
+      {
+        "action_id": 276,
+        "description": "Across relate so painting safe doctor why."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 92,
+        "name": "Hunter LLC",
+        "online_source": "https://www.harris.com/",
+        "estimated_performance": {
+          "on_time_delivery": 72,
+          "quality_rating": 4.5,
+          "price_rating": 4.6
+        },
+        "contact_info": {
+          "email": "josephcobb@cochran-logan.com",
+          "phone": "6506567803"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 93,
+    "supplier": "Johnson and Sons",
+    "performance": {
+      "on_time_delivery": 72,
+      "quality_rating": 2.9,
+      "price_rating": 3.0
+    },
+    "contract_end_date": "2025-12-12",
+    "capacity": {
+      "current": 49,
+      "max": 78
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 277,
+        "description": "Record maybe view field whatever stay."
+      },
+      {
+        "evidence_id": 278,
+        "description": "Authority long above its mind."
+      },
+      {
+        "evidence_id": 279,
+        "description": "Attorney food do difference visit first nor."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 277,
+        "description": "Team put suffer mention recognize hospital."
+      },
+      {
+        "action_id": 278,
+        "description": "Admit crime total knowledge respond have sell."
+      },
+      {
+        "action_id": 279,
+        "description": "Try team activity may."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 93,
+        "name": "Rice Ltd",
+        "online_source": "https://pitts.net/",
+        "estimated_performance": {
+          "on_time_delivery": 78,
+          "quality_rating": 2.8,
+          "price_rating": 4.1
+        },
+        "contact_info": {
+          "email": "valeriecamacho@davis-simmons.net",
+          "phone": "(437)881-7886"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 94,
+    "supplier": "Hutchinson, Peterson and York",
+    "performance": {
+      "on_time_delivery": 71,
+      "quality_rating": 2.7,
+      "price_rating": 4.4
+    },
+    "contract_end_date": "2026-04-06",
+    "capacity": {
+      "current": 49,
+      "max": 89
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 280,
+        "description": "Tax together quite score."
+      },
+      {
+        "evidence_id": 281,
+        "description": "Prepare generation race throw serious."
+      },
+      {
+        "evidence_id": 282,
+        "description": "Analysis clear throughout mother look none tell."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 280,
+        "description": "Spring charge feel direction note."
+      },
+      {
+        "action_id": 281,
+        "description": "Benefit allow ten many support."
+      },
+      {
+        "action_id": 282,
+        "description": "By upon fight alone entire worker."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 94,
+        "name": "Rivera Ltd",
+        "online_source": "http://www.fuentes-turner.com/",
+        "estimated_performance": {
+          "on_time_delivery": 81,
+          "quality_rating": 4.3,
+          "price_rating": 3.8
+        },
+        "contact_info": {
+          "email": "michelletaylor@kim.com",
+          "phone": "212-976-5332x81567"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 95,
+    "supplier": "Andrews LLC",
+    "performance": {
+      "on_time_delivery": 94,
+      "quality_rating": 4.6,
+      "price_rating": 3.8
+    },
+    "contract_end_date": "2026-03-19",
+    "capacity": {
+      "current": 47,
+      "max": 99
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 283,
+        "description": "Within situation me save read."
+      },
+      {
+        "evidence_id": 284,
+        "description": "Soon page writer perhaps land."
+      },
+      {
+        "evidence_id": 285,
+        "description": "Go then probably lawyer."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 283,
+        "description": "Them eat commercial particular group."
+      },
+      {
+        "action_id": 284,
+        "description": "Leave concern move lead door bank camera choice."
+      },
+      {
+        "action_id": 285,
+        "description": "Surface improve even sort improve news clear."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 95,
+        "name": "Sweeney-Harris",
+        "online_source": "https://murphy.com/",
+        "estimated_performance": {
+          "on_time_delivery": 71,
+          "quality_rating": 3.8,
+          "price_rating": 2.7
+        },
+        "contact_info": {
+          "email": "katherine12@owens.com",
+          "phone": "395-501-7687"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 96,
+    "supplier": "Black, Gonzalez and Hull",
+    "performance": {
+      "on_time_delivery": 80,
+      "quality_rating": 4.6,
+      "price_rating": 4.9
+    },
+    "contract_end_date": "2025-04-19",
+    "capacity": {
+      "current": 61,
+      "max": 89
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 286,
+        "description": "Agree experience debate ground wide space."
+      },
+      {
+        "evidence_id": 287,
+        "description": "Oil example traditional wife draw check."
+      },
+      {
+        "evidence_id": 288,
+        "description": "Stay soon your training sure music in."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 286,
+        "description": "Reflect total building blue."
+      },
+      {
+        "action_id": 287,
+        "description": "Our sell often exist."
+      },
+      {
+        "action_id": 288,
+        "description": "Suddenly truth almost thought spend issue."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 96,
+        "name": "Wolfe-Cabrera",
+        "online_source": "http://wilkinson.net/",
+        "estimated_performance": {
+          "on_time_delivery": 93,
+          "quality_rating": 2.8,
+          "price_rating": 2.5
+        },
+        "contact_info": {
+          "email": "youngjessica@deleon-stephens.info",
+          "phone": "001-520-486-9998"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 97,
+    "supplier": "Andrews, Wise and Jackson",
+    "performance": {
+      "on_time_delivery": 89,
+      "quality_rating": 3.0,
+      "price_rating": 4.8
+    },
+    "contract_end_date": "2026-03-30",
+    "capacity": {
+      "current": 56,
+      "max": 95
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 289,
+        "description": "Question society heavy world individual always."
+      },
+      {
+        "evidence_id": 290,
+        "description": "Course maintain body yeah thought."
+      },
+      {
+        "evidence_id": 291,
+        "description": "Fill read decision challenge allow early."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 289,
+        "description": "Interview morning contain."
+      },
+      {
+        "action_id": 290,
+        "description": "Young scientist itself."
+      },
+      {
+        "action_id": 291,
+        "description": "Specific billion debate yeah."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 97,
+        "name": "Johnson, Hubbard and Camacho",
+        "online_source": "http://bass-reeves.com/",
+        "estimated_performance": {
+          "on_time_delivery": 64,
+          "quality_rating": 4.2,
+          "price_rating": 2.8
+        },
+        "contact_info": {
+          "email": "erowland@baker-vazquez.biz",
+          "phone": "586-642-3745x87791"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 98,
+    "supplier": "Hayes-Travis",
+    "performance": {
+      "on_time_delivery": 89,
+      "quality_rating": 4.3,
+      "price_rating": 2.8
+    },
+    "contract_end_date": "2025-10-02",
+    "capacity": {
+      "current": 52,
+      "max": 81
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 292,
+        "description": "Six yard mind gun investment."
+      },
+      {
+        "evidence_id": 293,
+        "description": "Health ever base question."
+      },
+      {
+        "evidence_id": 294,
+        "description": "Answer nice leader off page yard than."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 292,
+        "description": "Ground security range me computer term decision determine."
+      },
+      {
+        "action_id": 293,
+        "description": "Four trip improve Republican something close interest."
+      },
+      {
+        "action_id": 294,
+        "description": "Discuss open imagine production here activity."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 98,
+        "name": "Brown Ltd",
+        "online_source": "https://butler-mccoy.com/",
+        "estimated_performance": {
+          "on_time_delivery": 72,
+          "quality_rating": 3.3,
+          "price_rating": 4.6
+        },
+        "contact_info": {
+          "email": "andersonmatthew@crawford-perkins.com",
+          "phone": "985-523-5745x048"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 99,
+    "supplier": "Rodriguez PLC",
+    "performance": {
+      "on_time_delivery": 74,
+      "quality_rating": 4.2,
+      "price_rating": 2.9
+    },
+    "contract_end_date": "2025-01-24",
+    "capacity": {
+      "current": 62,
+      "max": 73
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 295,
+        "description": "Stand care mother reality minute wait whom."
+      },
+      {
+        "evidence_id": 296,
+        "description": "Treat Republican clear good role."
+      },
+      {
+        "evidence_id": 297,
+        "description": "Walk various hundred might right least fact."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 295,
+        "description": "Collection song imagine raise play only white."
+      },
+      {
+        "action_id": 296,
+        "description": "Whether letter doctor study."
+      },
+      {
+        "action_id": 297,
+        "description": "Threat particular office."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 99,
+        "name": "Murray Group",
+        "online_source": "https://parker.com/",
+        "estimated_performance": {
+          "on_time_delivery": 73,
+          "quality_rating": 2.7,
+          "price_rating": 2.9
+        },
+        "contact_info": {
+          "email": "kleonard@gonzalez.com",
+          "phone": "925.517.2312x209"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 100,
+    "supplier": "Thomas, Fields and Rivera",
+    "performance": {
+      "on_time_delivery": 81,
+      "quality_rating": 4.0,
+      "price_rating": 2.9
+    },
+    "contract_end_date": "2025-08-19",
+    "capacity": {
+      "current": 71,
+      "max": 95
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 298,
+        "description": "Baby follow candidate everyone professor total."
+      },
+      {
+        "evidence_id": 299,
+        "description": "Pick significant movement economy through need."
+      },
+      {
+        "evidence_id": 300,
+        "description": "Teach decision medical between prevent world."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 298,
+        "description": "Sell necessary newspaper industry everybody."
+      },
+      {
+        "action_id": 299,
+        "description": "Anything fact consider stock."
+      },
+      {
+        "action_id": 300,
+        "description": "Art best expert various other."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 100,
+        "name": "Boone Ltd",
+        "online_source": "http://www.munoz-campbell.com/",
+        "estimated_performance": {
+          "on_time_delivery": 91,
+          "quality_rating": 4.1,
+          "price_rating": 2.6
+        },
+        "contact_info": {
+          "email": "cooperamanda@morgan.com",
+          "phone": "(459)720-8314"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 101,
+    "supplier": "Lopez-Ramirez",
+    "performance": {
+      "on_time_delivery": 75,
+      "quality_rating": 4.4,
+      "price_rating": 4.9
+    },
+    "contract_end_date": "2026-10-07",
+    "capacity": {
+      "current": 41,
+      "max": 72
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 301,
+        "description": "Miss show kitchen appear test."
+      },
+      {
+        "evidence_id": 302,
+        "description": "Describe organization whole provide behavior three subject buy."
+      },
+      {
+        "evidence_id": 303,
+        "description": "Television once give land source hand."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 301,
+        "description": "On bank yourself what compare."
+      },
+      {
+        "action_id": 302,
+        "description": "Doctor easy determine wide pick possible."
+      },
+      {
+        "action_id": 303,
+        "description": "Special personal not possible lose happy society."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 101,
+        "name": "Martin, Davis and Jensen",
+        "online_source": "https://hernandez.com/",
+        "estimated_performance": {
+          "on_time_delivery": 89,
+          "quality_rating": 4.3,
+          "price_rating": 3.8
+        },
+        "contact_info": {
+          "email": "tmason@williams.net",
+          "phone": "673-769-1597x10616"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 102,
+    "supplier": "Smith-Wagner",
+    "performance": {
+      "on_time_delivery": 83,
+      "quality_rating": 2.9,
+      "price_rating": 4.8
+    },
+    "contract_end_date": "2026-01-08",
+    "capacity": {
+      "current": 54,
+      "max": 71
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 304,
+        "description": "Kid two consumer executive way more."
+      },
+      {
+        "evidence_id": 305,
+        "description": "Not company southern tell learn decide."
+      },
+      {
+        "evidence_id": 306,
+        "description": "Area modern share cold system executive."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 304,
+        "description": "Push language probably itself director."
+      },
+      {
+        "action_id": 305,
+        "description": "Prepare call fire."
+      },
+      {
+        "action_id": 306,
+        "description": "Poor gas indeed."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 102,
+        "name": "Castro-Wu",
+        "online_source": "http://hicks.com/",
+        "estimated_performance": {
+          "on_time_delivery": 81,
+          "quality_rating": 2.8,
+          "price_rating": 2.9
+        },
+        "contact_info": {
+          "email": "dwilliams@jones.net",
+          "phone": "233.689.1276"
+        }
+      }
+    ]
+  },
+  {
+    "delivery_id": 103,
+    "supplier": "Mathews-Hughes",
+    "performance": {
+      "on_time_delivery": 67,
+      "quality_rating": 4.6,
+      "price_rating": 3.5
+    },
+    "contract_end_date": "2025-08-07",
+    "capacity": {
+      "current": 53,
+      "max": 75
+    },
+    "evidence_trace": [
+      {
+        "evidence_id": 307,
+        "description": "Develop never check it step whole draw."
+      },
+      {
+        "evidence_id": 308,
+        "description": "Product central speech close."
+      },
+      {
+        "evidence_id": 309,
+        "description": "Can already wind investment."
+      }
+    ],
+    "potential_actions": [
+      {
+        "action_id": 307,
+        "description": "Service every magazine activity."
+      },
+      {
+        "action_id": 308,
+        "description": "Movie now store throughout better."
+      },
+      {
+        "action_id": 309,
+        "description": "Finish election research set type."
+      }
+    ],
+    "alternative_suppliers": [
+      {
+        "id": 103,
+        "name": "Moreno-Villarreal",
+        "online_source": "http://riley.com/",
+        "estimated_performance": {
+          "on_time_delivery": 87,
+          "quality_rating": 4.8,
+          "price_rating": 4.6
+        },
+        "contact_info": {
+          "email": "hatfieldmichael@avery.com",
+          "phone": "+1-744-703-4390x53573"
+        }
+      }
+    ]
+  }
+]

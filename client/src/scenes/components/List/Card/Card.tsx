@@ -1,42 +1,42 @@
 import { BiCircle } from 'react-icons/bi'
 
 import Button from '@/components/Button/Button'
+import Container from '@/components/Container/Container'
 import { Icons } from '@/components/Icons/Icons'
 import Input from '@/components/Input/Input'
 import ProgressBar from '@/components/ProgressBar/ProgressBar'
 import TextField from '@/components/TextField/TextField'
-import { AlternativeSuppliers, PotentialActions, Supplier } from '@/types/dashboard'
+import { Supplier } from '@/types/dashboard'
 
 import styles from './Card.module.css'
 
-/**
- * CARDS
- *
- */
 const Card = ({
+  style,
   data,
   index,
   isExpanded,
   setIsExpanded,
 }: {
+  style: any
   data: Supplier
   index: number
   isExpanded: boolean
   setIsExpanded: any
 }) => {
   return (
-    <div className={styles.card}>
+    <div style={style} className={styles.card}>
       <section>
         <Button onClick={setIsExpanded} index={index} isExpanded={isExpanded}>
           <Icons>
             <BiCircle color={'red'} />
           </Icons>
-          {data.name}
+          {data.supplier}
         </Button>
 
-        <div className={styles.section}>
+        <div className={styles.cardMain}>
           <ProgressBar title={'On-time Delivery'} progress={data.performance.on_time_delivery} />
           <Input
+            index={index}
             type="text"
             label="Quality Rating"
             value={data.performance.quality_rating}
@@ -47,6 +47,7 @@ const Card = ({
             disabled
           />
           <Input
+            index={index}
             type="text"
             label="Price Rating"
             value={data.performance.price_rating}
@@ -58,6 +59,7 @@ const Card = ({
           />
           <ProgressBar title={'Capacity'} progress={data.capacity.current} />
           <Input
+            index={index}
             type="text"
             label="Contract End Date"
             value={data.contract_end_date}
@@ -72,6 +74,20 @@ const Card = ({
 
       {isExpanded && (
         <div className={styles.expandedDiv}>
+          <section>
+            <h3>Evidence Trace</h3>
+            <ul>
+              <Container>
+                {data.evidence_trace.map((evidence: Action) => (
+                  <li key={evidence.evidence_id}>
+                    <Container type="item">
+                      <TextField>{evidence.description}</TextField>
+                    </Container>
+                  </li>
+                ))}
+              </Container>
+            </ul>
+          </section>
           <section>
             <h3>Recommended Actions</h3>
             <ul>
@@ -93,6 +109,7 @@ const Card = ({
                     progress={altSupplier.estimated_performance.on_time_delivery}
                   />
                   <Input
+                    index={index}
                     type="text"
                     label="Estimated performance: Quality Rating"
                     value={altSupplier.estimated_performance.quality_rating}
@@ -103,6 +120,7 @@ const Card = ({
                     disabled
                   />
                   <Input
+                    index={index}
                     type="text"
                     label="Estimated performance: Price Rating"
                     value={altSupplier.estimated_performance.price_rating}

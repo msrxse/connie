@@ -308,7 +308,6 @@ if __name__ == "__main__":
             item_dict["delivery_id"] = delivery.delivery_id
             items_data.append(item_dict)
 
-    # Save deliveries and items to JSON files
     with open("deliveries.json", "w") as f:
         json.dump(deliveries_data, f, indent=4)
 
