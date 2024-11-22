@@ -3,8 +3,6 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
 import Dashboard from '@/scenes/Dashboard/Dashboard'
 
-import styles from './App.module.css'
-
 const queryClient = new QueryClient()
 
 queryClient.setDefaultOptions({
@@ -16,9 +14,9 @@ queryClient.setDefaultOptions({
 export const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <main data-testid="app-id" className={styles.main}>
+      <div data-testid="app-id">
         <Dashboard />
-      </main>
+      </div>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   )

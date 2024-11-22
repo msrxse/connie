@@ -62,7 +62,7 @@ export const Articles = () => {
           supplier={selectedSupplierOption?.value}
         />
       </aside>
-      <footer className={styles.footer}>Footer</footer>
+      {/* <footer className={styles.footer}>Footer</footer> */}
     </div>
   )
 }

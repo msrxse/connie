@@ -1,4 +1,7 @@
+import { BiCircle } from 'react-icons/bi'
+
 import Button from '@/components/Button/Button'
+import { Icons } from '@/components/Icons/Icons'
 import Input from '@/components/Input/Input'
 import ProgressBar from '@/components/ProgressBar/ProgressBar'
 import TextField from '@/components/TextField/TextField'
@@ -25,6 +28,9 @@ const Card = ({
     <div className={styles.card}>
       <section>
         <Button onClick={setIsExpanded} index={index} isExpanded={isExpanded}>
+          <Icons>
+            <BiCircle color={'red'} />
+          </Icons>
           {data.name}
         </Button>
 

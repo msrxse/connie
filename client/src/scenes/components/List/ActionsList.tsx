@@ -1,14 +1,10 @@
-import { useCallback, useRef, useState } from 'react'
+import { useCallback, useState } from 'react'
 import AutoSizer from 'react-virtualized-auto-sizer'
 import { VariableSizeList as List } from 'react-window'
 
-import { useDimensions } from '@/hooks/useDimentions'
-
-import styles from './ActionsList.module.css'
 import Card from './Card/Card'
 
 export default function ActionsList() {
-  const ref = useRef(null)
   const [isExpanded, setIsExpanded] = useState(-1)
   // const { height, width } = useDimensions(ref)
   const getItemSize = useCallback((index: number) => {
