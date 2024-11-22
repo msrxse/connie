@@ -1,7 +1,7 @@
 import { Dispatch, SetStateAction, useRef } from 'react'
 
-import { Scatterplot } from '@/components/Grath/Scatterplot'
 import { useDimensions } from '@/hooks/useDimentions'
+import { Scatterplot } from '@/scenes/components/Grath/Scatterplot'
 import { ItemsByType, SelectOptions } from '@/types/dashboard'
 
 import styles from './Graph.module.css'

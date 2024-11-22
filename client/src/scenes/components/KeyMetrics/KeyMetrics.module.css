@@ -6,6 +6,7 @@
 }
 
 .keyMetricsForm > h3 > span {
+  display: inline-block;
   font-style: italic;
   padding: 0 5px;
 }

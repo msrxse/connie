@@ -15,6 +15,7 @@
 /* background colors */
 .dashboard > .header {
   background: #f97171;
+  height: 50px;
 }
 
 .dashboard > .mainContent {
@@ -31,10 +32,10 @@
 
 .dashboard > .footer {
   background: #72c2f1;
+  height: 50px;
 }
 
-/* tablet breakpoint */
-@media (width >= 768px) {
+tablet breakpoint @media (width >= 768px) {
   .dashboard > .leftSidebar,
   .dashboard > .rightSidebar {
     width: 50%;
@@ -54,6 +55,7 @@
 
   .dashboard > .mainContent {
     width: 50%;
+    height: 100%;
   }
 
   .dashboard > .leftSidebar,

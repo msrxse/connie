@@ -1,0 +1,19 @@
+.card {
+  border: 1px solid lightgray;
+}
+
+.section {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  place-items: center center;
+}
+
+.section > * {
+  padding: 0 4px;
+}
+
+.expandedDiv {
+  padding: 4px;
+  background-color: rgb(238 235 235);
+}

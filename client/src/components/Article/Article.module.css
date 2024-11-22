@@ -1,8 +1,0 @@
-.article {
-  height: 100%;
-  overflow-y: scroll;
-}
-
-.article > h1 {
-  color: brown;
-}

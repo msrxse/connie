@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import Select from 'react-select'
 
-import Graph from '@/components/Grath/Graph'
-import KeyMetrics from '@/components/KeyMetrics/KeyMetrics'
+import Toolbar from '@/components/Toolbar/Toolbar'
 import { useItemsByType, useMaterialTypes, useSuppliers } from '@/hooks/dashboard'
+import Graph from '@/scenes/components/Grath/Graph'
+import KeyMetrics from '@/scenes/components/KeyMetrics/KeyMetrics'
+import ActionsList from '@/scenes/components/List/ActionsList'
 import { SelectOptions } from '@/types/dashboard'
 
 import styles from './Dashboard.module.css'
@@ -45,6 +47,8 @@ export const Articles = () => {
           data={itemsByTypeData}
           setSelectedSupplierOption={setSelectedSupplierOption}
         />
+        <Toolbar />
+        <ActionsList />
       </main>
       <section className={styles.leftSidebar}>Left sidebar</section>
       <aside className={styles.rightSidebar}>

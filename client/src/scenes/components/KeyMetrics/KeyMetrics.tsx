@@ -53,7 +53,7 @@ function KeyMetrics({
     <div className={styles.keyMetrics}>
       <form className={styles.keyMetricsForm}>
         <h3>
-          Performance Metrics (<span>{selectedMaterial}</span>)
+          Performance Metrics <span>{selectedMaterial} Group</span>
         </h3>
         <section>
           <legend>Delivery</legend>

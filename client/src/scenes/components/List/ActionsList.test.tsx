@@ -1,20 +1,19 @@
 import { HttpResponse, http } from 'msw'
 
 import { server } from '@/mocks/node'
+import ActionsList from '@/scenes/components/List/ActionsList'
 import { renderWithQueryClient } from '@/utils/test-utils'
 
-import List from './List'
-
-describe('List', () => {
+describe('ActionsList', () => {
   const props = { setSelected: () => null }
 
-  it('should render list', async () => {
-    const result = renderWithQueryClient(<List {...props} />)
+  it('should render ActionsList', async () => {
+    const result = renderWithQueryClient(<ActionsList {...props} />)
     const team01 = await result.findAllByText(/Powerful asynchronous state management/i)
     expect(team01).toHaveLength(4)
   })
   it('should render loading state', async () => {
-    const result = renderWithQueryClient(<List {...props} />)
+    const result = renderWithQueryClient(<ActionsList {...props} />)
     const loading = await result.findByText(/Loading/i)
     expect(loading).toBeInTheDocument()
   })
@@ -24,7 +23,7 @@ describe('List', () => {
         return new HttpResponse(null, { status: 500 })
       }),
     )
-    const result = renderWithQueryClient(<List {...props} />)
+    const result = renderWithQueryClient(<ActionsList {...props} />)
     const error = await result.findByText(/Error/i)
     expect(error).toBeInTheDocument()
   })

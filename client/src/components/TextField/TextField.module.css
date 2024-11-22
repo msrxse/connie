@@ -1,0 +1,13 @@
+.textFieldWrapper {
+  margin-bottom: 10px;
+}
+
+/* Input style */
+
+/* Label */
+label {
+  font-weight: 600;
+  font-size: 12px;
+  color: #344054;
+  margin-bottom: 4px;
+}

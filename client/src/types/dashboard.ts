@@ -50,3 +50,40 @@ export type KeyMetric = {
   overall_rating: number
   comments: string
 }
+
+export type Supplier = {
+  id: number
+  name: string
+  performance: {
+    on_time_delivery: number
+    quality_rating: number
+    price_rating: number
+  }
+  contract_end_date: string
+  capacity: {
+    current: number
+    max: number
+  }
+  potential_actions: PotentialActions[]
+  alternative_suppliers: AlternativeSuppliers[]
+}
+
+export type PotentialActions = {
+  action_id: number
+  description: string
+}
+
+export type AlternativeSuppliers = {
+  id: number
+  name: string
+  online_source: string
+  estimated_performance: {
+    on_time_delivery: number
+    quality_rating: number
+    price_rating: number
+  }
+  contact_info: {
+    email: string
+    phone: string
+  }
+}
