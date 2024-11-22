@@ -16,7 +16,7 @@ export default function ActionsList() {
   } = useTraceActions()
   // Calculate row height based on whether the row is expanded
   const getRowHeight = useCallback(
-    (index: number) => (expandedRows.has(index) ? 200 : 100),
+    (index: number) => (expandedRows.has(index) ? 705 : 100),
     [expandedRows],
   )
 
@@ -36,37 +36,39 @@ export default function ActionsList() {
     if (listRef.current) {
       listRef.current.resetAfterIndex(0)
     }
-  }, [])
+  }, [expandedRows])
 
   if (!traceActionsData) {
     return null
   }
 
   return (
-    <AutoSizer>
-      {({ height, width }) => (
-        <List
-          ref={listRef}
-          itemData={traceActionsData}
-          height={height}
-          width={width}
-          itemCount={traceActionsData.length}
-          itemSize={getRowHeight}
-          overscanCount={10}
-        >
-          {({ index: i, style, data }) => {
-            return (
-              <Card
-                style={style}
-                data={data[i]}
-                index={i}
-                isExpanded={expandedRows.has(i)}
-                setIsExpanded={() => toggleRow(i)}
-              />
-            )
-          }}
-        </List>
-      )}
-    </AutoSizer>
+    <div style={{ height: '100vh' }}>
+      <AutoSizer>
+        {({ height, width }) => (
+          <List
+            ref={listRef}
+            itemData={traceActionsData}
+            height={height}
+            width={width}
+            itemCount={traceActionsData.length}
+            itemSize={getRowHeight}
+            overscanCount={10}
+          >
+            {({ index: i, style, data }) => {
+              return (
+                <Card
+                  style={style}
+                  data={data[i]}
+                  index={i}
+                  isExpanded={expandedRows.has(i)}
+                  setIsExpanded={() => toggleRow(i)}
+                />
+              )
+            }}
+          </List>
+        )}
+      </AutoSizer>
+    </div>
   )
 }
