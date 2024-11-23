@@ -132,6 +132,8 @@ type TraceAction = {
   evidence_trace: EvidenceTrace[] // Array of evidence trace objects
   potential_actions: PotentialAction[] // Array of potential actions
   alternative_suppliers: AlternativeSupplier[] // Array of alternative suppliers
+  total_amount: number
+  expiration_date: number
 }
 
 export type TraceActions = TraceAction[]

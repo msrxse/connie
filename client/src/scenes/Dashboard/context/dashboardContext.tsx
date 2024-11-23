@@ -1,13 +1,15 @@
 import { createContext, useContext, useReducer } from 'react'
 
+import { ItemsByType } from '@/types/dashboard'
+
 type Action =
-  | { type: 'setDeliveryId'; payload: number }
+  | { type: 'setDeliveryItem'; payload: ItemsByType }
   | {
       type: 'default'
     }
 type Dispatch = (action: Action) => void
 interface State {
-  deliveryId: number
+  deliveryItem: ItemsByType | undefined
 }
 interface DashboardProviderProps {
   children: React.ReactNode
@@ -19,10 +21,10 @@ const DashboardStateContext = createContext<{ state: State; dispatch: Dispatch }
 
 function dashboardReducer(state: State, action: Action): State {
   switch (action.type) {
-    case 'setDeliveryId': {
+    case 'setDeliveryItem': {
       const data = action.payload
 
-      return { deliveryId: data }
+      return { deliveryItem: data }
     }
     default: {
       throw new Error(`Unhandled action type: ${action.type}`)
@@ -31,7 +33,7 @@ function dashboardReducer(state: State, action: Action): State {
 }
 
 const initialState = {
-  deliveryId: -1,
+  deliveryItem: undefined,
 }
 
 function DashboardProvider({ children }: DashboardProviderProps) {
@@ -50,7 +52,7 @@ function useDashboard() {
   return context
 }
 
-const setDeliveryId = (dispatch: Dispatch, payload: SelectOptions) =>
-  dispatch({ type: 'setDeliveryId', payload })
+const setDeliveryItem = (dispatch: Dispatch, payload: SelectOptions) =>
+  dispatch({ type: 'setDeliveryItem', payload })
 
-export { DashboardProvider, useDashboard, setDeliveryId }
+export { DashboardProvider, useDashboard, setDeliveryItem }

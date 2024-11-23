@@ -41,10 +41,11 @@ export default function ActionsList() {
   }, [expandedRows])
 
   useEffect(() => {
-    if (listRef.current && state.deliveryId !== -1) {
-      listRef.current.scrollToItem(state.deliveryId - 1, 'start')
+    const deliveryItem = state?.deliveryItem?.delivery_id
+    if (listRef.current && deliveryItem !== -1) {
+      listRef.current.scrollToItem(deliveryItem || 0, 'center')
     }
-  }, [state.deliveryId])
+  }, [state?.deliveryItem?.delivery_id])
 
   if (!traceActionsData) {
     return null

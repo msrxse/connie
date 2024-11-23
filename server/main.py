@@ -171,9 +171,15 @@ async def get_key_metric_by_id(delivery_id: int):
 async def get_trace_actions():
     query = """
     SELECT 
-        *
+        d.*,
+        i.total_amount,
+        i.expiration_date,
     FROM
-        trace_actions
+        trace_actions d
+    JOIN
+        items i
+    ON
+        d.delivery_id = i.delivery_id
     """
     try:
         # Execute the parameterized query

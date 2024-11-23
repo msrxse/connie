@@ -6,7 +6,7 @@ import { Icons } from '@/components/Icons/Icons'
 import Input from '@/components/Input/Input'
 import ProgressBar from '@/components/ProgressBar/ProgressBar'
 import TextField from '@/components/TextField/TextField'
-import { setDeliveryId, useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
+import { setDeliveryItem, useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
 import { Supplier } from '@/types/dashboard'
 
 import styles from './Card.module.css'
@@ -25,7 +25,7 @@ const Card = ({
   setIsExpanded: any
 }) => {
   const { state, dispatch } = useDashboard()
-  const isSelected = state.deliveryId === data.delivery_id
+  const isSelected = state?.deliveryItem?.delivery_id === data.delivery_id
 
   return (
     <div style={style} className={`${styles.card} ${isSelected ? styles.selected : ''}`}>
@@ -35,7 +35,7 @@ const Card = ({
             {data.supplier}
           </Button>
           <div className={styles.rightToolbar}>
-            <Button onClick={() => setDeliveryId(dispatch, data.delivery_id)} index={index}>
+            <Button onClick={() => setDeliveryItem(dispatch, data)} index={index}>
               <Icons>
                 <BiSelectMultiple color={isSelected ? 'green' : 'grey'} />
               </Icons>

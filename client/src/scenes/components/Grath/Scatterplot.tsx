@@ -2,7 +2,7 @@ import { Dispatch, SetStateAction, useState } from 'react'
 
 import * as d3 from 'd3'
 
-import { setDeliveryId, useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
+import { setDeliveryItem, useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
 import { ItemsByType, SelectOptions } from '@/types/dashboard'
 
 import { AxisBottom } from './AxisBottom'
@@ -17,7 +17,6 @@ type ScatterplotProps = {
   height: number
   data: ItemsByType[] | undefined
   setSelectedSupplierOption: Dispatch<SetStateAction<SelectOptions | undefined>>
-  selectedItem: ItemsByType
 }
 
 export const Scatterplot = ({
@@ -25,9 +24,8 @@ export const Scatterplot = ({
   height,
   data,
   setSelectedSupplierOption,
-  selectedItem,
 }: ScatterplotProps) => {
-  const { dispatch } = useDashboard()
+  const { state, dispatch } = useDashboard()
 
   const boundsWidth = width - MARGIN.right - MARGIN.left
   const boundsHeight = height - MARGIN.top - MARGIN.bottom
@@ -90,7 +88,8 @@ export const Scatterplot = ({
         onMouseOver={() => setHoveredSupplier(d.supplier)} // callback to update the state
         onMouseDown={() => {
           setSelectedSupplierOption({ label: d.supplier, value: d.supplier })
-          setDeliveryId(dispatch, d.delivery_id)
+          // sets the whole item as selected in main provider / helps selection on chart and grid
+          setDeliveryItem(dispatch, d)
         }}
       />
     )
@@ -133,9 +132,9 @@ export const Scatterplot = ({
         <Tooltip interactionData={hovered} />
         <Tooltip
           interactionData={{
-            xPos: xScale(selectedItem?.expiration_date),
-            yPos: yScale(selectedItem?.total_amount),
-            name: selectedItem?.supplier,
+            xPos: xScale(state?.deliveryItem?.expiration_date),
+            yPos: yScale(state?.deliveryItem?.total_amount),
+            name: state?.deliveryItem?.supplier,
           }}
         />
       </div>

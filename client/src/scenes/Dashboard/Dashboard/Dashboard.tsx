@@ -1,9 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Select from 'react-select'
 
 import Toolbar from '@/components/Toolbar/Toolbar'
 import { useItemsByType, useMaterialTypes, useSuppliers } from '@/hooks/dashboard'
-import { useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
 import ActionsList from '@/scenes/components/ActiveList/ActionsList'
 import Graph from '@/scenes/components/Grath/Graph'
 import KeyMetrics from '@/scenes/components/KeyMetrics/KeyMetrics'
@@ -33,15 +32,6 @@ export const Articles = () => {
     setSelectedItemsByTypeOption(selected)
     setSelectedMaterialOption(selected)
   }
-  const [selectedItem, setSelectedItem] = useState({})
-  const { state } = useDashboard()
-
-  useEffect(() => {
-    if (state.deliveryId !== -1 && itemsByTypeData) {
-      const item = itemsByTypeData.filter((each) => each.delivery_id === state.deliveryId)
-      setSelectedItem(item[0])
-    }
-  }, [state.deliveryId])
 
   return (
     <div className={styles.dashboard}>
@@ -57,7 +47,6 @@ export const Articles = () => {
           error={itemsByTypeError}
           data={itemsByTypeData}
           setSelectedSupplierOption={setSelectedSupplierOption}
-          selectedItem={selectedItem}
         />
         <Toolbar />
         <ActionsList />
