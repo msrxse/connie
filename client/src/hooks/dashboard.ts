@@ -8,7 +8,7 @@ import {
   getSuppliers,
   getTraceActions,
 } from '@/services/dashboard'
-import { KeyMetric, SelectOptions } from '@/types/dashboard'
+import { SelectOptions } from '@/types/dashboard'
 
 export const useArticles = () => {
   return useQuery({
@@ -41,7 +41,7 @@ export const useSuppliers = () => {
 
 export const useKeyMetricById = (id: number) => {
   return useQuery({
-    queryKey: ['items_by_type', id],
+    queryKey: ['metrics_by_type', id],
     queryFn: () => getKeyMetricById(id),
     select: (metrics) => metrics[0],
     enabled: !!id,

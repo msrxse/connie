@@ -17,6 +17,7 @@ type ScatterplotProps = {
   height: number
   data: ItemsByType[] | undefined
   setSelectedSupplierOption: Dispatch<SetStateAction<SelectOptions | undefined>>
+  selectedItem: ItemsByType
 }
 
 export const Scatterplot = ({
@@ -24,17 +25,19 @@ export const Scatterplot = ({
   height,
   data,
   setSelectedSupplierOption,
+  selectedItem,
 }: ScatterplotProps) => {
   const { dispatch } = useDashboard()
-  if (!data) {
-    return null
-  }
+
   const boundsWidth = width - MARGIN.right - MARGIN.left
   const boundsHeight = height - MARGIN.top - MARGIN.bottom
 
   const [hovered, setHovered] = useState<InteractionData | null>(null)
-  const [selected, setSelected] = useState<InteractionData | null>(null)
   const [hoveredSupplier, setHoveredSupplier] = useState<string | null>(null)
+
+  if (!data) {
+    return null
+  }
 
   // Scales
   const allLinesData = data.map((x) => x['total_amount'])
@@ -88,11 +91,6 @@ export const Scatterplot = ({
         onMouseDown={() => {
           setSelectedSupplierOption({ label: d.supplier, value: d.supplier })
           setDeliveryId(dispatch, d.delivery_id)
-          setSelected({
-            xPos: xScale(d['expiration_date']),
-            yPos: yScale(d['total_amount']),
-            name: d.supplier,
-          })
         }}
       />
     )
@@ -133,7 +131,13 @@ export const Scatterplot = ({
         }}
       >
         <Tooltip interactionData={hovered} />
-        <Tooltip interactionData={selected} />
+        <Tooltip
+          interactionData={{
+            xPos: xScale(selectedItem?.expiration_date),
+            yPos: yScale(selectedItem?.total_amount),
+            name: selectedItem?.supplier,
+          }}
+        />
       </div>
     </div>
   )

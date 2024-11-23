@@ -11,11 +11,13 @@ export default function Graph({
   error,
   data,
   setSelectedSupplierOption,
+  selectedItem,
 }: {
   data?: ItemsByType[]
   isPending: any
   error: any
   setSelectedSupplierOption: Dispatch<SetStateAction<SelectOptions | undefined>>
+  selectedItem: ItemsByType
 }) {
   const ref = useRef(null)
   const { width, height } = useDimensions(ref)
@@ -27,6 +29,7 @@ export default function Graph({
         height={height}
         data={data}
         setSelectedSupplierOption={setSelectedSupplierOption}
+        selectedItem={selectedItem}
       />
     </div>
   )
