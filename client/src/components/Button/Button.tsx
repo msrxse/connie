@@ -1,8 +1,25 @@
-import { BiChevronDown, BiChevronUp, BiDetail } from 'react-icons/bi'
+import { BiChevronDown, BiChevronUp } from 'react-icons/bi'
 
 import styles from './Button.module.css'
 
-const Button = ({ onClick, index, children, isExpanded }) => {
+interface ButtonProps {
+  onClick: any
+  index: number
+  children: any
+  isDroor?: boolean
+  isExpanded?: boolean
+}
+
+const Button = ({ onClick, index, children, isDroor, isExpanded }: ButtonProps) => {
+  if (!isDroor) {
+    return (
+      <button onClick={() => onClick(index)}>
+        <div className={styles.handler}>
+          <strong>{children}</strong>
+        </div>
+      </button>
+    )
+  }
   return (
     <button onClick={() => onClick(index)}>
       {!isExpanded ? (

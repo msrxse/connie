@@ -27,7 +27,6 @@ function KeyMetrics({
   if (!keyMetricByIdData) {
     return null
   }
-  console.log(keyMetricByIdData)
 
   // Delivery aliases
   const averageDeliveryDelayDays =

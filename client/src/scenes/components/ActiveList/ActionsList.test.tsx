@@ -1,7 +1,7 @@
 import { HttpResponse, http } from 'msw'
 
 import { server } from '@/mocks/node'
-import ActionsList from '@/scenes/components/List/ActionsList'
+import ActionsList from '@/scenes/components/ActiveList/ActionsList'
 import { renderWithQueryClient } from '@/utils/test-utils'
 
 describe('ActionsList', () => {

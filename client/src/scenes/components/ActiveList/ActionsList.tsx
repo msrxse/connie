@@ -1,12 +1,14 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import AutoSizer from 'react-virtualized-auto-sizer'
 import { VariableSizeList as List } from 'react-window'
 
 import { useTraceActions } from '@/hooks/dashboard'
+import { useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
 
 import Card from './Card/Card'
 
 export default function ActionsList() {
+  const { state } = useDashboard()
   const [expandedRows, setExpandedRows] = useState<Set<number>>(new Set())
   const listRef = useRef<List>(null)
   const {
@@ -16,7 +18,7 @@ export default function ActionsList() {
   } = useTraceActions()
   // Calculate row height based on whether the row is expanded
   const getRowHeight = useCallback(
-    (index: number) => (expandedRows.has(index) ? 705 : 100),
+    (index: number) => (expandedRows.has(index) ? 704 : 100),
     [expandedRows],
   )
 
@@ -37,6 +39,12 @@ export default function ActionsList() {
       listRef.current.resetAfterIndex(0)
     }
   }, [expandedRows])
+
+  useEffect(() => {
+    if (listRef.current && state.deliveryId !== -1) {
+      listRef.current.scrollToItem(state.deliveryId - 1, 'start')
+    }
+  }, [state.deliveryId])
 
   if (!traceActionsData) {
     return null

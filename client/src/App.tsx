@@ -1,7 +1,7 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
-import Dashboard from '@/scenes/Dashboard/Dashboard'
+import DashboardContainer from '@/scenes/Dashboard/DashboardContainer'
 
 const queryClient = new QueryClient()
 
@@ -15,7 +15,7 @@ export const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <div data-testid="app-id">
-        <Dashboard />
+        <DashboardContainer />
       </div>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>

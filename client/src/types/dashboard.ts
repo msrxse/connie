@@ -22,8 +22,8 @@ export type ItemsByType = {
 }
 
 export type SelectOptions = {
-  value: string
-  label: string
+  value: string | number | null
+  label: string | null
 }
 
 export type KeyMetric = {

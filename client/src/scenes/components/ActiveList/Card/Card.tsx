@@ -1,4 +1,4 @@
-import { BiCircle } from 'react-icons/bi'
+import { BiInfoSquare, BiSelectMultiple } from 'react-icons/bi'
 
 import Button from '@/components/Button/Button'
 import Container from '@/components/Container/Container'
@@ -6,6 +6,7 @@ import { Icons } from '@/components/Icons/Icons'
 import Input from '@/components/Input/Input'
 import ProgressBar from '@/components/ProgressBar/ProgressBar'
 import TextField from '@/components/TextField/TextField'
+import { setDeliveryId, useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
 import { Supplier } from '@/types/dashboard'
 
 import styles from './Card.module.css'
@@ -23,16 +24,29 @@ const Card = ({
   isExpanded: boolean
   setIsExpanded: any
 }) => {
-  return (
-    <div style={style} className={styles.card}>
-      <section>
-        <Button onClick={setIsExpanded} index={index} isExpanded={isExpanded}>
-          <Icons>
-            <BiCircle color={'red'} />
-          </Icons>
-          {data.supplier}
-        </Button>
+  const { state, dispatch } = useDashboard()
+  const isSelected = state.deliveryId === data.delivery_id
 
+  return (
+    <div style={style} className={`${styles.card} ${isSelected ? styles.selected : ''}`}>
+      <section>
+        <div className={styles.toolbar}>
+          <Button isDroor onClick={setIsExpanded} index={index} isExpanded={isExpanded}>
+            {data.supplier}
+          </Button>
+          <div className={styles.rightToolbar}>
+            <Button onClick={() => setDeliveryId(dispatch, data.delivery_id)} index={index}>
+              <Icons>
+                <BiSelectMultiple color={isSelected ? 'green' : 'grey'} />
+              </Icons>
+            </Button>
+            <Button onClick={setIsExpanded} index={index}>
+              <Icons>
+                <BiInfoSquare color={'red'} />
+              </Icons>
+            </Button>
+          </div>
+        </div>
         <div className={styles.cardMain}>
           <ProgressBar title={'On-time Delivery'} progress={data.performance.on_time_delivery} />
           <Input
@@ -62,7 +76,7 @@ const Card = ({
             index={index}
             type="text"
             label="Contract End Date"
-            value={data.contract_end_date}
+            value={new Date(data.contract_end_date).toLocaleString()}
             name="price_rating"
             error={false}
             onChange={() => null}

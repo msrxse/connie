@@ -2,6 +2,7 @@ import { Dispatch, SetStateAction, useState } from 'react'
 
 import * as d3 from 'd3'
 
+import { setDeliveryId, useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
 import { ItemsByType, SelectOptions } from '@/types/dashboard'
 
 import { AxisBottom } from './AxisBottom'
@@ -24,6 +25,7 @@ export const Scatterplot = ({
   data,
   setSelectedSupplierOption,
 }: ScatterplotProps) => {
+  const { dispatch } = useDashboard()
   if (!data) {
     return null
   }
@@ -31,6 +33,7 @@ export const Scatterplot = ({
   const boundsHeight = height - MARGIN.top - MARGIN.bottom
 
   const [hovered, setHovered] = useState<InteractionData | null>(null)
+  const [selected, setSelected] = useState<InteractionData | null>(null)
   const [hoveredSupplier, setHoveredSupplier] = useState<string | null>(null)
 
   // Scales
@@ -43,7 +46,6 @@ export const Scatterplot = ({
     .scaleLinear()
     .domain(valueDomain as number[])
     .range([boundsHeight, 0])
-  // const xScale = d3.scaleLinear().domain([-3000, 50000]).range([0, boundsWidth])
   const xScale = d3
     .scaleUtc()
     .range([0, boundsWidth])
@@ -83,7 +85,15 @@ export const Scatterplot = ({
           return setHoveredSupplier(null)
         }}
         onMouseOver={() => setHoveredSupplier(d.supplier)} // callback to update the state
-        onMouseDown={() => setSelectedSupplierOption({ label: d.supplier, value: d.supplier })}
+        onMouseDown={() => {
+          setSelectedSupplierOption({ label: d.supplier, value: d.supplier })
+          setDeliveryId(dispatch, d.delivery_id)
+          setSelected({
+            xPos: xScale(d['expiration_date']),
+            yPos: yScale(d['total_amount']),
+            name: d.supplier,
+          })
+        }}
       />
     )
   })
@@ -123,6 +133,7 @@ export const Scatterplot = ({
         }}
       >
         <Tooltip interactionData={hovered} />
+        <Tooltip interactionData={selected} />
       </div>
     </div>
   )

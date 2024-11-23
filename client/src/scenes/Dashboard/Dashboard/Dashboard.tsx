@@ -3,9 +3,9 @@ import Select from 'react-select'
 
 import Toolbar from '@/components/Toolbar/Toolbar'
 import { useItemsByType, useMaterialTypes, useSuppliers } from '@/hooks/dashboard'
+import ActionsList from '@/scenes/components/ActiveList/ActionsList'
 import Graph from '@/scenes/components/Grath/Graph'
 import KeyMetrics from '@/scenes/components/KeyMetrics/KeyMetrics'
-import ActionsList from '@/scenes/components/List/ActionsList'
 import { SelectOptions } from '@/types/dashboard'
 
 import styles from './Dashboard.module.css'
@@ -21,6 +21,7 @@ export const Articles = () => {
   >()
   const [selectedSupplierOption, setSelectedSupplierOption] = useState<SelectOptions | undefined>()
   const [selectedMaterialOption, setSelectedMaterialOption] = useState<SelectOptions | undefined>()
+
   const {
     isPending: itemsByTypeIsPending,
     error: itemsByTypeError,
@@ -62,7 +63,6 @@ export const Articles = () => {
           supplier={selectedSupplierOption?.value}
         />
       </aside>
-      {/* <footer className={styles.footer}>Footer</footer> */}
     </div>
   )
 }
