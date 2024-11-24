@@ -11,7 +11,7 @@ const EmptyDisplay = () => {
         </ul>
         <ul>
           <li>the dots are selectable and represent deliveries</li>
-          <li>These are linked to the grid's cards which display tracing data</li>
+          <li>These are linked to the grid's cards which display trace data</li>
         </ul>
         <ul>
           <li>The right panel displays ratings for the specific supplier selected</li>

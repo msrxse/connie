@@ -17,7 +17,7 @@ delivery performance, quality, compliance, and overall rating for multiple suppl
 
 The app consists on 3 modules interconnected by a delivery. The three modules are:
 
-### 1. A scatter plot chart
+### 1. Chart: A scatter plot
 
 - Shows an overview of all deliveries filtered by the selected material group (deliveries of identical or similar goods).
 - On the y-axis we have expiration-date and x-axis total_amount. Regardless of the scale's domain used, the idea is to make it easy to stop deliveries that the logistics management worker might need to act upon before anything else.
@@ -31,7 +31,7 @@ The app consists on 3 modules interconnected by a delivery. The three modules ar
 
 Lets look at each one in turn:
 
-### Aggregated Performance Metrics for <supplier>
+### 2. Panel: Aggregated Performance Metrics (for the selected supplier)
 
 - Any selection on the list or on the chart will populate this panel where we display Performance Metrics for the selected supplier (Delivery, quality responsiveness, financial and overall ratings)
 
@@ -52,7 +52,7 @@ Explanation of the most important fields:
 - Overall Rating:
   - overall_rating: Supplier rating on a scale of 1 to 5 based on all metrics.
 
-### Evidence, Trace and Actions list
+### 3. List: Evidence, Trace and Actions
 
 - A list of current suppliers with their performance metrics, contract details, and capacity information. Also includes potential actions, and new supplier recommendations.
 
@@ -74,6 +74,61 @@ Explanation:
 
 ### About state
 
+- All data in contained in DuckDB, where is get seeded in memory on start. A FastAPI python API serves this data under this endpoints:
+
+1. Read Root
+
+   - GET
+   - /
+
+2. Get All Items
+
+   - GET
+   - /api/getAllItems
+
+3. Get Material Types
+
+   - GET
+   - /api/material_types
+
+4. Get Items By Type
+
+   - GET
+   - /api/itemsByType?material_type="Service"
+
+5. Get Suppliers
+
+   - GET
+   - /api/suppliers
+
+6. Get Key Metric By Id
+
+   - GET
+   - /api/key_metric?delivery_id=0
+
+7. Get Trace Actions
+   - GET
+   - /api/trace_actions
+
+- Once on the client we use react-query to manage it from there.
+- There is a custom hook implements the context-module-function pattern. This hook exposes an API and keeps important state internal to the component, exposing only the helper functions required to make changes on the state. Those helper functions will be stable, because they are exported and imported on usage, as well as the required dispatch function needed to call these helper fns. This context state allows the user to keep state of the selected delivery, and it will be available everywhere needed plus any changes will be visible anywhere it is used instantly.
+
 ### About testing
 
+    I have not made many efforts to have tests in this repo because of time. However I have many examples of how to test different types of components under jest and the react-testing-library library. For example:
+    [Example tests on queries and getQueryData functions from react-query](https://github.com/msrxse/oneport-rates-ui/blob/main/src/hooks/rates.ts)
+    [Example on tests that use Providers](https://github.com/msrxse/oneport-rates-ui/blob/main/src/hooks/rates.ts)
+    [Example tests on components that themselves use hooks](https://github.com/msrxse/oneport-rates-ui/blob/main/src/components/rates/tests/RatesComponent.test.tsx)
+
 ### whats missing
+
+- The formatting done on cell data is representative and obviously not something suitable for a production setting
+
+### Assets
+
+| Full UI screen                                                           | Open evidence and trace list card                                |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| <img src="assets/supplier-perfomance-system-ui-full.jpeg" width="800" /> | <img src="assets/evidence-trace-full-extend.jpeg" width="600" /> |
+
+- User flow video
+  ![video 1](assets/user-flow-video.gif)
