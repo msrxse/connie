@@ -4,13 +4,14 @@
 
 .item {
   flex-grow: 1;
-  height: 100px;
+  height: 150px;
   padding: 4px;
   border-radius: 4px;
   box-shadow:
     rgb(0 0 0 / 2%) 0 1px 3px 0,
     rgb(27 31 35 / 15%) 0 0 0 1px;
   margin-left: 2%;
+  overflow: scroll;
 }
 
 /* .item + .item {

@@ -1,17 +1,19 @@
 import styles from './TextField.module.css'
 
 interface TextProps {
-  type?: 'text' | 'number' | 'email' | 'password'
   error?: boolean
   children: any
+  title?: string
+  type?: 'link'
 }
 
-const TextField = ({ children, type, error }: TextProps) => {
+const TextField = ({ children, title, type, error }: TextProps) => {
   return (
-    <div className={styles.textFieldWrapper}>
-      <label>{children}</label>
+    <div className={`${styles.textFieldWrapper}`}>
+      {title && <p className={styles.title}>{title}</p>}
+      {type === 'link' ? <p className={styles.link}>{children}</p> : children}
 
-      {error && <p className="error">TextField filed can't be empty!</p>}
+      {error && <p className="error">TextField filled can't be empty!</p>}
     </div>
   )
 }

@@ -94,9 +94,17 @@ const Card = ({
               <Container>
                 {data.evidence_trace.map((evidence: Action) => (
                   <li key={evidence.evidence_id}>
+                    <TextField>{evidence.description}</TextField>
                     <Container type="item">
-                      <TextField>{evidence.description}</TextField>
+                      <TextField>
+                        <div dangerouslySetInnerHTML={{ __html: evidence.excerpt }} />
+                      </TextField>
                     </Container>
+                    <TextField>{evidence.description}</TextField>
+
+                    <TextField title="Source Doc:" type="link">
+                      {evidence.source}
+                    </TextField>
                   </li>
                 ))}
               </Container>

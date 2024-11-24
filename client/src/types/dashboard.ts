@@ -72,6 +72,8 @@ export type Supplier = {
 type EvidenceTrace = {
   action_id: number
   description: string
+  excerpt: string
+  source: string
 }
 
 export type PotentialActions = {

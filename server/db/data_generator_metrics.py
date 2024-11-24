@@ -31,6 +31,18 @@ class EvidenceTraceFactory(factory.Factory):
 
     evidence_id = factory.Sequence(lambda n: n + 1)
     description = factory.LazyAttribute(lambda _: fake.sentence())
+    excerpt = factory.LazyAttribute(
+        lambda _: (
+            f"<div>\n"
+            f"    {fake.sentence()}. <span>{fake.sentence()}</span> {fake.sentence()} "
+            f"{fake.sentence()}. {fake.sentence()}.\n"
+            f"    <div>\n"
+            f"    </div>\n"
+            f"    {fake.sentence()}. <span>{fake.sentence()}</span> {fake.sentence()}.\n"
+            f"</div>"
+        )
+    )
+    source = factory.LazyAttribute(lambda _: fake.url())
 
 
 class PotentialActionsFactory(factory.Factory):
