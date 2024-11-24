@@ -53,7 +53,7 @@ function KeyMetrics({
     <div className={styles.keyMetrics}>
       <form className={styles.keyMetricsForm}>
         <h3>
-          Performance Metrics <span>{selectedMaterial} Group</span>
+          Aggregated Performance Metrics for <span>{supplier}</span>
         </h3>
         <section>
           <legend>Delivery</legend>
@@ -67,7 +67,7 @@ function KeyMetrics({
             placeholder={''}
             disabled
           />
-          <ProgressBar title={'On Time Percentage'} progress={onTimePercentage} />
+          <ProgressBar title={'On-Time Percentage'} progress={onTimePercentage} />
         </section>
 
         <section>

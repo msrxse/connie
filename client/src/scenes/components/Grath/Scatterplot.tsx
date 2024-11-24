@@ -16,15 +16,9 @@ type ScatterplotProps = {
   width: number
   height: number
   data: ItemsByType[] | undefined
-  setSelectedSupplierOption: Dispatch<SetStateAction<SelectOptions | undefined>>
 }
 
-export const Scatterplot = ({
-  width,
-  height,
-  data,
-  setSelectedSupplierOption,
-}: ScatterplotProps) => {
+export const Scatterplot = ({ width, height, data }: ScatterplotProps) => {
   const { state, dispatch } = useDashboard()
 
   const boundsWidth = width - MARGIN.right - MARGIN.left
@@ -87,7 +81,6 @@ export const Scatterplot = ({
         }}
         onMouseOver={() => setHoveredSupplier(d.supplier)} // callback to update the state
         onMouseDown={() => {
-          setSelectedSupplierOption({ label: d.supplier, value: d.supplier })
           // sets the whole item as selected in main provider / helps selection on chart and grid
           setDeliveryItem(dispatch, d)
         }}

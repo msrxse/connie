@@ -18,9 +18,10 @@ export default function ActionsList() {
   } = useTraceActions()
   // Calculate row height based on whether the row is expanded
   const getRowHeight = useCallback(
-    (index: number) => (expandedRows.has(index) ? 704 : 100),
+    (index: number) => (expandedRows.has(index) ? 855 : 100),
     [expandedRows],
   )
+  const deliveryId = state?.deliveryItem?.delivery_id
 
   // Toggles row expansion
   const toggleRow = useCallback((index: number) => {
@@ -34,18 +35,25 @@ export default function ActionsList() {
       return newExpanded
     })
   }, [])
+
+  /**
+   * Allows the grid to recompute the row heights after
+   * every user expand toggle click
+   */
   useEffect(() => {
     if (listRef.current) {
       listRef.current.resetAfterIndex(0)
     }
   }, [expandedRows])
 
+  /**
+   * Allows the grid to navigate to the selected delivery item
+   */
   useEffect(() => {
-    const deliveryItem = state?.deliveryItem?.delivery_id
-    if (listRef.current && deliveryItem !== -1) {
-      listRef.current.scrollToItem(deliveryItem || 0, 'center')
+    if (listRef.current && deliveryId !== -1) {
+      listRef.current.scrollToItem(deliveryId || 0, 'center')
     }
-  }, [state?.deliveryItem?.delivery_id])
+  }, [deliveryId])
 
   if (!traceActionsData) {
     return null

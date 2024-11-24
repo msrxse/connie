@@ -68,6 +68,23 @@ export const useGetDeliveryIdBySupplier = (selectedMaterial: string) => {
   return getRecord
 }
 
+export const useGetSupplierByDeliveryId = (selectedMaterial: string | null) => {
+  const queryClient = useQueryClient()
+
+  const getRecord = (deliveryId: number | undefined) => {
+    if (!deliveryId) {
+      return undefined
+    }
+    const queryKey = ['items_by_type', selectedMaterial]
+    const query = queryClient.getQueryCache().find({ queryKey })
+    return query
+      ? query.state?.data?.filter((each) => each.delivery_id === deliveryId)[0]
+      : undefined
+  }
+
+  return getRecord
+}
+
 export const useTraceActions = () => {
   return useQuery({
     queryKey: ['trace_actions'],

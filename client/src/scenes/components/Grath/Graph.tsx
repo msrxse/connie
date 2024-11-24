@@ -10,24 +10,17 @@ export default function Graph({
   isPending,
   error,
   data,
-  setSelectedSupplierOption,
 }: {
   data?: ItemsByType[]
   isPending: any
   error: any
-  setSelectedSupplierOption: Dispatch<SetStateAction<SelectOptions | undefined>>
 }) {
   const ref = useRef(null)
   const { width, height } = useDimensions(ref)
 
   return (
     <div ref={ref} className={styles.graph}>
-      <Scatterplot
-        width={width}
-        height={height}
-        data={data}
-        setSelectedSupplierOption={setSelectedSupplierOption}
-      />
+      <Scatterplot width={width} height={height} data={data} />
     </div>
   )
 }
