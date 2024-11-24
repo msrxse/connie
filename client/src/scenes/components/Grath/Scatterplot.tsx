@@ -1,9 +1,9 @@
-import { Dispatch, SetStateAction, useState } from 'react'
+import { useState } from 'react'
 
 import * as d3 from 'd3'
 
 import { setDeliveryItem, useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
-import { ItemsByType, SelectOptions } from '@/types/dashboard'
+import { ItemsByType } from '@/types/dashboard'
 
 import { AxisBottom } from './AxisBottom'
 import { AxisLeft } from './AxisLeft'

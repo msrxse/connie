@@ -2,6 +2,8 @@
 
 ## Dev
 
+### Ensure you work under a virtual environment
+
 From root:
 
 ```bash
@@ -12,19 +14,19 @@ From root:
   source .venv/bin/activate
 ```
 
-When installing anew
+### When installing anew
 
 ```bash
   pip install -r requirements.txt
 ```
 
-When adding packages
+### When adding packages
 
 ```bash
   pip freeze > requirements.txt
 ```
 
-## Running the server
+### Running the server
 
 Run the server with:
 
