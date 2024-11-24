@@ -1,41 +1,12 @@
 from json import loads
 
-import duckdb
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+from db.db import con
+from fastapi import APIRouter
 
-app = FastAPI()
-
-origins = [
-    "http://localhost",
-    "http://localhost:8000",
-    "http://localhost:4000",
-]
-app.add_middleware(CORSMiddleware, allow_origins=origins)
+item_router = APIRouter(tags=["User"])
 
 
-# Connect to an in-memory DuckDB database
-con = duckdb.connect()
-
-# Register the JSON files as tables
-con.execute(
-    "CREATE VIEW deliveries AS SELECT * FROM read_json_auto('db/deliveries.json');"
-)
-con.execute("CREATE VIEW items AS SELECT * FROM read_json_auto('db/items.json');")
-con.execute(
-    "CREATE VIEW key_metrics AS SELECT * FROM read_json_auto('db/key_metrics.json');"
-)
-con.execute(
-    "CREATE VIEW trace_actions AS SELECT * FROM read_json_auto('db/trace_actions.json');"
-)
-
-
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
-
-
-@app.get("/api/getAllItems")
+@item_router.get("/getAllItems")
 async def get_all_items():
     # Example Query: Get all items from deliveries
     query = """
@@ -62,7 +33,7 @@ async def get_all_items():
     return parsed
 
 
-@app.get("/api/material_types")
+@item_router.get("/material_types")
 async def get_material_types():
     # Example Query: Get all items from deliveries
     query = """
@@ -83,7 +54,7 @@ async def get_material_types():
     return formatted_types
 
 
-@app.get("/api/itemsByType")
+@item_router.get("/itemsByType")
 async def get_items_by_type(material_type: str):
     query = """
     SELECT 
@@ -119,7 +90,7 @@ async def get_items_by_type(material_type: str):
         return []
 
 
-@app.get("/api/suppliers")
+@item_router.get("/suppliers")
 async def get_suppliers():
     query = """
     SELECT DISTINCT
@@ -143,7 +114,7 @@ async def get_suppliers():
         return []
 
 
-@app.get("/api/key_metric")
+@item_router.get("/key_metric")
 async def get_key_metric_by_id(delivery_id: int):
     query = """
     SELECT 
@@ -167,7 +138,7 @@ async def get_key_metric_by_id(delivery_id: int):
         return []
 
 
-@app.get("/api/trace_actions")
+@item_router.get("/trace_actions")
 async def get_trace_actions():
     query = """
     SELECT 

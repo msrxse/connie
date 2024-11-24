@@ -52,7 +52,7 @@ export default function ActionsList() {
   }
 
   return (
-    <div style={{ height: '100vh' }}>
+    <div style={{ height: '520px', width: '100%' }}>
       <AutoSizer>
         {({ height, width }) => (
           <List

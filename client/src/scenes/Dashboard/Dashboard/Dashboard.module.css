@@ -23,7 +23,7 @@
   background: #fff;
   width: 50%;
   height: calc(100vh - 50px);
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .dashboard > .leftSidebar {

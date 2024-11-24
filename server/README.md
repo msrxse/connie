@@ -29,5 +29,5 @@ When adding packages
 Run the server with:
 
 ```bash
-  fastapi dev main.py
+  fastapi dev app/main.py
 ```
