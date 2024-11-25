@@ -3,30 +3,34 @@
 ### MANUAL APP START CLI COMMANDS
 
 ```
- make run-server-fastapi
+ make run-server
 ```
 
 ```
- make run-client-react
+ make run-client
 ```
+
+- Note: For the backend ensure you work under a virtual environment. You should also have
+  installed dependencies for both backend and frontend, por instructions on how to do this,
+  see client and server folders' respective README files.
 
 ## About
 
-This is a supplier performance monitoring system. This app does track key metrics like delivery performance, quality, compliance, and overall ratings for multiple suppliers. Then, an AI worker identifies the strategy to follow to streamline operations, enhance efficiency, and achieve cost savings while improving supplier relationships (supplier consolidation). The key is to spot outperformance and build stronger partnerships with fewer, more reliable vendors.
+This is a supplier performance monitoring system. This app does track key metrics like delivery performance, quality, compliance, and overall ratings for multiple suppliers. An AI worker identifies the strategy to follow to streamline operations, enhance efficiency, and achieve cost savings while improving supplier relationships (supplier consolidation). In general, the key is to spot outperformance and build stronger partnerships with fewer, more reliable vendors.
 
-The app consists on 3 modules interconnected by a delivery item. The three modules are:
+The app consists on 3 modules interconnected by a _delivery item_. The three modules are:
 
 ### 1. Chart: A scatter plot
 
-- Shows an overview of all deliveries filtered by the selected material group (deliveries of identical or similar goods).
+- Shows an overview of all deliveries filtered by the selected _material group_ (deliveries of identical or similar goods).
 - On the y-axis we have _expiration-date_ and x-axis _total_amount_. Regardless of the scale's domain used, the idea is to make it easy to stop deliveries that the logistics management worker might need to act upon before anything else.
   For example:
-  - **Contract end date** is about to end and the overall rating of the supplier is very poor, those deliveries closer to the far right bottom corner of the chart. The worker might want to substitute these contracts with other more performant suppliers.
-  - **Contract end date** is about to end and the overall rating of the supplier is very high, those deliveries closer to the far right top corner of the chart. In this case, the worker might want to extend those contracts, and even extend those contracts if **capacity** allows it
+  - **Contract end date** is about to end and the overall rating of the supplier is very poor; those deliveries closer to the far right bottom corner of the chart. The worker might want to substitute these contracts with other more performant suppliers.
+  - **Contract end date** is about to end and the overall rating of the supplier is very high; those deliveries closer to the far right top corner of the chart. In this case, the worker might want to extend those contracts, and even extend those contracts if **capacity** allows it
 
 #### Selections on the chart
 
-- Each of the dots in the chart is selectable, and when selected it will filter the other two panels in the view, an **Aggregated Performance Metrics** panel and An **Evidence, Trace and Actions** list.
+- Each of the dots in the chart is selectable, and when selected it will filter the other two panels in the view, an **Aggregated Performance Metrics** panel and an **Evidence, Trace and Actions** list.
 
 Lets look at each one in turn:
 
@@ -73,7 +77,7 @@ Sections:
 
 ### About state
 
-- All data in contained in _DuckDB_, where is get seeded in memory on start. A _FastAPI_ _Python_ API serves this data under this endpoints:
+- All data in contained in _DuckDB_, where is gets seeded in memory on start. _FastAPI_ _Python_ API serves this data under these endpoints:
 
 1. Read Root
 
@@ -109,8 +113,8 @@ Sections:
    - GET
    - /api/trace_actions
 
-- Once on the client we use _react-query_ to manage it from there.
-- There is a custom hook implements the **context-module-function pattern**. This hook exposes an API and keeps important state internal to the component, exposing only the helper functions required to make changes on the state. Those helper functions will be stable, because they are exported and imported on usage, as well as the required dispatch function needed to call these helper fns. This context state allows the user to keep state of the selected delivery, and it will be available everywhere needed plus any changes will be visible anywhere it is used instantly.
+- Once on the client we use _react-query_ to manage state.
+- There is a custom hook that implements the **context-module-function pattern**. This hook exposes an API and keeps important state internal to the component, exposing only the helper functions required to make changes on the state. Those helper functions will be stable, because they are exported and imported on usage, as well as the required dispatch function needed to call these helper fns. This context state allows the user to keep state of the selected delivery, and it will be available everywhere needed plus any changes will be visible anywhere it is used instantly.
 
 ### About testing
 
@@ -118,9 +122,9 @@ I have not made many efforts to have tests in this repo because of time. However
 
 For example:
 
-- [Example tests on queries and getQueryData functions from react-query](https://github.com/msrxse/oneport-rates-ui/blob/main/src/hooks/rates.ts)
-- [Example on tests that use Providers](https://github.com/msrxse/oneport-rates-ui/blob/main/src/hooks/rates.ts)
-- [Example tests on components that themselves use hooks](https://github.com/msrxse/oneport-rates-ui/blob/main/src/components/rates/tests/RatesComponent.test.tsx)
+- [Example tests on queries and getQueryData functions from react-query](https://github.com/msrxse/oneport-rates-ui/blob/main/src/hooks/rates.test.tsx)
+- [Example on tests that use MSW to test the UI on empty success responses, as well as error responses](https://github.com/msrxse/oneport-rates-ui/blob/main/src/components/rates/tests/RatesComponent.test.tsx)
+- [Example tests on components that themselves use hooks](https://github.com/msrxse/oneport-rates-ui/blob/main/src/hooks/rates.test.tsx)
 
 ### whats missing
 
