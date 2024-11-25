@@ -1,6 +1,15 @@
 # Connie
 
-### MANUAL APP START CLI COMMANDS
+### Using DOCKER to start up
+
+```
+docker-compose up --build
+```
+
+- Or starting manually:
+  Note: For the backend ensure you work under a virtual environment. You should also have
+  installed dependencies for both backend and frontend, por instructions on how to do this,
+  see client and server folders' respective README files.
 
 ```
  make run-server
@@ -9,10 +18,6 @@
 ```
  make run-client
 ```
-
-- Note: For the backend ensure you work under a virtual environment. You should also have
-  installed dependencies for both backend and frontend, por instructions on how to do this,
-  see client and server folders' respective README files.
 
 ## About
 
