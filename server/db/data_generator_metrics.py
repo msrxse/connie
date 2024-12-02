@@ -101,7 +101,6 @@ class SupplierFactory(factory.Factory):
         model = dict
 
     delivery_id = factory.Sequence(lambda n: n + 1)
-    supplier = factory.LazyAttribute(lambda _: fake.company())
     performance = factory.SubFactory(PerformanceFactory)
     contract_end_date = factory.LazyAttribute(
         lambda _: fake.date_between(start_date="now", end_date="+2y").isoformat()
@@ -124,7 +123,6 @@ class KeyMetricsFactory(factory.Factory):
         model = dict  # Generate dictionaries
 
     delivery_id = factory.Sequence(lambda n: n + 1)
-    supplier = factory.LazyAttribute(lambda _: fake.company())
     performance_metrics = factory.SubFactory(PerformanceMetricsFactory)
     overall_rating = factory.LazyAttribute(lambda _: round(random.uniform(3, 5), 1))
     comments = factory.LazyAttribute(lambda _: fake.sentence(nb_words=10))

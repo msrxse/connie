@@ -22,7 +22,7 @@ const Card = ({
   data: Supplier
   index: number
   isExpanded: boolean
-  setIsExpanded: any
+  setIsExpanded: (idx: number) => void
 }) => {
   const { state, dispatch } = useDashboard()
   const isSelected = state?.deliveryItem?.delivery_id === data.delivery_id

@@ -118,11 +118,16 @@ async def get_suppliers():
 async def get_key_metric_by_id(delivery_id: int):
     query = """
     SELECT 
-        *
+        k.*,
+        d.supplier
     FROM
-        key_metrics
+        key_metrics k
+    JOIN
+        deliveries d
+    ON
+        k.delivery_id = d.delivery_id
     WHERE 
-        delivery_id = ?;
+        k.delivery_id = ?;
     """
     try:
         # Execute the parameterized query
@@ -142,15 +147,20 @@ async def get_key_metric_by_id(delivery_id: int):
 async def get_trace_actions():
     query = """
     SELECT 
-        d.*,
+        t.*,
         i.total_amount,
         i.expiration_date,
+        d.supplier,
     FROM
-        trace_actions d
+        trace_actions t
     JOIN
         items i
     ON
-        d.delivery_id = i.delivery_id
+        t.delivery_id = i.delivery_id
+    JOIN
+        deliveries d
+    ON
+        t.delivery_id = d.delivery_id
     """
     try:
         # Execute the parameterized query

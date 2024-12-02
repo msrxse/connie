@@ -31,7 +31,6 @@ export const Articles = () => {
   const [selectedSupplierOption, setSelectedSupplierOption] = useState<SelectOptions | undefined>()
   const [selectedMaterialOption, setSelectedMaterialOption] = useState<SelectOptions | undefined>()
   const getSupplierByDeliveryId = useGetSupplierByDeliveryId(selectedMaterialOption?.value)
-
   const {
     isPending: itemsByTypeIsPending,
     error: itemsByTypeError,

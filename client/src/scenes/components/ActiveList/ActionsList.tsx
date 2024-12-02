@@ -58,6 +58,7 @@ export default function ActionsList() {
   if (!traceActionsData) {
     return null
   }
+  console.log(state)
 
   return (
     <div style={{ height: '520px', width: '100%' }}>
