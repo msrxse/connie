@@ -51,14 +51,13 @@ export default function ActionsList() {
    */
   useEffect(() => {
     if (listRef.current && deliveryId !== -1) {
-      listRef.current.scrollToItem(deliveryId || 0, 'center')
+      listRef.current.scrollToItem((deliveryId || 0) - 4, 'start')
     }
   }, [deliveryId])
 
   if (!traceActionsData) {
     return null
   }
-  console.log(state)
 
   return (
     <div style={{ height: '520px', width: '100%' }}>
