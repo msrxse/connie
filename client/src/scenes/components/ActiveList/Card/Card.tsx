@@ -47,11 +47,6 @@ const Card = ({
                 <BiSelectMultiple color={isSelected ? 'green' : 'grey'} />
               </Icons>
             </Button>
-            <Button onClick={setIsExpanded} index={index}>
-              <Icons>
-                <BiInfoSquare color={'red'} />
-              </Icons>
-            </Button>
           </div>
         </div>
         <div className={styles.row}>

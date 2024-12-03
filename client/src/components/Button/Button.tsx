@@ -24,13 +24,13 @@ const Button = ({ onClick, index, children, isDroor, isExpanded }: ButtonProps) 
     <button onClick={() => onClick(index)}>
       {!isExpanded ? (
         <div className={styles.handler}>
+          <BiChevronDown size={18} style={{ marginBottom: '-2px' }} />
           <strong>{children}</strong>
-          <BiChevronDown />
         </div>
       ) : (
         <div className={styles.handler}>
+          <BiChevronUp size={18} style={{ marginBottom: '-2px' }} />
           <strong>{children}</strong>
-          <BiChevronUp />
         </div>
       )}
     </button>
