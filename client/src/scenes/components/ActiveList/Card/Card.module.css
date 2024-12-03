@@ -1,39 +1,76 @@
-.card {
+section > ul {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
   border-left: 1px solid rgb(0 0 0 / 8%);
   border-right: 1px solid rgb(0 0 0 / 8%);
   box-shadow:
     rgb(0 0 0 / 5%) 0 6px 24px 0,
     rgb(0 0 0 / 8%) 0 0 0 1px;
   background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
-.cardMain {
+.container.selected {
+  border: 1px solid rgb(22 203 73 / 40%);
+  background-color: rgb(22 203 73 / 10%);
+}
+
+.row {
+  display: flex;
+  flex-direction: col;
+  justify-content: space-between;
+  border-top: 1px solid rgb(238 67 67 / 8%);
+  box-shadow:
+    rgb(0 0 0 / 5%) 0 6px 24px 0,
+    rgb(0 0 0 / 8%) 0 0 0 1px;
+}
+
+.rowStart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244 82 82);
+
+  /* border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; */
+}
+
+.rowStart > span {
+  margin-left: 4px;
+}
+
+.rowMain {
+  width: 100%;
+  min-height: 30px;
   display: flex;
   flex-direction: row;
-  place-items: center center;
+  place-items: center stretch;
 }
 
-.cardMain > * {
-  padding: 0 4px;
+.rowMain > :not(.rowMainDroor) {
+  padding-left: 4px;
 }
 
-section > ul {
-  list-style-type: none;
+.rowMain > div:first-child {
+  flex: 1 1 auto;
+}
+
+.recommActions {
+  display: flex;
+  min-width: 25%;
+}
+
+.mainRatingsRow > * {
+  padding-right: 5px;
 }
 
 .expandedDiv {
   padding: 4px;
   background-color: rgb(238 235 235);
   overflow: hidden;
-}
-
-.selected {
-  border: 1px solid rgb(22 203 73 / 40%);
-  background-color: rgb(22 203 73 / 10%);
-}
-
-.toolbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }

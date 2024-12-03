@@ -7,7 +7,7 @@ export const Icons = ({ children, color = 'black' }) => {
     <IconContext.Provider
       value={{
         color: color,
-        size: '12px',
+        size: '14px',
         className: styles.icons,
         style: {},
       }}

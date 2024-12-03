@@ -28,13 +28,20 @@ const Card = ({
   const isSelected = state?.deliveryItem?.delivery_id === data.delivery_id
 
   return (
-    <div style={style} className={`${styles.card} ${isSelected ? styles.selected : ''}`}>
-      <section>
-        <div className={styles.toolbar}>
-          <Button isDroor onClick={setIsExpanded} index={index} isExpanded={isExpanded}>
-            {data.supplier}
-          </Button>
-          <div className={styles.rightToolbar}>
+    <div style={style}>
+      <section className={`${styles.container} ${isSelected ? styles.selected : ''}`}>
+        <div className={styles.row}>
+          <div className={styles.rowStart}>
+            <Icons>
+              <BiInfoSquare color={'white'} />
+            </Icons>
+          </div>
+          <div className={styles.rowMain}>
+            <div className={styles.rowMainDroor}>
+              <Button isDroor onClick={setIsExpanded} index={index} isExpanded={isExpanded}>
+                {data.supplier}
+              </Button>
+            </div>
             <Button onClick={() => setDeliveryItem(dispatch, data)} index={index}>
               <Icons>
                 <BiSelectMultiple color={isSelected ? 'green' : 'grey'} />
@@ -47,42 +54,67 @@ const Card = ({
             </Button>
           </div>
         </div>
-        <div className={styles.cardMain}>
-          <ProgressBar title={'On-time Delivery'} progress={data.performance.on_time_delivery} />
-          <Input
-            index={index}
-            type="text"
-            label="Quality Rating"
-            value={data.performance.quality_rating}
-            name="quality_rating"
-            error={false}
-            onChange={() => null}
-            placeholder={''}
-            disabled
-          />
-          <Input
-            index={index}
-            type="text"
-            label="Price Rating"
-            value={data.performance.price_rating}
-            name="price_rating"
-            error={false}
-            onChange={() => null}
-            placeholder={''}
-            disabled
-          />
-          <ProgressBar title={'Capacity'} progress={data.capacity.current} />
-          <Input
-            index={index}
-            type="text"
-            label="Contract End Date"
-            value={new Date(data.contract_end_date).toLocaleString()}
-            name="price_rating"
-            error={false}
-            onChange={() => null}
-            placeholder={''}
-            disabled
-          />
+        <div className={styles.row}>
+          <div className={styles.rowStart}>
+            <Icons>
+              <BiInfoSquare color={'white'} />
+            </Icons>
+          </div>
+          <div className={`${styles.rowMain} ${styles.mainRatingsRow}`}>
+            <ProgressBar title={'On-time Delivery'} progress={data.performance.on_time_delivery} />
+            <Input
+              index={index}
+              type="text"
+              label="Quality Rating"
+              value={data.performance.quality_rating}
+              name="quality_rating"
+              error={false}
+              onChange={() => null}
+              placeholder={''}
+              disabled
+            />
+            <Input
+              index={index}
+              type="text"
+              label="Price Rating"
+              value={data.performance.price_rating}
+              name="price_rating"
+              error={false}
+              onChange={() => null}
+              placeholder={''}
+              disabled
+            />
+            <ProgressBar title={'Capacity'} progress={data.capacity.current} />
+            <Input
+              index={index}
+              type="text"
+              label="Contract End Date"
+              value={new Date(data.contract_end_date).toLocaleString()}
+              name="price_rating"
+              error={false}
+              onChange={() => null}
+              placeholder={''}
+              disabled
+            />
+          </div>
+        </div>
+        <div className={styles.row}>
+          <div className={styles.rowStart}>
+            <Icons>
+              <BiInfoSquare color={'white'} />
+            </Icons>
+          </div>
+          <div className={styles.rowMain}>
+            <TextField>Recommended Actions</TextField>
+            {data.potential_actions.map((action: Action) => (
+              <div key={action.action_id} className={styles.recommActions}>
+                <Icons>
+                  <BiInfoSquare color={'red'} />
+                </Icons>
+                <TextField>{`${action.description.slice(0, 20)}... `}</TextField>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
