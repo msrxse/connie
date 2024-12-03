@@ -1,28 +1,21 @@
 import Input from '@/components/Input/Input'
 import ProgressBar from '@/components/ProgressBar/ProgressBar'
-import { useGetDeliveryIdBySupplier, useKeyMetricById } from '@/hooks/dashboard'
+import { useKeyMetricById } from '@/hooks/dashboard'
+import { useDashboard } from '@/scenes/Dashboard/context/dashboardContext'
 
 import styles from './KeyMetrics.module.css'
 
-function KeyMetrics({
-  selectedMaterial,
-  supplier,
-}: {
-  selectedMaterial: string
-  supplier: string
-}) {
-  // we take the delivery_id in "suppliers" cache and call getKeyMetrics
-  // we ave done this because those supplier names aren't the same since were generated separately
-  // But this teach us how to access react-query querycache and extract a piece of data we need
-  const getDeliveryId = useGetDeliveryIdBySupplier(selectedMaterial)
-  const deliveryId = getDeliveryId(supplier)?.['delivery_id']
+function KeyMetrics() {
+  const { state } = useDashboard()
+  const selectedDeliveryId = state?.deliveryItem?.delivery_id
+  const supplier = state?.deliveryItem?.supplier
 
   // Now I can call keyMetrics with this ID
   const {
     isPending: keyMetricByIdIsPending,
     error: keyMetricByIdError,
     data: keyMetricByIdData,
-  } = useKeyMetricById(deliveryId)
+  } = useKeyMetricById(selectedDeliveryId)
 
   if (!keyMetricByIdData) {
     return null
@@ -32,16 +25,19 @@ function KeyMetrics({
   const averageDeliveryDelayDays =
     keyMetricByIdData.performance_metrics.delivery.average_delivery_delay_days
   const onTimePercentage = keyMetricByIdData.performance_metrics.delivery.on_time_percentage
+
   // Quality aliases
   const defectiveRatePercentage =
     keyMetricByIdData.performance_metrics.quality.defective_rate_percentage
   const productComplianceRatePercentage =
     keyMetricByIdData.performance_metrics.quality.product_compliance_rate_percentage
+
   // Responsiveness aliases
   const averageResponseTimeHours =
     keyMetricByIdData.performance_metrics.responsiveness.average_response_time_hours
   const resolutionRatePercentage =
     keyMetricByIdData.performance_metrics.responsiveness.resolution_rate_percentage
+
   // Financial aliases
   const costVariancePercentage =
     keyMetricByIdData.performance_metrics.financial.cost_variance_percentage
@@ -49,6 +45,7 @@ function KeyMetrics({
     keyMetricByIdData.performance_metrics.financial.invoicing_accuracy_percentage
   const overallRating = keyMetricByIdData.overall_rating
   const comments = keyMetricByIdData.comments
+
   return (
     <div className={styles.keyMetrics}>
       <form className={styles.keyMetricsForm}>

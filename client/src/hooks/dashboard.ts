@@ -48,26 +48,6 @@ export const useKeyMetricById = (id: number) => {
   })
 }
 
-/**
- * To search and extract a record from the QueryCache in TanStack Query, you can use the
- * `find` method. This method allows you to look up individual queries based on their
- * query key
- */
-export const useGetDeliveryIdBySupplier = (selectedMaterial: string) => {
-  const queryClient = useQueryClient()
-
-  const getRecord = (supplier: string) => {
-    if (!supplier) {
-      return undefined
-    }
-    const queryKey = ['items_by_type', selectedMaterial]
-    const query = queryClient.getQueryCache().find({ queryKey })
-    return query ? query.state?.data?.filter((each) => each.supplier === supplier)[0] : undefined
-  }
-
-  return getRecord
-}
-
 export const useGetSupplierByDeliveryId = (selectedMaterial: string | null) => {
   const queryClient = useQueryClient()
 

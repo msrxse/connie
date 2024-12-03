@@ -77,10 +77,7 @@ export const Articles = () => {
           onChange={setSelectedSupplierOption}
           isDisabled
         />
-        <KeyMetrics
-          selectedMaterial={selectedMaterialOption?.value}
-          supplier={selectedSupplierOption?.value}
-        />
+        <KeyMetrics />
       </aside>
     </div>
   )
