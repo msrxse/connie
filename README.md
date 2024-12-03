@@ -28,7 +28,7 @@ The app consists on 3 modules interconnected by a _delivery item_. The three mod
 ### 1. Chart: A scatter plot
 
 - Shows an overview of all deliveries filtered by the selected _material group_ (deliveries of identical or similar goods).
-- On the y-axis we have _expiration-date_ and x-axis _total_amount_. Regardless of the scale's domain used, the idea is to make it easy to stop deliveries that the logistics management worker might need to act upon before anything else.
+- On the x-axis we have _expiration-date_ and y-axis _total_amount_. Regardless of the scale's domain used, the idea is to make it easy to stop deliveries that the logistics management worker might need to act upon before anything else.
   For example:
   - **Contract end date** is about to end and the overall rating of the supplier is very poor; those deliveries closer to the far right bottom corner of the chart. The worker might want to substitute these contracts with other more performant suppliers.
   - **Contract end date** is about to end and the overall rating of the supplier is very high; those deliveries closer to the far right top corner of the chart. In this case, the worker might want to extend those contracts, and even extend those contracts if **capacity** allows it

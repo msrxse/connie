@@ -115,6 +115,16 @@ const Card = ({
 
       {isExpanded && (
         <div className={styles.expandedDiv}>
+          {/* <section>
+            <h3>Recommended Actions</h3>
+            <ul>
+              {data.potential_actions.map((action: Action) => (
+                <li key={action.action_id}>
+                  <TextField>{action.description}</TextField>
+                </li>
+              ))}
+            </ul>
+          </section> */}
           <section>
             <h3>Evidence Trace</h3>
             <ul>
@@ -135,16 +145,6 @@ const Card = ({
                   </li>
                 ))}
               </Container>
-            </ul>
-          </section>
-          <section>
-            <h3>Recommended Actions</h3>
-            <ul>
-              {data.potential_actions.map((action: Action) => (
-                <li key={action.action_id}>
-                  <TextField>{action.description}</TextField>
-                </li>
-              ))}
             </ul>
           </section>
           <section>

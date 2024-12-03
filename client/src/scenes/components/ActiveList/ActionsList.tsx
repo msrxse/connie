@@ -18,7 +18,7 @@ export default function ActionsList() {
   } = useTraceActions()
   // Calculate row height based on whether the row is expanded
   const getRowHeight = useCallback(
-    (index: number) => (expandedRows.has(index) ? 885 : 140),
+    (index: number) => (expandedRows.has(index) ? 815 : 140),
     [expandedRows],
   )
   const deliveryId = state?.deliveryItem?.delivery_id
