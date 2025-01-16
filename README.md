@@ -74,7 +74,7 @@ Sections:
 
 ### General architecture and scaffolding
 
-1. For the frontend, the initial scaffolding is a repo of mine that I use for very small personal projects. [here](https://github.com/msrxse/default-scaffold).
+1. For the frontend, the initial scaffolding is a repo of mine that I use for personal projects. [here](https://github.com/msrxse/default-scaffold).
 2. Backend is just a simple _FasAPI_ server with inline _DuckDB_ memory database to be seeded from generated json stubs.
 3. _React-window_: This is the library I use to display a list with the incoming processed data. This library uses windowing techniques to remove from the DOM before and after rows not visible on the window at any given moment. Allowing resources to be freed from the browser and not block the user actions as the list becomes very big.
 4. The* MSW (Mock Service Worker)* library is a popular JavaScript tool for mocking network requests in client-side or server-side applications. It is widely used for testing, debugging, and prototyping API interactions without relying on live servers. The key here is that the stubbed data you use on prototyping will the same available on the jest test environment where tests will be done.
@@ -119,7 +119,7 @@ Sections:
    - /api/trace_actions
 
 - Once on the client we use _react-query_ to manage state.
-- There is a custom hook that implements the **context-module-function pattern**. This hook exposes an API and keeps important state internal to the component, exposing only the helper functions required to make changes on the state. Those helper functions will be stable, because they are exported and imported on usage, as well as the required dispatch function needed to call these helper fns. This context state allows the user to keep state of the selected delivery, and it will be available everywhere needed plus any changes will be visible anywhere it is used instantly.
+- **Context Hook**: There is a custom hook that implements the **context-module-function pattern**. This hook exposes an API and keeps important state internal to the component, exposing only the helper functions required to make changes on the state. Those helper functions will be stable, because they are exported and imported on usage, as well as the required dispatch function needed to call these helper fns. This context state allows the user to keep state of the selected delivery, and it will be available everywhere needed plus any changes will be visible anywhere instantly.
 
 ### About testing
 
@@ -150,4 +150,4 @@ For example:
 | <img src="assets/supplier-perfomance-system-ui-full.jpeg" width="800" /> | <img src="assets/evidence-trace-full-extend.jpeg" width="600" /> |
 
 - User flow video
-  ![video 1](assets/user-flow-video.gif)
+  ![video 1](assets/user-flow-video.mp4)
