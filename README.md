@@ -145,9 +145,9 @@ For example:
 
 ### Assets
 
-| Full UI screen                                                           | Open evidence and trace list card                                |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
-| <img src="assets/supplier-perfomance-system-ui-full.jpeg" width="800" /> | <img src="assets/evidence-trace-full-extend.jpeg" width="600" /> |
+| Full UI screen                                                          | Open evidence and trace list card                                |
+| ----------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| <img src="assets/supplier-perfomance-system-ui-full.png" width="800" /> | <img src="assets/evidence-trace-full-extend.jpeg" width="600" /> |
 
 - User flow video
-  ![video 1](assets/user-flow-video.gif)
+  <img src="assets/user-flow-video.gif" width="100%" />
