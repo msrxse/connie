@@ -150,4 +150,4 @@ For example:
 | <img src="assets/supplier-perfomance-system-ui-full.jpeg" width="800" /> | <img src="assets/evidence-trace-full-extend.jpeg" width="600" /> |
 
 - User flow video
-  ![video 1](assets/user-flow-video.mp4)
+  ![video 1](assets/user-flow-video.gif)
