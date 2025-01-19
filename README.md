@@ -1,4 +1,4 @@
-# Connie
+# Supplier performance monitoring system
 
 ### Using DOCKER to start up
 
