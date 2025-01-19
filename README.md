@@ -25,6 +25,10 @@ docker-compose up --build
 | ----------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | <img src="assets/supplier-perfomance-system-ui-full.png" width="800" /> | <img src="assets/evidence-trace-full-extend.jpeg" width="600" /> |
 
+
+https://github.com/user-attachments/assets/7b0c77ed-310f-44aa-9d19-855d09c87eb3
+
+
 ## About
 
 This is a supplier performance monitoring system. This app does track key metrics like delivery performance, quality, compliance, and overall ratings for multiple suppliers. An AI worker identifies the strategy to follow to streamline operations, enhance efficiency, and achieve cost savings while improving supplier relationships (supplier consolidation). In general, the key is to spot outperformance and build stronger partnerships with fewer, more reliable vendors.
