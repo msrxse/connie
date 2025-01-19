@@ -19,6 +19,12 @@ docker-compose up --build
  make run-client
 ```
 
+### Assets
+
+| Full UI screen                                                          | Open evidence and trace list card                                |
+| ----------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| <img src="assets/supplier-perfomance-system-ui-full.png" width="800" /> | <img src="assets/evidence-trace-full-extend.jpeg" width="600" /> |
+
 ## About
 
 This is a supplier performance monitoring system. This app does track key metrics like delivery performance, quality, compliance, and overall ratings for multiple suppliers. An AI worker identifies the strategy to follow to streamline operations, enhance efficiency, and achieve cost savings while improving supplier relationships (supplier consolidation). In general, the key is to spot outperformance and build stronger partnerships with fewer, more reliable vendors.
@@ -142,12 +148,3 @@ For example:
 - Theres no tests, as this is a POC and I was very limited on time
 - Under any circumstances this is an example for good practices, theres a lot missing on naming conventions and correct file/structure scaffolding
 - Much much more missing that I can count for
-
-### Assets
-
-| Full UI screen                                                          | Open evidence and trace list card                                |
-| ----------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| <img src="assets/supplier-perfomance-system-ui-full.png" width="800" /> | <img src="assets/evidence-trace-full-extend.jpeg" width="600" /> |
-
-- User flow video
-  <img src="assets/user-flow-video.gif" width="100%" />
